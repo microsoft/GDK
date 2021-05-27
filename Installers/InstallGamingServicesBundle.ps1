@@ -61,7 +61,7 @@ function Logic
    {
        Write-Output ("Version {0} of {1} was found already installed on the PC.`n{2}" -f $package.Version, $package.Name, ($package | Format-List | Out-String).trim());
 
-       $isOldPackagePresent = (([Version]$package.Version -lt [Version]'2.52.6001.0') -or ([Version]$package.Version -eq [Version]'1.43.2002.0'));
+       $isOldPackagePresent = (([Version]$package.Version -lt [Version]'2.53.24001.0') -or ([Version]$package.Version -eq [Version]'1.43.2002.0'));
 
        if($isOldPackagePresent)
        {
@@ -85,7 +85,7 @@ function Logic
 
    if(($package -eq $null) -or $isOldPackagePresent)
    {
-       Write-Output "Installing $AppxPath Version 2.52.6001.0 Volume $systemRoot";
+       Write-Output "Installing $AppxPath Version 2.53.24001.0 Volume $systemRoot";
 
        $allDepsFound = $TRUE;
        [string[]]$depPackageNames = 'Microsoft.NET.Native.Runtime.2.2','Microsoft.NET.Native.Framework.2.2','Microsoft.VCLibs.x64.14.00';
@@ -94,12 +94,12 @@ function Logic
 
        if($allDepsFound)
        {
-           Write-Output "Installing $AppxPath Version 2.52.6001.0 Volume $systemRoot -DependencyPath $dependencyPaths";
+           Write-Output "Installing $AppxPath Version 2.53.24001.0 Volume $systemRoot -DependencyPath $dependencyPaths";
            add-appxpackage -forceApplicationShutdown -path $AppxPath -Volume $systemRoot -DependencyPath $dependencyPaths -ErrorAction Continue;
        }
        else
        {
-           Write-Output "Installing $AppxPath Version 2.52.6001.0 Volume $systemRoot";
+           Write-Output "Installing $AppxPath Version 2.53.24001.0 Volume $systemRoot";
            add-appxpackage -forceApplicationShutdown -path $AppxPath -Volume $systemRoot -ErrorAction Continue;
        }
 
