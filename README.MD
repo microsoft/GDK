@@ -29,15 +29,15 @@ Windows game development has a history going back 40+ years which means that the
 
 -	[Get started setting up your developer environment here!](https://review.docs.microsoft.com/en-us/gaming/gdk/_content/gc/getstarted/dev-pc-setup?branch=main)
 -	[Win32 + GDK]( https://developer.microsoft.com/en-us/games/xbox/docs/gdk/introduction) is the primary, supported app model to build games for Xbox console, Xbox Game Pass (both Xbox and PC), and [Xbox Game Streaming]( https://developer.microsoft.com/en-us/games/products/project-xcloud/)**.
--	Key Feature is that only Win32 + GDK can unlock the full power of next-generation Xbox hardware, fully supports all Microsoft Gameplay Services (Xbox Live identity, multiplayer, chat, leaderboards, achievements, commerce, etc.), and is required for Xbox Game Pass**.
+-	Key Feature is that only Win32 + GDK fully supports all Microsoft Gameplay Services (Xbox Live identity, multiplayer, chat, leaderboards, achievements, commerce, etc.), and is *required for Xbox Game Pass(**) on both console and PC.*
 -	For developers building Win32 games on PC today, Win32 + GDK builds on the Win32 C/C++ programming models to unify development across Xbox consoles and Windows 10 PCs with the Microsoft Game Development Kit ([GDK](https://aka.ms/gdk)).
 -	**Requires software and licensing which only available via an NDA Xbox program (e.g. ID@Xbox program).
 
 ### **Q:  How do I run a GDK game built for the Xbox App on Windows 10 or Xbox Game Pass for PC on Xbox Consoles?**
 
--	Xbox console development requires the GDKX (Microsoft Game Development Kit with Xbox Extensions).  Games will need to retarget and rebuild for Xbox One or Xbox Series X|S with the GDKX installed.
--	The GDKX is just a bundled installer of the GDK + Xbox Extensions. Building a game with the GDK shares around ~80% of the same interfaces, but does not include the Xbox environment APIs and tools included in the Xbox Extensions.
+-	You need to download and install the GDKX.  Xbox console development requires the GDKX (Microsoft Game Development Kit with Xbox Extensions).  Games will need to retarget and rebuild for Xbox One or Xbox Series X|S with the GDKX installed.  
 -	The GDKX is currently only available under confidential license within an NDA Xbox program (e.g. ID@Xbox).
+-	The GDKX is just a bundled installer of the GDK + Xbox Extensions. Building a game with the GDK shares around ~80% of the same interfaces, but does not include the Xbox environment APIs and tools included in the Xbox Extensions.
 -	The primary difference between games built with the GDK and the GDKX is the interaction with the Xbox graphics driver and DirectX12 Shader Compiler. 
 -	For developers building Xbox One games today, Win32 + GDK is a direct replacement for the WinRT-based Exclusive Resource Application (ERA) app model using the [XDK]( https://docs.microsoft.com/en-us/gaming/xbox-live/get-started/setup-ide/managed-partners/vstudio-xbox/live-where-to-get-xdk), introduced on Xbox One; Xbox 360 developers similarly migrated to ERA in 2013.
 
