@@ -2,7 +2,7 @@
 
 # Microsoft Game Development Kit (GDK)
 
-Already in an Xbox developer program and looking for the GDK*X* and related resources to build and publish to Xbox consoles?
+**Already in an Xbox developer program and looking for the GDK*X* or related resources to build and publish to Xbox consoles?**
 
 -	GDKX (confidential program downloads): https://aka.ms/gdkdl
 -	GDKX Documentation (secure): https://aka.ms/gdkxdocs 
