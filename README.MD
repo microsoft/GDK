@@ -35,7 +35,7 @@ Windows game development has a history going back 40+ years which means that the
 ### Q:  How do I build next-generation games for the Xbox App on Windows 10 and Xbox Game Pass for PC?
 
 -	[Get started setting up your developer environment here!](https://docs.microsoft.com/gaming/gdk/_content/gc/getstarted/dev-pc-setup)
--	Using [Win32 + GDK]( https://developer.microsoft.com/en-us/games/xbox/docs/gdk/introduction) is the primary, supported app model to build games for Xbox console, Xbox Game Pass (both Xbox and PC), and [Xbox Game Streaming]( https://developer.microsoft.com/en-us/games/products/project-xcloud/)**.
+-	Using [Win32 + GDK](https://docs.microsoft.com/gaming/gdk/_content/gc/get-started-with-pc-dev/overviews/gr-getting-started) is the primary, supported app model to build games for Xbox console, Xbox Game Pass (both Xbox and PC), and [Xbox Game Streaming]( https://developer.microsoft.com/en-us/games/products/project-xcloud/)**.
 -	Key Feature is that only Win32 + GDK fully supports all Microsoft Gameplay Services (Xbox Live identity, multiplayer, chat, leaderboards, achievements, commerce, etc.), and is *required for Xbox Game Pass(1) on both console and PC.*
 -	[For developers building Win32 games on PC today](https://docs.microsoft.com/en-us/gaming/gdk/_content/gc/get-started-with-pc-dev/gr-get-started-with-pc-dev-toc), Win32 + GDK builds on the Win32 C/C++ programming models to unify development across Xbox consoles and Windows 10 PCs with the Microsoft Game Development Kit ([GDK](https://aka.ms/gdk)).
 
