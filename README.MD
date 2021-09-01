@@ -7,7 +7,7 @@
 **Docs & Downloads**
 - GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs
 - (New) Check out the Xbox public sample repository: https://github.com/microsoft/Xbox-GDK-Samples/
-- The latest release of the GDK on GitHub here: https://github.com/microsoft/GDK/releases
+- Latest release of the GDK on GitHub: https://github.com/microsoft/GDK/releases
  
 A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only available to licensed partners in a managed program (https://aka.ms/gdkdl).
 
