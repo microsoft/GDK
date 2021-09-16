@@ -2,7 +2,7 @@
 
 # Microsoft Game Development Kit (GDK)
 
-**The Microsoft Game Development Kit (GDK) contains the *common* tools, libraries, and documentation needed to build games for the [Xbox App on Windows 10]( https://www.xbox.com/en-US/apps/xbox-app-for-windows-10), [Xbox Game Pass for PC]( https://www.xbox.com/en-US/xbox-game-pass/pc-games?OCID=AID2100895_SEM_64cb82c395a51ebbffc2e27408836bc1:G:s&ef_id=64cb82c395a51ebbffc2e27408836bc1:G:s&msclkid=64cb82c395a51ebbffc2e27408836bc1), Xbox consoles (Xbox Series X|S, Xbox One), and [Xbox Game Pass cloud gaming]( https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming).**
+**The Microsoft Game Development Kit (GDK) contains the *common* tools, libraries, and documentation needed to build games for the [Xbox App on Windows 10]( https://www.xbox.com/en-US/apps/xbox-app-for-windows-10), [Xbox Game Pass for PC]( https://www.xbox.com/en-US/xbox-game-pass/pc-games?OCID=AID2100895_SEM_64cb82c395a51ebbffc2e27408836bc1:G:s&ef_id=64cb82c395a51ebbffc2e27408836bc1:G:s&msclkid=64cb82c395a51ebbffc2e27408836bc1), Xbox consoles (Xbox Series X|S, Xbox One), and [cloud gaming with Xbox Game Pass Ultimate]( https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming).**
 
 **Docs & Downloads**
 - GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs
@@ -35,7 +35,7 @@ Game development on Microsoft platforms has a history going back 40+ years which
 -	[Get started setting up your developer environment here!](https://docs.microsoft.com/gaming/gdk/_content/gc/getstarted/dev-pc-setup)
 -	Using [Win32 + GDK](https://docs.microsoft.com/gaming/gdk/_content/gc/get-started-with-pc-dev/overviews/gr-getting-started) is the primary, supported app model to build games for Xbox console, Xbox Game Pass (both Xbox and PC), and [Xbox Game Streaming]( https://developer.microsoft.com/en-us/games/products/project-xcloud/)**.
 -	Key Feature is that only Win32 + GDK fully supports all Microsoft Gameplay Services (Xbox Live identity, multiplayer, chat, leaderboards, achievements, commerce, etc.), and is *required for Xbox Game Pass(1) on both console and PC.*
--	[For developers building Win32 games on PC today](https://docs.microsoft.com/gaming/gdk/_content/gc/get-started-with-pc-dev/test-your-installation/gr-add-to-existing-project), Win32 + GDK builds on the Win32 C/C++ programming models to unify development across Xbox consoles and Windows 10 PCs with the Microsoft Game Development Kit ([GDK](https://aka.ms/gdk)).
+-	[For developers building Win32 games on PC today](https://docs.microsoft.com/gaming/gdk/_content/gc/get-started-with-pc-dev/test-your-installation/gr-add-to-existing-project), Win32 + GDK builds on the Win32 C/C++ programming models to unify development across Xbox consoles and Windows PCs with the Microsoft Game Development Kit ([GDK](https://aka.ms/gdk)).
 
 **(1) Requires software and licensing which only available via an NDA Xbox program (e.g. ID@Xbox program).**
 
@@ -74,7 +74,7 @@ In this section, we cover some of the more practical, basic questions that are a
 
 ### Q:  Where are detailed public release notes published?
 
--	A public version of the release notes that does not contain confidential information about Xbox features is under development.
+-	A public version of the release notes that does not contain confidential information about Xbox console features is under development.
 -	A full version of the release notes with public + confidential information is available as part of the GDKX release and will be available for the public GDK sometime after June 2021; they will be published to the GitHub repo (http://aka.ms/gdk) 
 
 
