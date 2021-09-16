@@ -19,7 +19,7 @@ A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only
 
 <br>
 <p align="center">
-<img src="https://github.com/microsoft/GDK/blob/Main/README/GDK_vs_GDKX.png" alt="GDK vs. GDKX Comparison Table" align="center" width=640>
+<img src="https://github.com/microsoft/GDK/blob/Main/README/GDK_vs_GDKX.png" alt="GDK vs. GDKX Comparison Table" align="center" width=1080>
 </p>
 </br>
 
