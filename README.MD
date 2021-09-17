@@ -11,9 +11,11 @@
  
 A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only available to licensed partners in a managed program (https://aka.ms/gdkdl).
 
+ - The GDK is intended for developers learning about and onboarding into the Xbox ecosystem to build [Win32](https://docs.microsoft.com/en-us/windows/win32/) games for Xbox Game Pass for PC on Windows 10/11.
 -	Prior to this public release, the GDK was only available to developers under confidential licenses within an Xbox developer program.  
 -	The GDK is now available to all developers free of charge, to help developers *learn how to build* games for the Xbox App on Windows and Game Pass; no license required for learning.
 -	Additional licensing is required to obtain the Xbox Extensions to build games optimized for Xbox consoles or *publish* games to the Microsoft catalog for any platform.
+- The GDK is not for use to self-publish through the [Xbox Creators Program](https://www.xbox.com/developers/creators-program) which is currently based on the Universal Windows Platform (UWP). 
 -	More information can be found in our GDK public documentation (http://aka.ms/gamedevdocs) 
 
 
