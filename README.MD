@@ -2,7 +2,7 @@
 
 # Microsoft Game Development Kit (GDK)
 
-**The Microsoft Game Development Kit (GDK) contains the *common* tools, libraries, and documentation needed to build games for the [Xbox App on Windows 10]( https://www.xbox.com/en-US/apps/xbox-app-for-windows-10), [Xbox Game Pass for PC]( https://www.xbox.com/en-US/xbox-game-pass/pc-games?OCID=AID2100895_SEM_64cb82c395a51ebbffc2e27408836bc1:G:s&ef_id=64cb82c395a51ebbffc2e27408836bc1:G:s&msclkid=64cb82c395a51ebbffc2e27408836bc1), Xbox consoles (Xbox Series X|S, Xbox One), and [cloud gaming with Xbox Game Pass Ultimate]( https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming).**
+**The Microsoft Game Development Kit (GDK) contains the *common* tools, libraries, and documentation needed to build games for [Xbox Game Pass for PC on Windows 10/11]( https://www.xbox.com/en-US/xbox-game-pass/pc-games?OCID=AID2100895_SEM_64cb82c395a51ebbffc2e27408836bc1:G:s&ef_id=64cb82c395a51ebbffc2e27408836bc1:G:s&msclkid=64cb82c395a51ebbffc2e27408836bc1), Xbox consoles (Xbox Series X|S, Xbox One), and [cloud gaming with Xbox Game Pass Ultimate]( https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming).**
 
 **Docs & Downloads**
 - GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs
