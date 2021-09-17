@@ -87,7 +87,9 @@ In this section, we cover some of the more practical, basic questions that are a
 -	The corresponding confidential documentation for Xbox environment APIs and Tools; though some topics are only discoverable with access to the GDKX, most topics are available as public docs (~60%) or are discoverable via the table of contents as a redirect to the confidential documentation libraries (~35%).  
 
 
-### Already in an Xbox developer program and looking for the GDK**X** or related resources to build and publish to Xbox consoles?
+### Looking for related resources to build and publish to Xbox consoles with the GDK**X**?
 
--	GDKX (confidential program downloads): https://aka.ms/gdkdl
--	GDKX Documentation (secure): https://aka.ms/gdkxdocs 
+- Xbox console development is limited to licensed partners inside managed development programs, such as [ID@Xbox](https://www.xbox.com/en-us/Developers/id)
+-	License and login required - GDKX (confidential program downloads): https://aka.ms/gdkdl
+-	License and login required - GDKX Documentation (secure): https://aka.ms/gdkxdocs 
+- License and login required - Xbox Developer Forums: https://forums.xboxlive.com 
