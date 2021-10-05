@@ -66,7 +66,7 @@ net stop msiserver
 IF NOT "%_SKIPUNINSTALL%"=="" goto SKIPUNINSTALL
 
 echo Uninstall any Xbox One development kits that are currently installed
-for /F "delims=" %%G in ('dir /b /s "%programdata%\package cache\*G*dk*.exe"') DO (
+for /F "delims=" %%G in ('dir /b /s "%programdata%\package cache\*G*dk.exe"') DO (
     echo.
     echo call "%%G" /uninstall /norestart /q
     echo.
@@ -77,6 +77,23 @@ for /F "delims=" %%G in ('dir /b /s "%programdata%\package cache\*G*dk*.exe"') D
     if not "!_EXITCODE!" == "0" (
         if not "!_EXITCODE!" == "3010" (
             echo Process returned exit code !_EXITCODE!. See logs in %temp%\gdk for more details.
+            goto END
+        )
+    )
+
+    echo Uninstall completed successfully with exit code !_EXITCODE!
+)
+for /F "delims=" %%G in ('dir /b /s "%programdata%\package cache\*G*dkTools.exe"') DO (
+    echo.
+    echo call "%%G" /uninstall /norestart /q
+    echo.
+    call "%%G" /uninstall /norestart /q
+
+    set _EXITCODE=!errorlevel!
+
+    if not "!_EXITCODE!" == "0" (
+        if not "!_EXITCODE!" == "3010" (
+            echo Process returned exit code !_EXITCODE!. See logs in %temp%\gdktools for more details.
             goto END
         )
     )
