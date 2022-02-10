@@ -4,6 +4,14 @@
 
 **The Microsoft Game Development Kit (GDK) contains the *common* tools, libraries, and documentation needed to build games for [Xbox Game Pass for PC on Windows 10/11]( https://www.xbox.com/en-US/xbox-game-pass/pc-games?OCID=AID2100895_SEM_64cb82c395a51ebbffc2e27408836bc1:G:s&ef_id=64cb82c395a51ebbffc2e27408836bc1:G:s&msclkid=64cb82c395a51ebbffc2e27408836bc1), Xbox consoles (Xbox Series X|S, Xbox One), and [cloud gaming with Xbox Game Pass Ultimate]( https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming).**
 
+-----
+
+**How to Install**
+ - Download. The recommended method is to go to the [Releases](https://github.com/microsoft/GDK/releases) page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
+ - Install. Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
+
+-----
+
 **Docs & Downloads**
 - GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs
 - (New) Check out the Xbox public sample repository: https://github.com/microsoft/Xbox-GDK-Samples/
