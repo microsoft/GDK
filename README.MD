@@ -11,7 +11,7 @@
 
 -----
 
-## General Info
+## General Info (Updated June 2021)
 
 **How to Install**
  - Download. The recommended method is to go to the [Releases](https://github.com/microsoft/GDK/releases) page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
@@ -26,7 +26,7 @@
 
 -----
 
-## What is in the GDK?
+## What is in the GDK? (Updated October 2021)
 
 *Note for Xbox Developers:  A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only available to licensed partners in a managed program (https://aka.ms/gdkdl).*
 
@@ -47,7 +47,7 @@
 
 -----
 
-## When to use the GDK
+## When to use the GDK (Updated October 2021)
 
 Game development on Microsoft platforms has a history going back 40+ years which means that there have been and still are many options to build games that reach gamers on PC.  The GDK is an evolution to the Win32 legacy, to unify the app model between Xbox consoles, Windows PCs, and now Cloud Gaming to enable game developers to reach even more gamers on more devices, with less effort.  Microsoft Gaming Services are agnostic across many ecosystems and the GDK is sharing the app model across MILLIONS of devices.
 
@@ -80,7 +80,7 @@ Game development on Microsoft platforms has a history going back 40+ years which
 <br></br>
 -----
 
-## How the GDK is released
+## How the GDK is released (Updated June 2021)
 
 In the “When to use the GDK” section above, we cover the scenarios for which the GDK was designed to provide a modern app model that flows across Xbox consoles, Windows PCs, and Cloud Gaming.
 
