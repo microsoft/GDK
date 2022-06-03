@@ -1,0 +1,104 @@
+### YamlMime:Landing
+
+title: Game Development Kit (GDK) documentation # < 60 chars
+summary: Learn how to use the Game Development Kit (GDK) to develop games on Xbox and Windows. # < 160 chars
+
+metadata:
+  title: Game Development Kit (GDK) documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
+  description: Instruction on using the Game Development Kit (GDK) # Required; article description that is displayed in search results. < 160 chars.
+  ms.prod: gdk
+  ms.topic: landing-page # Required
+  author: KevinAsgari #Required; your GitHub user alias, with correct capitalization.
+  ms.author: kevinasg #Required; microsoft alias of author; optional team alias.
+  ms.date: 11/15/2021 #Required; mm/dd/yyyy format.
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+landingContent:
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+  # Card (optional)
+  - title: Introduction to the GDK
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Welcome to the Microsoft Game Development Kit (GDK)
+            url: _content/gc/intro/overviews/welcome.md
+      - linkListType: download
+        links:
+          - text: Quick links
+            url: _content/gc/quick-links/quick-links-overview.md
+
+  # Card (optional)
+  - title: Developer setup
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: SDK & Tools
+            url: _content/gc/getstarted/overviews/sdk-and-tools.md
+          - text: Console developer setup
+            url: _content/gc/getstarted/gc-getstarted-toc.md
+          - text: PC developer setup
+            url: _content/gc/get-started-with-pc-dev/gr-get-started-with-pc-dev-toc.md
+
+  # Card
+  - title: Porting
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: GDK porting guide for Xbox One
+            url: _content/gc/getstarted/overviews/porting-guide-for-existing-ERA.md
+          #- text: Steam porting guide
+          #  url: _content/gc/steam-porting-guide/gc-steam-porting-guide-toc.md
+      - linkListType: get-started
+        links:
+          - text: ERA migration library
+            url: _content/gc/getstarted/overviews/era-migration-library.md
+
+  # Card
+  - title: Development & Tools
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Xbox console game development environment & tools
+            url: _content/gc/tools-console/gc-tools-console-toc.md
+          - text: PC game development environment & tools
+            url: _content/gc/tools-pc/gc-tools-pc-toc.md
+
+  # Card
+  - title: GDK features
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Audio
+            url: _content/gc/audio/gc-audio-toc.md
+          - text: Commerce
+            url: _content/gc/commerce/commerce-nav.md
+          - text: Input
+            url: _content/gc/input/gc-input-toc.md
+          - text: Networking
+            url: _content/gc/networking/gc-networking-toc.md
+          - text: Packaging
+            url: _content/gc/packaging/gc-packaging-toc.md
+          - text: System
+            url: _content/gc/system/gc-system-toc.md
+          - text: XboxLive
+            url: _content/gc/live/live-nav.md      
+      - linkListType: reference
+        links:
+          - text: API reference
+            url: _content/gc/reference/gc-reference-toc.md
+
+  # Card
+  - title: Xbox policies & requirements
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: Policies & Xbox requirements
+            url: _content/gc/policies/GC-policies-nav.md
+          - text: Xbox Live integration tests on PC
+            url: _content/gc/policies/pc/live-policy-tests-pc.md
+          - text: Security requirements
+            url: _content/gc/security.md
+          - text: Copyright notice
+            url: _content/gc/copyright.md
