@@ -1,0 +1,9 @@
+{
+    "redirections": [
+        {
+	        "source_path": "_content/gc/gdkintroduction.md",
+            "redirect_url": "/_content/gc/intro/overviews/welcome",
+            "redirect_document_id": false
+        }
+    ]
+}
