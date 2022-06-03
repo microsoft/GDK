@@ -1,0 +1,19 @@
+---
+author: aablackm
+title: PIX Edit and Continue
+description: The Edit and Continue feature of PIX enables editing and re-running shader code and compile options from within PIX, with the results of the changes made being readily visible. You can see the difference in the render targets, see the modified code, and compare the tables of performance counters.
+kindex:
+- PIX Edit and Continue
+- PIX, Edit and Continue
+- Edit and Continue (PIX)
+ms.author: sangarg
+ms.topic: conceptual
+edited: 01/10/2020
+security: secure
+---
+
+# PIX Edit and Continue
+> [!IMPORTANT]
+> Starting February 3rd 2022, all user permissions will be managed in Partner Center, any users that do not exist in the Partner Center user store will lose access to forums, secure documentation, and downloads. To maintain access all users should be migrated to Partner Center. <p></p>See this <a href="https://forums.xboxlive.com/articles/132187/breaking-change-user-access-for-forums-secure-docu.html">forum article</a> for more details.  
+
+ Access to this topic requires membership in an NDA developer program. Contact your publisher or your Xbox program representative if you need direct access. Not in the program? Read about joining the <a href="https://www.xbox.com/Developers/id">ID@Xbox</a> program to gain access today!  <br/><br/>If you are already part of the developer program you can access the secure version of this page here: <a target="_blank" href="https://developer.microsoft.com/en-us/games/xbox/docs/gdk/pix-edit-and-continue">https://developer.microsoft.com/en-us/games/xbox/docs/gdk/pix-edit-and-continue</a>
