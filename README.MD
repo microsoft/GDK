@@ -7,7 +7,7 @@
 
 ## News (Updated 2022.06.14)
 
-**Latest Version:** [**June 2022 GDK**](https://github.com/microsoft/GDK/releases/tag/June_2022) (updates to older branches may appear newer in the [RELEASES](https://github.com/microsoft/GDK/releases) section than the most recent major release).
+**Latest Version:** [**June 2022 GDK Update 1**](https://github.com/microsoft/GDK/releases/tag/June_2022_Update_1) (updates to older branches may appear newer in the [RELEASES](https://github.com/microsoft/GDK/releases) section than the most recent major release).
 
 -----
 
