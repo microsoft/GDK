@@ -9,7 +9,7 @@
 
  - 10/4: **Latest Version:** [**June 2022 GDK Update 4**] (updates to older branches may appear newer in the [RELEASES](https://github.com/microsoft/GDK/releases) section than the most recent major release).
  
- - 10/17: Resolved an issue with PGDK.EXE not updating due to an error with new automation on the back-end, causing MSI installs to fail with an error. This impacted both /2206_JUNE and /Main branches.
+ - 10/17: Resolved an issue with PGDK.EXE not updating from the June 2022 Update 2 to Update 4 version, due to an error with new automation on the back-end, causing MSI installs to fail with an error. This impacted both /2206_JUNE and /Main branches.
 
 > ![image](https://user-images.githubusercontent.com/14060191/196283344-edf3dd9b-7e96-4951-8014-6153b6bdf9a0.png)
 
