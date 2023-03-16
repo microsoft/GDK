@@ -5,13 +5,9 @@
 **The Microsoft Game Development Kit (GDK) contains the *common* tools, libraries, and documentation needed to build games for [Xbox Game Pass for PC on Windows 10/11]( https://www.xbox.com/en-US/xbox-game-pass/pc-games?OCID=AID2100895_SEM_64cb82c395a51ebbffc2e27408836bc1:G:s&ef_id=64cb82c395a51ebbffc2e27408836bc1:G:s&msclkid=64cb82c395a51ebbffc2e27408836bc1), Xbox consoles (Xbox Series X|S, Xbox One), and [cloud gaming with Xbox Game Pass Ultimate]( https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming).**
 
 
-## News (Updated 2022.10.17)
+## News (Updated 2023.03.16)
 
- - 10/24: **Latest Version:** [**October 2022 GDK**] (updates to older branches may appear newer in the [RELEASES](https://github.com/microsoft/GDK/releases) section than the most recent major release).
- 
- - 10/17: Resolved an issue with PGDK.EXE not updating from the June 2022 Update 2 version to Update 4, due to an error with new automation on the back-end, causing MSI installs to fail with an error. This impacted both /2206_JUNE and /Main branches.
-
-> ![image](https://user-images.githubusercontent.com/14060191/196283344-edf3dd9b-7e96-4951-8014-6153b6bdf9a0.png)
+ - 03/16: **Latest Version:** [**March 2023 GDK**] (updates to older branches may appear newer in the [RELEASES](https://github.com/microsoft/GDK/releases) section than the most recent major release).
 
 -----
 
