@@ -7,7 +7,7 @@
 
 ## News (Updated 2023.06.22)
 
- - 06/22: **Latest Version:** [**June 2023 2023 GDK**] (updates to older branches may appear newer in the [RELEASES](https://github.com/microsoft/GDK/releases) section than the most recent major release).
+ - 06/22: **Latest Version:** [**June 2023 GDK**] (updates to older branches may appear newer in the [RELEASES](https://github.com/microsoft/GDK/releases) section than the most recent major release).
 
 -----
 
