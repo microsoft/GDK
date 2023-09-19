@@ -37,14 +37,6 @@
 - The GDK is not for use to self-publish through the [Xbox Creators Program](https://www.xbox.com/developers/creators-program) which is currently based on the Universal Windows Platform (UWP). 
 -	More information can be found in our GDK public documentation (http://aka.ms/gamedevdocs) 
 
-
-<br>
-<p align="center">
-<img src="https://github.com/microsoft/GDK/blob/Main/README/GDK_vs_GDKX.png" alt="GDK vs. GDKX Comparison Table" align="center" width=1080>
-</p>
-</br>
-
-
 -----
 
 ## When to use the GDK (Updated October 2021)
