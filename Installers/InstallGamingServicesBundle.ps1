@@ -49,7 +49,7 @@ $isOldPackagePresent = $false;
 if ($package) {
     Write-Output ("Version {0} of {1} was found already installed on the PC.`n{2}" -f $package.Version, $package.Name, ($package | Format-List | Out-String).trim());
 
-    $isOldPackagePresent = (([Version]$package.Version -lt [Version]'16.82.27002.0') -or ([Version]$package.Version -eq [Version]'1.43.2002.0'));
+    $isOldPackagePresent = (([Version]$package.Version -lt [Version]'19.87.13001.0') -or ([Version]$package.Version -eq [Version]'1.43.2002.0'));
 
     if ($isOldPackagePresent) {
         Write-Output "Uninstalling $($package.PackageFullName) version $($package.Version)";
@@ -68,7 +68,7 @@ else {
 }
 
 if (($package -eq $null) -or $isOldPackagePresent) {
-    Write-Output "Installing $AppxPath Version 16.82.27002.0 Volume $systemRoot";
+    Write-Output "Installing $AppxPath Version 19.87.13001.0 Volume $systemRoot";
 
     $allDepsFound = $TRUE;
     [string[]]$depPackageNames = 'Microsoft.NET.Native.Runtime.2.2', 'Microsoft.NET.Native.Framework.2.2', 'Microsoft.VCLibs.x64.14.00';
@@ -76,11 +76,11 @@ if (($package -eq $null) -or $isOldPackagePresent) {
     ForEach ($dep in $dependencyPaths) { if (-not (test-path $dep)) { $allDepsFound = $FALSE; } };
 
     if ($allDepsFound) {
-        Write-Output "Installing $AppxPath Version 16.82.27002.0 Volume $systemRoot -DependencyPath $dependencyPaths";
+        Write-Output "Installing $AppxPath Version 19.87.13001.0 Volume $systemRoot -DependencyPath $dependencyPaths";
         add-appxpackage -forceApplicationShutdown -path $AppxPath -Volume $systemRoot -DependencyPath $dependencyPaths -ErrorAction Continue;
     }
     else {
-        Write-Output "Installing $AppxPath Version 16.82.27002.0 Volume $systemRoot";
+        Write-Output "Installing $AppxPath Version 19.87.13001.0 Volume $systemRoot";
         add-appxpackage -forceApplicationShutdown -path $AppxPath -Volume $systemRoot -ErrorAction Continue;
     }
 
@@ -105,8 +105,8 @@ exit ($Error.Count);
 # SIG # Begin signature block
 # MIImcgYJKoZIhvcNAQcCoIImYzCCJl8CAQExDzANBglghkgBZQMEAgEFADB5Bgor
 # BgEEAYI3AgEEoGswaTA0BgorBgEEAYI3AgEeMCYCAwEAAAQQH8w7YFlLCE63JNLG
-# KX7zUQIBAAIBAAIBAAIBAAIBADAxMA0GCWCGSAFlAwQCAQUABCCmEhIC1/2LrZIG
-# SQ2oDlUjon08Abjrqw+qitAZPtglGqCCC2cwggTvMIID16ADAgECAhMzAAAFV8+Q
+# KX7zUQIBAAIBAAIBAAIBAAIBADAxMA0GCWCGSAFlAwQCAQUABCAI351rPPV4btGZ
+# Gfuis7ZV3AIiimevkjZiTJOqkQPaeKCCC2cwggTvMIID16ADAgECAhMzAAAFV8+Q
 # 3cfRwIiMAAAAAAVXMA0GCSqGSIb3DQEBCwUAMH4xCzAJBgNVBAYTAlVTMRMwEQYD
 # VQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNy
 # b3NvZnQgQ29ycG9yYXRpb24xKDAmBgNVBAMTH01pY3Jvc29mdCBDb2RlIFNpZ25p
@@ -172,21 +172,21 @@ exit ($Error.Count);
 # TWljcm9zb2Z0IENvcnBvcmF0aW9uMSgwJgYDVQQDEx9NaWNyb3NvZnQgQ29kZSBT
 # aWduaW5nIFBDQSAyMDEwAhMzAAAFV8+Q3cfRwIiMAAAAAAVXMA0GCWCGSAFlAwQC
 # AQUAoIIBBDAZBgkqhkiG9w0BCQMxDAYKKwYBBAGCNwIBBDAcBgorBgEEAYI3AgEL
-# MQ4wDAYKKwYBBAGCNwIBFTAvBgkqhkiG9w0BCQQxIgQgPaVw4Rv/1Gi4KctQDY2L
-# Xwbs4Pg4kRo1bV1zYCAb2S4wPAYKKwYBBAGCNwoDHDEuDCxzUFk3eFBCN2hUNWc1
+# MQ4wDAYKKwYBBAGCNwIBFTAvBgkqhkiG9w0BCQQxIgQg+r33narhg6fKq+hs3dDu
+# rZejDnJ1V12rawo20SV2X7UwPAYKKwYBBAGCNwoDHDEuDCxzUFk3eFBCN2hUNWc1
 # SEhyWXQ4ckRMU005VnVaUnVXWmFlZjJlMjJSczU0PTBaBgorBgEEAYI3AgEMMUww
 # SqAkgCIATQBpAGMAcgBvAHMAbwBmAHQAIABXAGkAbgBkAG8AdwBzoSKAIGh0dHA6
-# Ly93d3cubWljcm9zb2Z0LmNvbS93aW5kb3dzMA0GCSqGSIb3DQEBAQUABIIBAIRx
-# 2++uVOFYZLj0bt//UJWWxOolXK2daQwHtoBLemgPKCGkEz5f4s0DN4rti4dj5TvP
-# s8E/2ubHZqvOpyNaLAqNCmMFde3SShbV6HesyOiI2foWZT/RuhLQQapjM6AdPO1x
-# liOM9kdpD9HGY5eASm2lfOqxynB53+VGvEktpavY7qnp6g5V1b8dzTPylK7ZkqDQ
-# aF7fQOOsb1WGgv9MxpCjCZT69reSx9OfXjwCUnvSZguROcevYU/DCpCyf9BcQ2Zo
-# PpDm6sOYotEX+wRCyZpxiBwxboozU1F5EljmHSytR3CEgD1oWLd8E6KpU4Wa+rt1
-# Y9yITANOCb2YmkcCo6OhgheUMIIXkAYKKwYBBAGCNwMDATGCF4Awghd8BgkqhkiG
+# Ly93d3cubWljcm9zb2Z0LmNvbS93aW5kb3dzMA0GCSqGSIb3DQEBAQUABIIBACjs
+# o+miX65XKH4jD/Rn+hTL+sR0Baw4rwLo6cB+L1rSlY05JnbGsTLwW3WwfHlftGhM
+# zAba5chly+bzEhjrJ9v+xdZ8zXplXNX1fVqeZz+B41hwOnq5F2y8FF201UdcsYIf
+# 3mMhDf+lblaWYFttbiTHmAYxHwmTBmxkGeLJnKpEEfgpdfyy36zsdrbWa3QxUhxg
+# Wg4Mvh4+EQF/VmHRyDU7iavQlSene3b2ns4VM9LBe6ieRZhzwHoDEtV4nXpLLF7J
+# ZpucCZhzXfaTEDXsm1Y7KHpKFs1R+GqVjd1xWesm004jBO4FHM5OdEob+btGcVD8
+# ZTEGEnf1cJ4wVGBpSs+hgheUMIIXkAYKKwYBBAGCNwMDATGCF4Awghd8BgkqhkiG
 # 9w0BBwKgghdtMIIXaQIBAzEPMA0GCWCGSAFlAwQCAQUAMIIBUgYLKoZIhvcNAQkQ
 # AQSgggFBBIIBPTCCATkCAQEGCisGAQQBhFkKAwEwMTANBglghkgBZQMEAgEFAAQg
-# OovSbAyN1r2Nni3Wooj27iJzymLzMkH3MSRKcU7jHT0CBmW8Em1vPhgTMjAyNDAy
-# MDQxMjExMDIuNTgzWjAEgAIB9KCB0aSBzjCByzELMAkGA1UEBhMCVVMxEzARBgNV
+# oKkxPCEUUFzBSPpO2AbJ0g4lz3avQ4AaxGTA9bqPtn4CBmX8Z26PKhgTMjAyNDAz
+# MjcwODQ3MDUuNDg4WjAEgAIB9KCB0aSBzjCByzELMAkGA1UEBhMCVVMxEzARBgNV
 # BAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jv
 # c29mdCBDb3Jwb3JhdGlvbjElMCMGA1UECxMcTWljcm9zb2Z0IEFtZXJpY2EgT3Bl
 # cmF0aW9uczEnMCUGA1UECxMeblNoaWVsZCBUU1MgRVNOOkRDMDAtMDVFMC1EOTQ3
@@ -277,36 +277,36 @@ exit ($Error.Count);
 # Z9gbigAlLz/NBbqggYMwgYCkfjB8MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2Fz
 # aGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENv
 # cnBvcmF0aW9uMSYwJAYDVQQDEx1NaWNyb3NvZnQgVGltZS1TdGFtcCBQQ0EgMjAx
-# MDANBgkqhkiG9w0BAQsFAAIFAOlp3J4wIhgPMjAyNDAyMDQwOTUxMjZaGA8yMDI0
-# MDIwNTA5NTEyNlowdDA6BgorBgEEAYRZCgQBMSwwKjAKAgUA6WncngIBADAHAgEA
-# AgIN3DAHAgEAAgISTTAKAgUA6WsuHgIBADA2BgorBgEEAYRZCgQCMSgwJjAMBgor
+# MDANBgkqhkiG9w0BAQsFAAIFAOmuJewwIhgPMjAyNDAzMjcwNDU4MjBaGA8yMDI0
+# MDMyODA0NTgyMFowdDA6BgorBgEEAYRZCgQBMSwwKjAKAgUA6a4l7AIBADAHAgEA
+# AgIJMjAHAgEAAgITXTAKAgUA6a93bAIBADA2BgorBgEEAYRZCgQCMSgwJjAMBgor
 # BgEEAYRZCgMCoAowCAIBAAIDB6EgoQowCAIBAAIDAYagMA0GCSqGSIb3DQEBCwUA
-# A4IBAQATXMy7FjUr0aDpSXn/1cN5f08FjhuwisLfgfgDSVXUYcrEMRUyEKjraMnc
-# OFBzXq8ZIB2jODlzmBeyPNzD1lKmvmWlYYxQMXZXN6SZPCwFSaQj30A89xeBkvn4
-# yBMWlmiIKXDo+eX5g917982yinstk98KTyXiFafIMdVvkTYnE8oxHLvPpxeUmhtU
-# +F3QRiktxHhuN7nVnZEXTcl0682GnvmBeqDW93SI2gT2WpV2fHo9Sk2HWDaefNAD
-# 88q79kVLUPUm4kkRF1WGrtWBvA62Z7vQmew4Piv6yxEkR7PhOwRaYtMPhZ04Pbv5
-# RuNbPkIIwxntZ519/S6VNGCnx0YhMYIEDTCCBAkCAQEwgZMwfDELMAkGA1UEBhMC
+# A4IBAQAsG2nZLoK1VmAqu/jSU37yuZ2bl1GpXffRIRvG8+eCT5cH8UUy0mQjQZl3
+# 5p/YD+TWJBCkg2Edp7vJeYYUwflZ7gEAjaIQ2UqgcFAlm1LzTwYxzjBNPhNAld9T
+# XVXXWcVgW73djgXq/PPlP1kKtS8GTdJMVkkFEagSAvN3KpaKZqK4y873RdrG4DqR
+# sMcPgjUs5LxmnZ8cxLEU4T4GWgX2GxPDjJTXgWkhARUWEXyMr5l4NNpWCm3CWhzL
+# SI0GAjNibhZ6fa23K/VJC/savmG40b/XDU7qYSyIBpZ2yz5LPoAYEPo2btv60ORq
+# y31kgX488XnaMBP2yd//9KYA/O5TMYIEDTCCBAkCAQEwgZMwfDELMAkGA1UEBhMC
 # VVMxEzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNV
 # BAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEmMCQGA1UEAxMdTWljcm9zb2Z0IFRp
 # bWUtU3RhbXAgUENBIDIwMTACEzMAAAHoULCAzytymU0AAQAAAegwDQYJYIZIAWUD
 # BAIBBQCgggFKMBoGCSqGSIb3DQEJAzENBgsqhkiG9w0BCRABBDAvBgkqhkiG9w0B
-# CQQxIgQgmM6wQPbKwvoQRDxH0CV594oLS9fP5knSMG2rk236248wgfoGCyqGSIb3
+# CQQxIgQga5grmen0cDlmmpXiLG6pXj141pYfjVqeiPosJSfjg98wgfoGCyqGSIb3
 # DQEJEAIvMYHqMIHnMIHkMIG9BCAq0trE1QKEIIJB0efaTaooHtMXyU9id1PFtUnP
 # B/jrHTCBmDCBgKR+MHwxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9u
 # MRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRp
 # b24xJjAkBgNVBAMTHU1pY3Jvc29mdCBUaW1lLVN0YW1wIFBDQSAyMDEwAhMzAAAB
-# 6FCwgM8rcplNAAEAAAHoMCIEIPp6Us0AGQXgPKPAvzs5x63grxj5hEv+NF1i4mEl
-# 8weIMA0GCSqGSIb3DQEBCwUABIICAHDryO0Z4U5p9/du+weFRHeQlFyC5Xsbt8Wm
-# Qq1wLWHrDWIfJ3qseSiR5H7M+2w+d7CLShokLkHfl4h+vrSiYA+t8eJwCyN/pPKZ
-# KY3C4SrZ9ethHlkYpzzkbEs/WGqCVKp8yhO0ixgJQJRE1OPxPa55Vw2f4eVVXJ7z
-# u0cmZHz4iuO+YWHoDBeiScGsU68y4DMPtZeE9T1Hp+mkIJT/Q2K2dYzW/CpxmThb
-# 7FAcSMCCBuYSuPFGOrpisCHTSxR1Hfj7blOU6S0E+3wDOlMEpUNlJnzUPHXYdmuY
-# YoGXnBFR2WB4brZda6gyBJsfb5zNR3hn8/n6arHxZfsPem/xNUMi/sVZyCACWhJe
-# +HjcF3zt78vYiDd+UQGuSMWpPFLxFwkYB0jjeCJtIvLiOUaG+q3P+zfFrxJpIC7T
-# 8iU79Ec+WdgD5r1Zly4Bg8pL+MYZJPhA15vNvoJyRC7JJtr7R1NuLjney/drskvP
-# R8L4u32ZQ2mF5FirS86uiRilaYQiJsKgsM6UgECxyyjQuYOfM6X0GZagMz+ZXO33
-# B8QZefCs1910CQ3ZLzFBYwM1LN/SfBfzNPzHJopyH3zhB5fFoh/gzFbBp4g5wBqY
-# yQKRPD1Ko1EZKO+cda2/aMUZ8SDJNdZ/ds55eYSbCg9oaXDBdCtEodBbQx3FkIeB
-# uxOlPOBh
+# 6FCwgM8rcplNAAEAAAHoMCIEII2gxvMXze0gMLpQ/tpJhlKFXwhcvPS4WMkL+Tlf
+# Ii1RMA0GCSqGSIb3DQEBCwUABIICAElsZRxs7m5t3YrabMqJStant/f1EOXN/OcX
+# 0TbNT99nBrhD+LPWB9VYqH1Bjskot23Ty+YyFubZpMUWmeEwNDodiYhwmcVtMsxT
+# Sv/2dnQCnVjxIPM+MAEJpKG1UNbGMadFXnvyyJ6qQGSDXhVxikz2eQYT2HTnvEjc
+# TJVXDNN75wJ1gy4ponU03QQ2OSbptSigTeT2KqcDAnR2mPHXVlYKPwFGCjaSH+Ez
+# xaETBcLCYxsZk6tM9MFqtTfVRdlqyLSLLiIIjMJe3xHxLB92Z1gccPPebVTjEI7P
+# ucp+5SVtPjMSl1J6y0vHxj+fndIT807hir3RBq9hzMGf+shedRDeYzNBB+cHZhz1
+# Tpeb0CHSDwCIiMTR3R0kBVYuy3rRgl/KSZMjKizBNCWSSxuo2SYaLQ6jt6yAyPns
+# K9Ucrkrv09avFCj0QUNM+evQE1AuLHnI9Qc8IwOeliXIlq58xZEl2sG23c/qA0t4
+# W9aNMa1ZH+FVcDk1Njs38GOy6Un2dAKEWpYCJMBXmQoBdcYkIRvrasd4L0tsNr+l
+# lUGjioAmurXFV4DvV/0rd8tJoaDG/yRygCf4AwtuDUkl2XCD6ajR0n/VQgzep+v8
+# AJTDqy+P2K1DkumCOhDCbTEAhuuLvTZ5OYnZsr5gelp0dujCT48uhUCmwSrm0Mb0
+# Pa+0TDCN
 # SIG # End signature block
