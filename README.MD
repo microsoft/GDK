@@ -37,14 +37,6 @@
 - The GDK is not for use to self-publish through the [Xbox Creators Program](https://www.xbox.com/developers/creators-program) which is currently based on the Universal Windows Platform (UWP). 
 -	More information can be found in our GDK public documentation (http://aka.ms/gamedevdocs) 
 
-
-<br>
-<p align="center">
-<img src="https://github.com/microsoft/GDK/blob/Main/README/GDK_vs_GDKX.png" alt="GDK vs. GDKX Comparison Table" align="center" width=1080>
-</p>
-</br>
-
-
 -----
 
 ## When to use the GDK (Updated October 2021)
@@ -77,7 +69,6 @@ Game development on Microsoft platforms has a history going back 40+ years which
 -	For developers building Win32 games today, UWP requires porting to the [WinRT programming model]( https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt)*.
 -	UWP apps and games are community-supported only; partners inside Xbox managed programs (Xbox, Xbox Game Pass, Xbox Game Streaming) should use Microsoft Win32 + GDK.
 
-<br></br>
 -----
 
 ## How the GDK is released (Updated June 2021)
