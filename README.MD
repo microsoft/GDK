@@ -5,12 +5,6 @@
 **The Microsoft Game Development Kit (GDK) contains the *common* tools, libraries, and documentation needed to build games for [Xbox Game Pass for PC on Windows 10/11]( https://www.xbox.com/en-US/xbox-game-pass/pc-games?OCID=AID2100895_SEM_64cb82c395a51ebbffc2e27408836bc1:G:s&ef_id=64cb82c395a51ebbffc2e27408836bc1:G:s&msclkid=64cb82c395a51ebbffc2e27408836bc1), Xbox consoles (Xbox Series X|S, Xbox One), and [cloud gaming with Xbox Game Pass Ultimate]( https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming).**
 
 
-## News (Updated 2023.06.22)
-
- - 06/22: **Latest Version:** [**June 2023 GDK**] (updates to older branches may appear newer in the [RELEASES](https://github.com/microsoft/GDK/releases) section than the most recent major release).
-
------
-
 ## General Info (Updated June 2021)
 
 **How to Install**
@@ -36,14 +30,6 @@
 -	Additional licensing is required to obtain the Xbox Extensions to build games optimized for Xbox consoles or *publish* games to the Microsoft catalog for any platform.
 - The GDK is not for use to self-publish through the [Xbox Creators Program](https://www.xbox.com/developers/creators-program) which is currently based on the Universal Windows Platform (UWP). 
 -	More information can be found in our GDK public documentation (http://aka.ms/gamedevdocs) 
-
-
-<br>
-<p align="center">
-<img src="https://github.com/microsoft/GDK/blob/Main/README/GDK_vs_GDKX.png" alt="GDK vs. GDKX Comparison Table" align="center" width=1080>
-</p>
-</br>
-
 
 -----
 
@@ -77,7 +63,6 @@ Game development on Microsoft platforms has a history going back 40+ years which
 -	For developers building Win32 games today, UWP requires porting to the [WinRT programming model]( https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt)*.
 -	UWP apps and games are community-supported only; partners inside Xbox managed programs (Xbox, Xbox Game Pass, Xbox Game Streaming) should use Microsoft Win32 + GDK.
 
-<br></br>
 -----
 
 ## How the GDK is released (Updated June 2021)
