@@ -7,14 +7,35 @@ Welcome to the Microsoft Game Development Kit (GDK) repository. This project aim
 
 The GDK contains the common tools, libraries, and documentation needed to build games for [Xbox Game Pass for PC on Windows 10/11]( https://www.xbox.com/en-US/xbox-game-pass/pc-games?OCID=AID2100895_SEM_64cb82c395a51ebbffc2e27408836bc1:G:s&ef_id=64cb82c395a51ebbffc2e27408836bc1:G:s&msclkid=64cb82c395a51ebbffc2e27408836bc1), Xbox consoles (Xbox Series X|S, Xbox One), and [cloud gaming with Xbox Game Pass Ultimate]( https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming).
 
------
 
-## Key Features
+### Key Features
 •	<b>Comprehensive Toolset:</b> The GDK includes a wide range of tools and APIs to support game development across multiple platforms.
 
 •	<b>Cross-Platform Development:</b> Develop games for Xbox consoles, Windows PCs, and cloud gaming with a single set of tools.
 
 •	<b>Extensive Documentation:</b> Access detailed documentation, tutorials, and examples to help you make the most of the GDK.
+
+-----
+
+## Getting Started
+### New to Game Development?
+If you are new to game development and want to learn more, we recommend reviewing the getting started documentation.
+
+
+Installation
+Choose one of the following methods:
+GitHub
+•	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
+•	Install. Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
+
+NuGet
+To install NuGet packages, you can use various methods such as the NuGet Package Manager in Visual Studio, the Package Manager Console, or the .NET CLI.
+<NuGet info for download>
+
+
+WinGet
+To install applications using WinGet, you can use the Command Prompt or PowerShell.
+<WinGet info for download>
 
 
 ## General Info (Updated June 2021)
