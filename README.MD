@@ -11,8 +11,10 @@ The GDK contains the common tools, libraries, and documentation needed to build 
 
 ## Key Features
 •	<b>Comprehensive Toolset:</b> The GDK includes a wide range of tools and APIs to support game development across multiple platforms.
-•	Cross-Platform Development: Develop games for Xbox consoles, Windows PCs, and cloud gaming with a single set of tools.
-•	Extensive Documentation: Access detailed documentation, tutorials, and examples to help you make the most of the GDK.
+
+•	<b>Cross-Platform Development:</b> Develop games for Xbox consoles, Windows PCs, and cloud gaming with a single set of tools.
+
+•	<b>Extensive Documentation:</b> Access detailed documentation, tutorials, and examples to help you make the most of the GDK.
 
 
 ## General Info (Updated June 2021)
