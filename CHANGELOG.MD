@@ -21,6 +21,8 @@
 More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/whats-new
 <br>
 
+----
+
 ## June 2024 GDK Update
 
 ### ✨Features
@@ -41,6 +43,8 @@ More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk
 More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/archive/whats-new-2406
 <br>
 
+----
+
 ## March 2024 GDK Update
 
 ### ✨Features
@@ -59,6 +63,8 @@ More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk
 <br>
 More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/archive/whats-new-2403
 <br>
+
+----
 
 ## October 2023 GDK Update
 
