@@ -1,6 +1,9 @@
 
 # Change Log
 
+For the latest updates of the GDK, you can refer to the documentation found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/whats-new
+
+
 ## October 2024 GDK Update
 
 ### ✨Features
