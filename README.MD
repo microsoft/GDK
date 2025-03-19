@@ -135,7 +135,7 @@ In this section, we cover some of the more practical, basic questions that are a
 
 ### ❔Where are detailed public release notes published?
 
--	A public version of the release notes that does not contain confidential information about Xbox console features is under development.
+-	A public version of the release notes can be found here: [GDK Release Notes](https://github.com/microsoft/GDK/releases)
 -	A full version of the release notes with public + confidential information is available as part of the GDKX release and will be available for the public GDK sometime after June 2021; they will be published to the GitHub repo (http://aka.ms/gdk) 
 - Change Log information is available to be reviewed here [Change Log](CHANGELOG.MD) as well as on the [Microsoft Learn](https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/whats-new) site.
 
