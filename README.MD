@@ -151,6 +151,8 @@ In this section, we cover some of the more practical, basic questions that are a
 <br>
 <br>
 
+----
+
 ### Looking for related resources to build and publish to Xbox consoles with the GDK**X**?
 
 <ul>
