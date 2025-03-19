@@ -33,7 +33,7 @@ Choose one of the following methods:
 
 <br>
 
-#### NuGet
+#### <img src="SupportDocs/images/NuGet.png" width="2%"> NuGet
 To install NuGet packages, you can use various methods such as the NuGet Package Manager in Visual Studio, the Package Manager Console, or the .NET CLI.
 
 <i>NuGet info for download</i>
