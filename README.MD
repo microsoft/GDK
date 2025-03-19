@@ -91,6 +91,7 @@ Game development on Microsoft platforms has a history going back 40+ years which
 -	[For developers building Win32 games on PC today](https://docs.microsoft.com/gaming/gdk/_content/gc/get-started-with-pc-dev/test-your-installation/gr-add-to-existing-project), Win32 + GDK builds on the Win32 C/C++ programming models to unify development across Xbox consoles and Windows PCs with the Microsoft Game Development Kit ([GDK](https://aka.ms/gdk)).
 
 **<sup>(1)</sup>Requires software and licensing which is only available via an NDA Xbox program (e.g. ID@Xbox program).**
+
 <br>
 <br>
 
@@ -105,6 +106,7 @@ Game development on Microsoft platforms has a history going back 40+ years which
 
 <br>
 <br>
+
 ### ❔How does the GDK compare to the Microsoft Universal Windows Platform (UWP)?
 
 -	[The Universal Windows Platform]( https://docs.microsoft.com/en-us/windows/uwp/gaming/e2e) was introduced in 2015 for Windows 10 as a bridge between all the devices in the Windows family (Windows Phone, Surface, Windows PCs, and Xbox One*).
@@ -122,6 +124,7 @@ In this section, we cover some of the more practical, basic questions that are a
 
 <br>
 <br>
+
 ### ❔What is the public GDK release schedule?
 
 -	Three major GDK release branches a year with a mix of new features and fixes (flexibly April, June, and October to align with game development cycles).
@@ -129,11 +132,13 @@ In this section, we cover some of the more practical, basic questions that are a
 
 <br>
 <br>
+
 ### ❔Where are detailed public release notes published?
 
 -	A public version of the release notes that does not contain confidential information about Xbox console features is under development.
 -	A full version of the release notes with public + confidential information is available as part of the GDKX release and will be available for the public GDK sometime after June 2021; they will be published to the GitHub repo (http://aka.ms/gdk) 
 - Change Log information is available to be reviewed here [Change Log](CHANGELOG.MD)
+
 <br>
 <br>
 
@@ -145,6 +150,7 @@ In this section, we cover some of the more practical, basic questions that are a
 
 <br>
 <br>
+
 ### Looking for related resources to build and publish to Xbox consoles with the GDK**X**?
 
 <ul>
