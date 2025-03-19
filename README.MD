@@ -48,13 +48,14 @@ To install applications using WinGet, you can use the Command Prompt or PowerShe
 
 <br>
 <br>
-### Docs & Downloads
+<section id=docs>
+<h3> Docs & Downloads</h3>
 - GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs
 
 - Check out the Xbox public sample repository: https://github.com/microsoft/Xbox-GDK-Samples/
 
 - Latest release of the GDK on GitHub: https://github.com/microsoft/GDK/releases
-
+</section>
 <br>
 ----
 
