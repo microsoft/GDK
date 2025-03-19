@@ -71,7 +71,7 @@ A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only
 ## When to Use the GDK
 Game development on Microsoft platforms has a history going back 40+ years which means that there have been and still are many options to build games that reach gamers on PC.  The GDK is an evolution to the Win32 legacy, to unify the app model between Xbox consoles, Windows PCs, and now Cloud Gaming to enable game developers to reach even more gamers on more devices, with less effort.  Microsoft Gaming Services are agnostic across many ecosystems and the GDK is sharing the app model across MILLIONS of devices.
 
-### ❔ Q:  How do I build next-generation games for the Xbox App on Windows 10 and Xbox Game Pass for PC?
+### ❔How do I build next-generation games for the Xbox App on Windows 10 and Xbox Game Pass for PC?
 
 -	[Get started setting up your developer environment here!](https://docs.microsoft.com/gaming/gdk/_content/gc/getstarted/dev-pc-setup)
 -	Using [Win32 + GDK](https://docs.microsoft.com/gaming/gdk/_content/gc/get-started-with-pc-dev/overviews/gr-getting-started) is the primary, supported app model to build games for Xbox console, Xbox Game Pass (both Xbox and PC), and [Xbox Game Streaming]( https://developer.microsoft.com/en-us/games/products/project-xcloud/)**.
