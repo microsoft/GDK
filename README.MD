@@ -21,6 +21,8 @@ The GDK contains the common tools, libraries, and documentation needed to build 
 ### New to Game Development?
 If you are new to game development and want to learn more, we recommend reviewing the getting started documentation.
 
+<br>
+<br>
 
 ### Installation
 Choose one of the following methods:
@@ -30,11 +32,14 @@ Choose one of the following methods:
 
 •	Install. Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
 
+<br>
 
 #### NuGet
 To install NuGet packages, you can use various methods such as the NuGet Package Manager in Visual Studio, the Package Manager Console, or the .NET CLI.
 
 <i>NuGet info for download</i>
+
+<br>
 
 
 #### WinGet
