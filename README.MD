@@ -41,7 +41,7 @@ To install NuGet packages, you can use various methods such as the NuGet Package
 <br>
 
 
-#### WinGet
+#### <img src="SupportDocs/images/WinGet.png" width="2%"> WinGet
 To install applications using WinGet, you can use the Command Prompt or PowerShell.
 
 <i>WinGet info for download</i>
