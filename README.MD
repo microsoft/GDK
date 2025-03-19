@@ -56,6 +56,7 @@ To install applications using WinGet, you can use the Command Prompt or PowerShe
 <li>Latest release of the GDK on GitHub: https://github.com/microsoft/GDK/releases</li>
 </section>
 <br>
+
 ----
 
 ## What is the GDK?
