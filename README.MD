@@ -48,6 +48,7 @@ To install applications using WinGet, you can use the Command Prompt or PowerShe
 
 <br>
 <section id="Documentation">
+<br>
 ### Docs & Downloads
 - GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs
 
