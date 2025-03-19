@@ -57,7 +57,7 @@ To install applications using WinGet, you can use the Command Prompt or PowerShe
 
 •	Additional licensing is required to obtain the Xbox Extensions to build games optimized for Xbox consoles or publish games to the Microsoft catalog for any platform
 
-More information can be found in our GDK public documentation. ([http://aka.ms/gamedevdocs])
+More information can be found in our GDK public documentation. (http://aka.ms/gamedevdocs)
 
 ### Note for Xbox Console Developers
 A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only available to licensed partners in a managed program (https://aka.ms/gdkdl). 
