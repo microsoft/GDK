@@ -113,7 +113,7 @@ Game development on Microsoft platforms has a history going back 40+ years which
 
 
 ----
-## How the GDK is released (Updated June 2021)
+## How the GDK is released
 
 In the “When to use the GDK” section above, we cover the scenarios for which the GDK was designed to provide a modern app model that flows across Xbox consoles, Windows PCs, and Cloud Gaming.
 
