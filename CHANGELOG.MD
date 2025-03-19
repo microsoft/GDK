@@ -1,5 +1,5 @@
 
-# Changelog
+# Change log
 
 ## October 2024 GDK Update
 
@@ -17,6 +17,8 @@
 - **Media**: Fixed an issue that caused the title to stop responding upon source reader termination.
 - **PIX**: Fixed multiple issues in PIX, including crashes and errors related to GPU timings and corrupted `ExecuteIndirect` packets.
 
+More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/whats-new
+
 ## June 2024 GDK Update
 
 ### Features
@@ -33,6 +35,8 @@
 - **Media**: Fixed an issue that caused the title to stop responding upon source reader termination.
 - **PIX**: Fixed multiple issues in PIX, including crashes and errors related to GPU timings and corrupted `ExecuteIndirect` packets.
 
+More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/archive/whats-new-2406
+
 ## March 2024 GDK Update
 
 ### Features
@@ -48,6 +52,8 @@
 - **System**: Addressed bugs causing system crashes and memory leaks.
 - **Developer Tools**: Resolved issues with the debugger and performance profiler.
 
+More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/archive/whats-new-2403
+
 ## October 2023 GDK Update
 
 ### Features
@@ -62,3 +68,5 @@
 - **Graphics**: Fixed issues related to texture rendering and shader compilation.
 - **System**: Addressed bugs causing system crashes and memory leaks.
 - **Developer Tools**: Resolved issues with the debugger and performance profiler.
+
+More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/archive/whats-new-2310
