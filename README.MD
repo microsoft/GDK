@@ -10,7 +10,7 @@ The GDK contains the common tools, libraries, and documentation needed to build 
 ### ✨ Key Features
 •	<b>Comprehensive Toolset:</b> The GDK includes a wide range of tools and APIs to support game development across multiple platforms.
 
-•	<b>Cross-Platform Development:</b> Develop games for Xbox consoles, Windows PCs, and cloud gaming with a single set of tools.
+•	<b>Cross-Platform Development:</b> Develop games for Windows PCs, Xbox consoles, and cloud gaming with a single set of tools.
 
 •	<b>Extensive Documentation:</b> Access detailed documentation, tutorials, and examples to help you make the most of the GDK.
 
@@ -23,7 +23,7 @@ If you are new to game development and want to learn more, we recommend reviewin
 <br>
 
 ### Installation
-Choose one of the following methods:
+The GDK can be installed through the following methods:
 
 #### <img src="SupportDocs/images/GitHub.png" width="2%"> GitHub
 •	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
@@ -47,11 +47,15 @@ To install applications using WinGet, you can use the Command Prompt or PowerShe
 
 
 <br>
+
 ### Docs & Downloads
 - GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs
+
 - Check out the Xbox public sample repository: https://github.com/microsoft/Xbox-GDK-Samples/
+
 - Latest release of the GDK on GitHub: https://github.com/microsoft/GDK/releases
 
+<br>
 ----
 
 ## What is the GDK?
