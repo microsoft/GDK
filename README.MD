@@ -78,7 +78,7 @@ Game development on Microsoft platforms has a history going back 40+ years which
 -	Key Feature is that only Win32 + GDK fully supports all Microsoft Gameplay Services (Xbox Live identity, multiplayer, chat, leaderboards, achievements, commerce, etc.), and is *required for Xbox Game Pass<sup>(1)</sup> on both console and PC.*
 -	[For developers building Win32 games on PC today](https://docs.microsoft.com/gaming/gdk/_content/gc/get-started-with-pc-dev/test-your-installation/gr-add-to-existing-project), Win32 + GDK builds on the Win32 C/C++ programming models to unify development across Xbox consoles and Windows PCs with the Microsoft Game Development Kit ([GDK](https://aka.ms/gdk)).
 
-**(1) Requires software and licensing which only available via an NDA Xbox program (e.g. ID@Xbox program).**
+**<sup>(1)</sup>Requires software and licensing which only available via an NDA Xbox program (e.g. ID@Xbox program).**
 
 <br>
 
