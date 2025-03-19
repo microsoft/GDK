@@ -2,7 +2,6 @@
 <p align="center"><a href="#🔧 installation">Install</a> • <a href="">Configuration</a> • <a href="https://discord.com">Discord</a></p>
 
 
-## Introduction
 Welcome to the Microsoft Game Development Kit (GDK) repository. This project aims to provide developers with the essential tools and resources to create amazing games for the Xbox ecosystem. Whether you're targeting PC, console, or cloud gaming, the GDK has you covered.
 
 The GDK contains the common tools, libraries, and documentation needed to build games for [Xbox Game Pass for PC on Windows 10/11]( https://www.xbox.com/en-US/xbox-game-pass/pc-games?OCID=AID2100895_SEM_64cb82c395a51ebbffc2e27408836bc1:G:s&ef_id=64cb82c395a51ebbffc2e27408836bc1:G:s&msclkid=64cb82c395a51ebbffc2e27408836bc1), Xbox consoles (Xbox Series X|S, Xbox One), and [cloud gaming with Xbox Game Pass Ultimate]( https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming).
@@ -17,7 +16,7 @@ The GDK contains the common tools, libraries, and documentation needed to build 
 
 -----
 
-## Getting Started
+## 🛠️ Getting Started
 ### New to Game Development?
 If you are new to game development and want to learn more, we recommend reviewing the [getting started](https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/overviews/welcome) documentation.
 
@@ -60,6 +59,7 @@ To install applications using WinGet, you can use the Command Prompt or PowerShe
 <br>
 More information can be found in our GDK public documentation. (http://aka.ms/gamedevdocs)
 
+<br>
 <br>
 
 ### Note for Xbox Console Developers
