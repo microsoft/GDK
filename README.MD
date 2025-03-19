@@ -26,7 +26,7 @@ If you are new to game development and want to learn more, we recommend reviewin
 ### 🔧 Installation
 Choose one of the following methods:
 
-#### GitHub
+#### <img src="https://github.com/fluidicon.png" alt="Our focused scenario" style="width:80%; "> GitHub
 •	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
 
 •	Install. Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
