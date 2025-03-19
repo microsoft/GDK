@@ -23,7 +23,7 @@ If you are new to game development and want to learn more, we recommend reviewin
 
 <br>
 
-### Installation
+### 🔧 Installation
 Choose one of the following methods:
 
 #### GitHub
