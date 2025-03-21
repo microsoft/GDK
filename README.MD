@@ -7,7 +7,7 @@ Welcome to the Microsoft Game Development Kit (GDK) repository. This project aim
 The GDK contains the common tools, libraries, and documentation needed to build games for [Xbox Game Pass for PC on Windows 10/11]( https://www.xbox.com/en-US/xbox-game-pass/pc-games?OCID=AID2100895_SEM_64cb82c395a51ebbffc2e27408836bc1:G:s&ef_id=64cb82c395a51ebbffc2e27408836bc1:G:s&msclkid=64cb82c395a51ebbffc2e27408836bc1), Xbox consoles (Xbox Series X|S, Xbox One), and [cloud gaming with Xbox Game Pass Ultimate]( https://www.xbox.com/en-US/xbox-game-pass/cloud-gaming).
 
 
-### :sparkles: Key Features
+### :sparkles:Key Features
 •	**Comprehensive Toolset:** The GDK includes a wide range of tools and APIs to support game development across multiple platforms.
 
 •	**Cross-Platform Development:** Develop games for Windows PCs, Xbox consoles, and cloud gaming with a single set of tools.
@@ -16,7 +16,7 @@ The GDK contains the common tools, libraries, and documentation needed to build 
 
 -----
 
-## :hammerandwrench: Getting Started
+## :hammer_and_wrench:Getting Started
 ### New to Game Development?
 If you are new to game development and want to learn more, we recommend reviewing the [getting started](https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/overviews/welcome) documentation.  
 
@@ -25,10 +25,10 @@ If you are new to game development and want to learn more, we recommend reviewin
 ### Installation
 The GDK can be installed through the following methods:
 
-#### <img src="SupportDocs/images/WinGet.png" width="2%"> WinGet **(RECOMMENDED)** :glowingstar:
+#### <img src="SupportDocs/images/WinGet.png" width="2%"> WinGet **(RECOMMENDED)**:glowingstar:
 WinGet, the Windows Package Manager, is a command-line tool that enables users to discover, install, upgrade, remove, and configure applications on Windows client computers. This tool is the client interface to the Windows Package Manager service. The winget command-line tool is bundled with Windows 11 and modern versions of Windows 10 by default as the App Installer.
 
-> ** :bulb: Notes:**
+> ** :bulb:Notes:**
 > </br> •	See the [winget documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget) for a list of system requirements and install instructions.
 > </br> •	`winget` isn't available on Windows Server 2022 or earlier versions.
 > </br> •	Windows Server 2025 Preview Build 26085 and later includes winget for Windows Server with Desktop Experience only.
@@ -66,7 +66,7 @@ To install NuGet packages, you can use various methods such as the NuGet Package
 
 
 
-### :notebook: Docs & Downloads
+### :notebook:Docs & Downloads
 •	GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs
 
 •	Check out the Xbox public sample repository: https://github.com/microsoft/Xbox-GDK-Samples/
@@ -100,7 +100,7 @@ A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only
 ## When to Use the GDK
 Game development on Microsoft platforms has a history going back 40+ years which means that there have been and still are many options to build games that reach gamers on PC.  The GDK is an evolution to the Win32 legacy, to unify the app model between Xbox consoles, Windows PCs, and now Cloud Gaming to enable game developers to reach even more gamers on more devices, with less effort.  Microsoft Gaming Services are agnostic across many ecosystems and the GDK is sharing the app model across MILLIONS of devices.
 </br>
-### :grey_question: How do I build next-generation games for the Xbox App on Windows 10/11 and Xbox Game Pass for PC?
+### :grey_question:How do I build next-generation games for the Xbox App on Windows 10/11 and Xbox Game Pass for PC?
 
 -	[Get started setting up your developer environment here!](https://docs.microsoft.com/gaming/gdk/_content/gc/getstarted/dev-pc-setup)
 -	Using [Win32 + GDK](https://docs.microsoft.com/gaming/gdk/_content/gc/get-started-with-pc-dev/overviews/gr-getting-started) is the primary, supported app model to build games for Xbox console, Xbox Game Pass (both Xbox and PC), and [Xbox Game Streaming]( https://developer.microsoft.com/en-us/games/products/project-xcloud/)**.
@@ -124,7 +124,7 @@ Game development on Microsoft platforms has a history going back 40+ years which
 <br>
 <br>
 
-### ❔How does the GDK compare to the Microsoft Universal Windows Platform (UWP)?
+### :grey_question:How does the GDK compare to the Microsoft Universal Windows Platform (UWP)?
 
 -	[The Universal Windows Platform]( https://docs.microsoft.com/en-us/windows/uwp/gaming/e2e) was introduced in 2015 for Windows 10 as a bridge between all the devices in the Windows family (Windows Phone, Surface, Windows PCs, and Xbox One*).
 -	Key feature for is open development and self-publishing to [Windows Mixed Reality (MR)](https://developer.microsoft.com/en-us/mixed-reality/) or the Microsoft Store on Windows 10 PCs and Xbox; particularly well suited for interactive media applications.
@@ -142,7 +142,7 @@ In this section, we cover some of the more practical, basic questions that are a
 <br>
 <br>
 
-### ❔What is the public GDK release schedule?
+### :grey_question:What is the public GDK release schedule?
 
 -	Three major GDK release branches a year with a mix of new features and fixes (flexibly April, June, and October to align with game development cycles).
 -	GDK updates can release in parallel as needed, on separate branches, focused on reliability, stability, and fixes.  Developers can take updates vs. another major version to reduce churn and risk of breaking changes affecting compatibility (e.g. April Update #1, April Update #2, April Update #3, June Update #1, etc).
@@ -150,7 +150,7 @@ In this section, we cover some of the more practical, basic questions that are a
 <br>
 <br>
 
-### ❔Where are detailed public release notes published?
+### :grey_question:Where are detailed public release notes published?
 
 -	A public version of the release notes can be found here: [GDK Release Notes](https://github.com/microsoft/GDK/releases)
 -	A full version of the release notes with public + confidential information is available as part of the GDKX release and will be available for the public GDK sometime after June 2021; they will be published to the GitHub repo (http://aka.ms/gdk) 
@@ -159,7 +159,7 @@ In this section, we cover some of the more practical, basic questions that are a
 <br>
 <br>
 
-### ❔What are some of key elements missing in the GDK that is needed to build games for Xbox consoles?
+### :grey_question:What are some of key elements missing in the GDK that is needed to build games for Xbox consoles?
 
 -	The Xbox developer environment APIs and Tools required to target and build games that run on Xbox consoles, currently only bundled as the GDKX installer package.
 -	The Xbox graphics driver and related DirectX 12 components (e.g. Shader Compiler) required to build binaries that work with proprietary Xbox hardware and software interfaces.
@@ -170,7 +170,7 @@ In this section, we cover some of the more practical, basic questions that are a
 
 ----
 
-### 🔗 Looking for related resources to build and publish to Xbox consoles with the GDK**X**?
+### :link:Looking for related resources to build and publish to Xbox consoles with the GDK**X**?
 
 <ul>
   <li>Xbox console development is limited to licensed partners inside managed development programs, such as [ID@Xbox](https://www.xbox.com/en-us/Developers/id)
