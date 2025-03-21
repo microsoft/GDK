@@ -1,5 +1,4 @@
 # Microsoft Game Development Kit (GDK)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/Microsoft/GDK)]
 
 [Install](#installation) • [Samples & Documentation](#-docs--downloads)
 
@@ -57,6 +56,7 @@ The following commands can be used to install the GDK using the published winget
 
 #### <img src="SupportDocs/images/GitHub.png" width="2%"> GitHub
 [![Latest release](https://badgen.net/github/release/microsoft/GDK)](https://github.com/microsoft/GDK/releases/latest)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/Microsoft/GDK)
 </br>
 •	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
 
