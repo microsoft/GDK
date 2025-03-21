@@ -37,13 +37,13 @@ WinGet, the Windows Package Manager, is a command-line tool that enables users t
 
 The following commands can be used to install the GDK using the published winget packages:
 
-Search for the latest version of the GDK
+##### Search for the latest version of the GDK
   ```sh
   winget search Microsoft.Gaming.GDK
   ```
 <br>
 
-Install the latest version of the GDK
+##### Install the latest version of the GDK
   ```sh
   winget install Microsoft.Gaming.GDK
   ```
