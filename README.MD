@@ -60,7 +60,7 @@ Install the latest version of the GDK
 #### <img src="SupportDocs/images/NuGet.png" width="2%"> NuGet
 To install NuGet packages, you can use various methods such as the NuGet Package Manager in Visual Studio, the Package Manager Console, or the .NET CLI.
 
-* *NuGet info for download* *
+*NuGet info for download*
 
 <br>
 
