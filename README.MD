@@ -49,11 +49,15 @@ WinGet, the Windows Package Manager, is a command-line tool that enables users t
 > <br> •	Windows Server 2025 Preview Build 26085 and later includes winget for Windows Server with Desktop Experience only.
 
 The following commands can be used to install the GDK using the published winget packages:
+<br>
+<br>
 
 Search for the latest version of the GDK
   ```sh
   winget search Microsoft.Gaming.GDK
   ```
+<br>
+<br>
 
 Install the latest version of the GDK
   ```sh
