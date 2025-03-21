@@ -44,7 +44,7 @@ To install NuGet packages, you can use various methods such as the NuGet Package
 WinGet, the Windows Package Manager, is a command-line tool that enables users to discover, install, upgrade, remove, and configure applications on Windows client computers. This tool is the client interface to the Windows Package Manager service. The winget command-line tool is bundled with Windows 11 and modern versions of Windows 10 by default as the App Installer.
 
 > Note: See the winget documentation for a list of system requirements and install instructions.
-> <br> ´winget´ isn't available on Windows Server 2022 or earlier versions.
+> <br> `winget` isn't available on Windows Server 2022 or earlier versions.
 > <br> Windows Server 2025 Preview Build 26085 and later includes winget for Windows Server with Desktop Experience only.
 
 The following commands can be used to install the GDK using the published winget packages:
