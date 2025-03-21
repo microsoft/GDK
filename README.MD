@@ -1,5 +1,5 @@
 # Microsoft Game Development Kit (GDK)
-//<p align="center"><a href="#installation">Install</a> • <a href="#docs">Samples & Documentation</a>
+[Install](#installation) • <a href="#docs">Samples & Documentation</a>
 
 
 Welcome to the Microsoft Game Development Kit (GDK) repository. This project aims to provide developers with the essential tools and resources to create amazing games for the Xbox ecosystem. Whether you're targeting PC, console, or cloud gaming, the GDK has you covered.
