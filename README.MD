@@ -173,13 +173,9 @@ In this section, we cover some of the more practical, basic questions that are a
 
 ### :link:Looking for related resources to build and publish to Xbox consoles with the GDK**X**?
 
-<ul>
-  <li>Xbox console development is limited to licensed partners inside managed development programs, such as [ID@Xbox](https://www.xbox.com/en-us/Developers/id)
-  </li>
-  <li>License and login required</li>
-    <ul>
-      <li>GDKX (confidential program downloads): https://aka.ms/gdkdl</li>
-      <li>GDKX Documentation (secure): https://aka.ms/gdkxdocs</li>
-      <li>Xbox Developer Forums: https://forums.xboxlive.com</li>
-    </ul>
-</ul>
+- Xbox console development is limited to licensed partners inside managed development programs, such as [ID@Xbox](https://www.xbox.com/en-us/Developers/id)
+- License and login required
+  - GDKX (confidential program downloads): https://aka.ms/gdkdl
+  - GDKX Documentation (secure): https://aka.ms/gdkxdocs
+  - Xbox Developer Forums: https://forums.xboxlive.com
+
