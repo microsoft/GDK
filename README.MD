@@ -21,6 +21,7 @@ The GDK contains the common tools, libraries, and documentation needed to build 
 If you are new to game development and want to learn more, we recommend reviewing the [getting started](https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/overviews/welcome) documentation.  
 
 </br>
+
 ### Installation
 The GDK can be installed through the following methods:
 
