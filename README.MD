@@ -25,7 +25,7 @@ If you are new to game development and want to learn more, we recommend reviewin
 ### Installation
 The GDK can be installed through the following methods:
 
-#### <img src="SupportDocs/images/WinGet.png" width="2%"> WinGet <b>(🌟 RECOMMENDED)</b>
+#### <img src="SupportDocs/images/WinGet.png" width="2%"> WinGet <b>(RECOMMENDED)</b>🌟
 WinGet, the Windows Package Manager, is a command-line tool that enables users to discover, install, upgrade, remove, and configure applications on Windows client computers. This tool is the client interface to the Windows Package Manager service. The winget command-line tool is bundled with Windows 11 and modern versions of Windows 10 by default as the App Installer.
 
 > <b>💡Notes:</b>
