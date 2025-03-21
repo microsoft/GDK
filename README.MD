@@ -47,16 +47,14 @@ WinGet, the Windows Package Manager, is a command-line tool that enables users t
 > <br> •	See the [winget documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget) for a list of system requirements and install instructions.
 > <br> •	`winget` isn't available on Windows Server 2022 or earlier versions.
 > <br> •	Windows Server 2025 Preview Build 26085 and later includes winget for Windows Server with Desktop Experience only.
+<br>
 
 The following commands can be used to install the GDK using the published winget packages:
-<br>
-<br>
 
 Search for the latest version of the GDK
   ```sh
   winget search Microsoft.Gaming.GDK
   ```
-<br>
 <br>
 
 Install the latest version of the GDK
