@@ -85,11 +85,11 @@ To install NuGet packages, you can use various methods such as the NuGet Package
 
 •	Additional licensing is required to obtain the Xbox Extensions to build games optimized for Xbox consoles or publish games to the Microsoft catalog for any platform
 
-<br>
+</br>
 More information can be found in our GDK public documentation. (http://aka.ms/gamedevdocs)
 
-<br>
-<br>
+</br>
+</br>
 
 ### Note for Xbox Console Developers
 A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only available to licensed partners in a managed program (https://aka.ms/gdkdl). 
@@ -99,7 +99,7 @@ A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only
 
 ## When to Use the GDK
 Game development on Microsoft platforms has a history going back 40+ years which means that there have been and still are many options to build games that reach gamers on PC.  The GDK is an evolution to the Win32 legacy, to unify the app model between Xbox consoles, Windows PCs, and now Cloud Gaming to enable game developers to reach even more gamers on more devices, with less effort.  Microsoft Gaming Services are agnostic across many ecosystems and the GDK is sharing the app model across MILLIONS of devices.
-<br>
+</br>
 ### ❔How do I build next-generation games for the Xbox App on Windows 10/11 and Xbox Game Pass for PC?
 
 -	[Get started setting up your developer environment here!](https://docs.microsoft.com/gaming/gdk/_content/gc/getstarted/dev-pc-setup)
@@ -107,7 +107,7 @@ Game development on Microsoft platforms has a history going back 40+ years which
 -	Key Feature is that only Win32 + GDK fully supports all Microsoft Gameplay Services (Xbox Live identity, multiplayer, chat, leaderboards, achievements, commerce, etc.), and is *required for Xbox Game Pass<sup>(1)</sup> on both console and PC.*
 -	[For developers building Win32 games on PC today](https://docs.microsoft.com/gaming/gdk/_content/gc/get-started-with-pc-dev/test-your-installation/gr-add-to-existing-project), Win32 + GDK builds on the Win32 C/C++ programming models to unify development across Xbox consoles and Windows PCs with the Microsoft Game Development Kit ([GDK](https://aka.ms/gdk)).
 
-**<i><sup>(1)</sup>Requires software and licensing which is only available via an NDA Xbox program (e.g. ID@Xbox program).</i>**
+**_(1)_Requires software and licensing which is only available via an NDA Xbox program (e.g. ID@Xbox program).**
 
 <br>
 <br>
