@@ -26,7 +26,7 @@ If you are new to game development and want to learn more, we recommend reviewin
 ### Installation
 The GDK can be installed through the following methods:
 
-#### <img src="SupportDocs/images/WinGet.png" width="2%"> WinGet **[Recommended]**
+#### <img src="https://learn.microsoft.com/en-us/windows/images/winget.png" width="2%"> WinGet **[Recommended]**
 WinGet, the Windows Package Manager, is a command-line tool that enables users to discover, install, upgrade, remove, and configure applications on Windows client computers. This tool is the client interface to the Windows Package Manager service. The winget command-line tool is bundled with Windows 11 and modern versions of Windows 10 by default as the App Installer.
 
 > [!NOTE]
@@ -66,6 +66,7 @@ The following commands can be used to install the GDK using the published winget
 
 #### <img src="SupportDocs/images/NuGet.png" width="2%"> NuGet
 [![NuGet stable version](https://badgen.net/nuget/v/Microsoft.GDK.PC)](https://www.nuget.org/packages/Microsoft.GDK.PC)
+</br>
 To install NuGet packages, you can use various methods such as the NuGet Package Manager in Visual Studio, the Package Manager Console, or the .NET CLI.
 
 The NuGet package for the Microsoft GDK can be fuond here: https://www.nuget.org/packages/Microsoft.GDK.PC
