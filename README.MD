@@ -51,6 +51,9 @@ Install the latest version of the GDK
 </br>
 </br>
 
+[GitHub](SupportDocs/images/GitHub.png) 
+
+
 #### <img src="SupportDocs/images/GitHub.png" width="2%"> GitHub
 •	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
 
@@ -73,11 +76,11 @@ To install it, you can follow these instructions:
    - Right-click on your project in the Solution Explorer and select *Manage NuGet Packages....*
    - Go to *Tools > NuGet Package Manager > Manage NuGet Packages for Solution....*
 
-4. **Browse for Packages:** In the NuGet Package Manager, go to the Browse tab and search for Microsoft.GDK.PC.
+4. **Browse for Packages:** In the NuGet Package Manager, go to the Browse tab and search for *Microsoft.GDK.PC*
 
-5. **Install the Package:** Once you find the Microsoft.GDK.PC package, select it and click the Install button. Follow any prompts to complete the installation.
+5. **Install the Package:** Once you find the *Microsoft.GDK.PC* package, select it and click the *Install* button. Follow any prompts to complete the installation.
 
-6. **Use the Package in Your Code:** After installing the package, you can use it in your code by adding the appropriate using statement at the top of your file and calling the package's API as needed.
+6. **Use the Package in Your Code:** After installing the package, you can use it in your code by adding the appropriate *using* statement at the top of your file and calling the package's API as needed.
 
 </br>
 
