@@ -51,7 +51,7 @@ Install the latest version of the GDK
 </br>
 </br>
 
-![GitHub](SupportDocs/images/GitHub.png = 250x) 
+![GitHub](SupportDocs/images/GitHub.png){:height="36px" width="36px"} 
 
 
 
