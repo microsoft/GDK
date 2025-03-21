@@ -54,6 +54,11 @@ Install the latest version of the GDK
 ![GitHub](SupportDocs/images/GitHub.png) 
 
 
+.. image:: SupportDocs/images/GitHub.png
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+
 #### <img src="SupportDocs/images/GitHub.png" width="2%"> GitHub
 •	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
 
