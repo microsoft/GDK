@@ -25,22 +25,7 @@ If you are new to game development and want to learn more, we recommend reviewin
 ### Installation
 The GDK can be installed through the following methods:
 
-#### <img src="SupportDocs/images/GitHub.png" width="2%"> GitHub
-•	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
-
-•	Install. Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
-
-<br>
-
-#### <img src="SupportDocs/images/NuGet.png" width="2%"> NuGet
-To install NuGet packages, you can use various methods such as the NuGet Package Manager in Visual Studio, the Package Manager Console, or the .NET CLI.
-
-<i>NuGet info for download</i>
-
-<br>
-
-
-#### <img src="SupportDocs/images/WinGet.png" width="2%"> WinGet
+#### <img src="SupportDocs/images/WinGet.png" width="2%"> WinGet <b>(RECOMMENDED)</b>
 WinGet, the Windows Package Manager, is a command-line tool that enables users to discover, install, upgrade, remove, and configure applications on Windows client computers. This tool is the client interface to the Windows Package Manager service. The winget command-line tool is bundled with Windows 11 and modern versions of Windows 10 by default as the App Installer.
 
 > <b>💡Notes:</b>
@@ -64,6 +49,23 @@ Install the latest version of the GDK
 
 <br>
 <br>
+
+#### <img src="SupportDocs/images/GitHub.png" width="2%"> GitHub
+•	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
+
+•	Install. Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
+
+<br>
+
+#### <img src="SupportDocs/images/NuGet.png" width="2%"> NuGet
+To install NuGet packages, you can use various methods such as the NuGet Package Manager in Visual Studio, the Package Manager Console, or the .NET CLI.
+
+<i>NuGet info for download</i>
+
+<br>
+
+
+
 <section id=docs>
 <h3> 📓 Docs & Downloads</h3>
 <ul>
