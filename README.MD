@@ -1,4 +1,5 @@
 # Microsoft Game Development Kit (GDK)
+[![GitHub Repo Size][gh-rel-badge]][gh-rel]     
 (https://img.shields.io/github/repo-size/Microsoft/GDK)
 
 [Install](#installation) • [Samples & Documentation](#-docs--downloads)
@@ -63,6 +64,7 @@ The following commands can be used to install the GDK using the published winget
 </br>
 
 #### <img src="SupportDocs/images/NuGet.png" width="2%"> NuGet
+[![NuGet stable version](https://badgen.net/nuget/v/Microsoft.GDK.PC)](https://www.nuget.org/packages/Microsoft.GDK.PC)
 To install NuGet packages, you can use various methods such as the NuGet Package Manager in Visual Studio, the Package Manager Console, or the .NET CLI.
 
 The NuGet package for the Microsoft GDK can be fuond here: https://www.nuget.org/packages/Microsoft.GDK.PC
