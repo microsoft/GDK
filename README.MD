@@ -28,6 +28,8 @@ The GDK can be installed through the following methods:
 #### <img src="SupportDocs/images/WinGet.png" width="2%"> WinGet **(RECOMMENDED)**:star2:
 WinGet, the Windows Package Manager, is a command-line tool that enables users to discover, install, upgrade, remove, and configure applications on Windows client computers. This tool is the client interface to the Windows Package Manager service. The winget command-line tool is bundled with Windows 11 and modern versions of Windows 10 by default as the App Installer.
 
+> :bulb:[!NOTE]
+> [!NOTE]
 > **:bulb:Notes:**
 > </br> •	See the [winget documentation](https://learn.microsoft.com/en-us/windows/package-manager/winget) for a list of system requirements and install instructions.
 > </br> •	`winget` isn't available on Windows Server 2022 or earlier versions.
