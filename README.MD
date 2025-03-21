@@ -67,11 +67,10 @@ To install NuGet packages, you can use various methods such as the NuGet Package
 
 
 ### 📓 Docs & Downloads
-<ul>
-<li>GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs</li>
-<li>Check out the Xbox public sample repository: https://github.com/microsoft/Xbox-GDK-Samples/</li>
-<li>Latest release of the GDK on GitHub: https://github.com/microsoft/GDK/releases</li>
-<br>
+•	GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs
+•	Check out the Xbox public sample repository: https://github.com/microsoft/Xbox-GDK-Samples/
+•	Latest release of the GDK on GitHub: https://github.com/microsoft/GDK/releases
+</br>
 
 ----
 
