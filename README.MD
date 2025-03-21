@@ -56,14 +56,30 @@ Install the latest version of the GDK
 
 •	Install. Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
 
-<br>
+</br>
 
 #### <img src="SupportDocs/images/NuGet.png" width="2%"> NuGet
 To install NuGet packages, you can use various methods such as the NuGet Package Manager in Visual Studio, the Package Manager Console, or the .NET CLI.
 
-*NuGet info for download*
+The NuGet package for the Microsoft GDK can be fuond here: https://www.nuget.org/packages/Microsoft.GDK.PC
 
-<br>
+To install it, you can follow these instructions:
+
+1. **Open Visual Studio:** Start by launching your Visual Studio IDE.
+
+2. **Create or Open a Project:** You can either create a new project or open an existing one. To create a new project, go to *File > New > Project*, select the type of project you want to create, and follow the prompts.
+
+3. **Open NuGet Package Manager:** There are a few ways to open the NuGet Package Manager:
+   - Right-click on your project in the Solution Explorer and select *Manage NuGet Packages....*
+   - Go to *Tools > NuGet Package Manager > Manage NuGet Packages for Solution....*
+
+4. **Browse for Packages:** In the NuGet Package Manager, go to the Browse tab and search for Microsoft.GDK.PC.
+
+5. **Install the Package:** Once you find the Microsoft.GDK.PC package, select it and click the Install button. Follow any prompts to complete the installation.
+
+6. **Use the Package in Your Code:** After installing the package, you can use it in your code by adding the appropriate using statement at the top of your file and calling the package's API as needed.
+
+</br>
 
 
 
