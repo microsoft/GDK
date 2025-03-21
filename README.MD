@@ -1,4 +1,4 @@
-#Microsoft Game Development Kit (GDK)#
+# Microsoft Game Development Kit (GDK)
 //<p align="center"><a href="#installation">Install</a> • <a href="#docs">Samples & Documentation</a>
 
 
