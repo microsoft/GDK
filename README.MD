@@ -124,13 +124,10 @@ More information can be found in our GDK public documentation. (http://aka.ms/ga
 </br>
 </br>
 
-### Note for Xbox Console Developers
+#### Note for Xbox Console Developers
 A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only available to licensed partners in a managed program (https://aka.ms/gdkdl). 
 
 </br>
-</br>
-> Note for Xbox Console Developers
-A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only available to licensed partners in a managed program (https://aka.ms/gdkdl). 
 
 ----
 
@@ -146,8 +143,8 @@ Game development on Microsoft platforms has a history going back 40+ years which
 
 ***[1] Requires software and licensing which is only available via an NDA Xbox program (e.g. ID@Xbox program).***
 
-<br>
-<br>
+</br>
+</br>
 
 ### :grey_question:How do I run a GDK game built for the Xbox App on Windows 10/11 or Xbox Game Pass for PC on Xbox Consoles?
 
@@ -158,8 +155,8 @@ Game development on Microsoft platforms has a history going back 40+ years which
 -	The primary difference between games built with the GDK and the GDKX is the interaction with the Xbox graphics driver and DirectX12 Shader Compiler. 
 -	For developers building Xbox One games, Win32 + GDK is a direct replacement for the WinRT-based Exclusive Resource Application (ERA) app model using the [XDK]( https://docs.microsoft.com/en-us/gaming/xbox-live/get-started/setup-ide/managed-partners/vstudio-xbox/live-where-to-get-xdk), introduced on Xbox One; Xbox 360 developers similarly migrated to ERA in 2013.
 
-<br>
-<br>
+</br>
+</br>
 
 ### :grey_question:How does the GDK compare to the Microsoft Universal Windows Platform (UWP)?
 
@@ -167,6 +164,8 @@ Game development on Microsoft platforms has a history going back 40+ years which
 -	Key feature for is open development and self-publishing to [Windows Mixed Reality (MR)](https://developer.microsoft.com/en-us/mixed-reality/) or the Microsoft Store on Windows 10 PCs and Xbox; particularly well suited for interactive media applications.
 -	For developers building Win32 games today, UWP requires porting to the [WinRT programming model]( https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/intro-to-using-cpp-with-winrt)*.
 -	UWP apps and games are community-supported only; partners inside Xbox managed programs (Xbox, Xbox Game Pass, Xbox Game Streaming) should use Microsoft Win32 + GDK.
+
+</br>
 
 
 ----
@@ -176,16 +175,16 @@ In the “When to use the GDK” section above, we cover the scenarios for which
 
 In this section, we cover some of the more practical, basic questions that are also answered in the documentation, but come up frequently from developers getting started with this app model.
 
-<br>
-<br>
+</br>
+</br>
 
 ### :grey_question:What is the public GDK release schedule?
 
 -	Three major GDK release branches a year with a mix of new features and fixes (flexibly April, June, and October to align with game development cycles).
 -	GDK updates can release in parallel as needed, on separate branches, focused on reliability, stability, and fixes.  Developers can take updates vs. another major version to reduce churn and risk of breaking changes affecting compatibility (e.g. April Update #1, April Update #2, April Update #3, June Update #1, etc).
 
-<br>
-<br>
+</br>
+</br>
 
 ### :grey_question:Where are detailed public release notes published?
 
@@ -193,8 +192,8 @@ In this section, we cover some of the more practical, basic questions that are a
 -	A full version of the release notes with public + confidential information is available as part of the GDKX release and will be available for the public GDK sometime after June 2021; they will be published to the GitHub repo (http://aka.ms/gdk) 
 - Change Log information is available to be reviewed here [Change Log](CHANGELOG.MD) as well as on the [Microsoft Learn](https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/whats-new) site.
 
-<br>
-<br>
+</br>
+</br>
 
 ### :grey_question:What are some of key elements missing in the GDK that is needed to build games for Xbox consoles?
 
@@ -202,8 +201,7 @@ In this section, we cover some of the more practical, basic questions that are a
 -	The Xbox graphics driver and related DirectX 12 components (e.g. Shader Compiler) required to build binaries that work with proprietary Xbox hardware and software interfaces.
 -	The corresponding confidential documentation for Xbox environment APIs and Tools; though some topics are only discoverable with access to the GDKX, most topics are available as public docs (~60%) or are discoverable via the table of contents as a redirect to the confidential documentation libraries (~35%).  
 
-<br>
-<br>
+</br>
 
 ----
 
