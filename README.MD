@@ -53,15 +53,7 @@ The following commands can be used to install the GDK using the published winget
 
 
 
-#### ![GitHub Icon](SupportDocs/images/GitHub_24.png) GitHub
-[![Latest Release](https://badgen.net/github/release/microsoft/GDK)](https://github.com/microsoft/GDK/releases/latest)
-[![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
-</br>
-•	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
 
-•	Install. Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
-
-</br>
 
 #### ![NuGet Icon](SupportDocs/images/NuGet_24.png) NuGet
 [![NuGet stable version](https://badgen.net/nuget/v/Microsoft.GDK.PC)](https://www.nuget.org/packages/Microsoft.GDK.PC)
@@ -87,8 +79,18 @@ To install it, you can follow these instructions:
 6. **Use the Package in Your Code:** After installing the package, you can use it in your code by adding the appropriate *using* statement at the top of your file and calling the package's API as needed.
 
 </br>
+</br>
 
+#### ![GitHub Icon](SupportDocs/images/GitHub_24.png) GitHub
+[![Latest Release](https://badgen.net/github/release/microsoft/GDK)](https://github.com/microsoft/GDK/releases/latest)
+[![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
+</br>
+•	**Download:** Go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
 
+•	**Install:** Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
+
+</br>
+</br>
 
 ### :notebook:Docs & Downloads
 •	GDK documentation is here on docs.microsoft.com (DMC):  https://aka.ms/gamedevdocs
