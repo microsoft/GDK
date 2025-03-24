@@ -6,6 +6,7 @@ The GDK contains the common tools, libraries, and documentation needed to build 
 
 </br>
 </br>
+
 ### :sparkles:Key Features
 •	**Comprehensive Toolset:** The GDK includes a wide range of tools and APIs to support game development across multiple platforms.
 
@@ -15,6 +16,7 @@ The GDK contains the common tools, libraries, and documentation needed to build 
 
 </br>
 </br>
+
 ### Quick Links
 • [Install](#installation)
 
