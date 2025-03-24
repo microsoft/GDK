@@ -55,7 +55,7 @@ The following commands can be used to install the GDK using the published winget
 
 #### ![GitHub Icon](SupportDocs/images/GitHub_24.png) GitHub
 [![Latest Release](https://badgen.net/github/release/microsoft/GDK)](https://github.com/microsoft/GDK/releases/latest)
-[![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/releases/latest/total.svg)]()
+[![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/releases/24_10October/total.svg)]()
 </br>
 •	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
 
