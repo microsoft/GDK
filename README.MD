@@ -127,6 +127,10 @@ More information can be found in our GDK public documentation. (http://aka.ms/ga
 ### Note for Xbox Console Developers
 A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only available to licensed partners in a managed program (https://aka.ms/gdkdl). 
 
+</br>
+</br>
+> Note for Xbox Console Developers
+A version of the GDK with Xbox Extensions (GDKX) to target Xbox consoles is only available to licensed partners in a managed program (https://aka.ms/gdkdl). 
 
 ----
 
