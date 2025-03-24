@@ -1,5 +1,5 @@
 # Microsoft Game Development Kit (GDK)
-[![Winget](https://img.shields.io/badge/wingr privacy.*]https://github.com/microsoft/GDK/releases/latest)
+[![Winget](https://img.shields.io/badge/wingr*]https://github.com/microsoft/GDK/releases/latest)
 
 [Install](#installation) • [Samples & Documentation](#notebookdocs--downloads)
 
