@@ -1,5 +1,6 @@
 # Microsoft Game Development Kit (GDK)
 [![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
+[![codecov][codecov-badge]][codecov]
 </br>
 [Install](#installation) • [Samples & Documentation](#notebookdocs--downloads)
 
@@ -203,3 +204,9 @@ In this section, we cover some of the more practical, basic questions that are a
   - GDKX Documentation (secure): https://aka.ms/gdkxdocs
   - Xbox Developer Forums: https://forums.xboxlive.com
 
+
+
+
+[codecov]: https://codecov.io/gh/GitTools/GitVersion
+
+[codecov-badge]: https://codecov.io/gh/GitTools/GitVersion/branch/main/graph/badge.svg
