@@ -1,7 +1,4 @@
 # Microsoft Game Development Kit (GDK)
-[![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
-[![codecov][codecov-badge]][codecov]
-</br>
 [Install](#installation) • [Samples & Documentation](#notebookdocs--downloads)
 
 
@@ -58,6 +55,7 @@ The following commands can be used to install the GDK using the published winget
 
 #### ![GitHub Icon](SupportDocs/images/GitHub_24.png) GitHub
 [![Latest Release](https://badgen.net/github/release/microsoft/GDK)](https://github.com/microsoft/GDK/releases/latest)
+[![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
 </br>
 •	Download. The recommended method is to go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
 
@@ -204,9 +202,3 @@ In this section, we cover some of the more practical, basic questions that are a
   - GDKX Documentation (secure): https://aka.ms/gdkxdocs
   - Xbox Developer Forums: https://forums.xboxlive.com
 
-
-
-
-[codecov]: https://codecov.io/gh/GitTools/GitVersion
-
-[codecov-badge]: https://codecov.io/gh/GitTools/GitVersion/branch/main/graph/badge.svg
