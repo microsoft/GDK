@@ -15,6 +15,7 @@ The GDK contains the common tools, libraries, and documentation needed to build 
 
 ### Quick Links
 • [Install](#installation)
+
 • [Samples & Documentation](#notebookdocs--downloads)
 
 
