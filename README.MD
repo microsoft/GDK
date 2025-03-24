@@ -105,7 +105,7 @@ To install it, you can follow these instructions:
 
 •	Check out the Xbox public sample repository: https://github.com/microsoft/Xbox-GDK-Samples/
 
-•	Latest release of the GDK on GitHub: https://github.com/microsoft/GDK/releases
+•	Latest release of the GDK on GitHub: https://github.com/microsoft/GDK/releases/latest
 
 </br>
 
