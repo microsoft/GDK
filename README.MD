@@ -1,5 +1,6 @@
 # Microsoft Game Development Kit (GDK)
 [![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
+</br>
 [Install](#installation) • [Samples & Documentation](#notebookdocs--downloads)
 
 
