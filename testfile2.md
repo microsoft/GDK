@@ -11,10 +11,8 @@ For the latest updates of the GDK, you can refer to the documentation found here
 - **System**: Console Developer Home Update: The streaming tab has removed the dropdown box to select the streaming protocol, simplifying the UX. The protocol is now automatically configured by client applications, and it is now possible to simultaneously listen for remote connect and direct connect requests. Active streams are disconnected when a new client connects.
 - **Developer Tools**: GDK Installer Updates: The installer now includes new links for additional tools upon installation. These tools are web-based or obtained via other channels and support various game creator tasks.
 - **Developer Tools**: Touch Adaptation Kit Command Line Tool (tak.exe): The TAK tool now listens for changes to the `takxconfig.json` file when using the serve command, allowing creators to swap out different asset directories, change configured languages, and see live updates to their bundle.
-- **Developer Tools**: TAK Feedback Improvements: The TAK tool now includes telemetry to help Microsoft improve the product. Use the `tak.exe --help` command to learn more.
+- **Developer Tools**: TAK Feedback Improvements: The TAK tool now includes telemetry to help Microsoft improve the product. Use the `tak.exe --help` command to learn more.  \
 
-
-\
 
  
 ### 🛠️Bug Fixes
