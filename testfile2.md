@@ -12,6 +12,7 @@ For the latest updates of the GDK, you can refer to the documentation found here
 - **Developer Tools**: GDK Installer Updates: The installer now includes new links for additional tools upon installation. These tools are web-based or obtained via other channels and support various game creator tasks.
 - **Developer Tools**: Touch Adaptation Kit Command Line Tool (tak.exe): The TAK tool now listens for changes to the `takxconfig.json` file when using the serve command, allowing creators to swap out different asset directories, change configured languages, and see live updates to their bundle.
 - **Developer Tools**: TAK Feedback Improvements: The TAK tool now includes telemetry to help Microsoft improve the product. Use the `tak.exe --help` command to learn more.
+
 \
 ### 🛠️Bug Fixes
 - **Graphics**: Fixed an issue where a rare assertion failure in `XDXROfflineBVH.dll` would occur when building an offline bottom-level acceleration structure (BLAS).
