@@ -13,9 +13,10 @@ For the latest updates of the GDK, you can refer to the documentation found here
 - **Developer Tools**: Touch Adaptation Kit Command Line Tool (tak.exe): The TAK tool now listens for changes to the `takxconfig.json` file when using the serve command, allowing creators to swap out different asset directories, change configured languages, and see live updates to their bundle.
 - **Developer Tools**: TAK Feedback Improvements: The TAK tool now includes telemetry to help Microsoft improve the product. Use the `tak.exe --help` command to learn more.  
 
-
+\
+More
  
-### \🛠️Bug Fixes
+### 🛠️Bug Fixes
 - **Graphics**: Fixed an issue where a rare assertion failure in `XDXROfflineBVH.dll` would occur when building an offline bottom-level acceleration structure (BLAS).
 - **Game Chat 2**: Fixed an issue that caused a crash in Game Chat 2 after the user changed their console language setting.
 - **Shader Compiler**: Fixed an issue where `NGG_VS` (compiler-based culling enablement) had a potential hardware hang with lots of fully culled groups.
