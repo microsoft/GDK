@@ -22,6 +22,7 @@ For the latest updates of the GDK, you can refer to the documentation found here
 
 
 \
+
 \
 
 More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/whats-new
