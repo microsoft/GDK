@@ -51,20 +51,20 @@ This tool is the client interface to the Windows Package Manager service and it 
 The following commands can be used to install the GDK using the published winget packages:
 
 ##### Search for the latest version of the GDK
-  ```sh
+  ```
   winget search Microsoft.Gaming.GDK
   ```
 </br>
 
 ##### Install the latest version of the GDK
-  ```sh
+  ```
   winget install Microsoft.Gaming.GDK
   ```
 
 </br>
 
 ##### Upgrade to the latest version of the GDK
-  ```sh
+  ```
   winget upgrade Microsoft.Gaming.GDK
   ```
 
