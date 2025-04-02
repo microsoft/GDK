@@ -14,7 +14,7 @@ For the latest updates of the GDK, you can refer to the documentation found here
 - **Developer Tools**: TAK Feedback Improvements: The TAK tool now includes telemetry to help Microsoft improve the product. Use the `tak.exe --help` command to learn more.
 
 
- \
+\
 
  
 ### 🛠️Bug Fixes
