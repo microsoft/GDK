@@ -14,8 +14,6 @@ For the latest updates of the GDK, you can refer to the documentation found here
 - **Developer Tools**: TAK Feedback Improvements: The TAK tool now includes telemetry to help Microsoft improve the product. Use the `tak.exe --help` command to learn more.  
 
 \
-More
- 
 ### 🛠️Bug Fixes
 - **Graphics**: Fixed an issue where a rare assertion failure in `XDXROfflineBVH.dll` would occur when building an offline bottom-level acceleration structure (BLAS).
 - **Game Chat 2**: Fixed an issue that caused a crash in Game Chat 2 after the user changed their console language setting.
