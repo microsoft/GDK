@@ -18,10 +18,8 @@ For the latest updates of the GDK, you can refer to the documentation found here
 - **Game Chat 2**: Fixed an issue that caused a crash in Game Chat 2 after the user changed their console language setting.
 - **Shader Compiler**: Fixed an issue where `NGG_VS` (compiler-based culling enablement) had a potential hardware hang with lots of fully culled groups.
 - **Media**: Fixed an issue that caused the title to stop responding upon source reader termination.
-- **PIX**: Fixed multiple issues in PIX, including crashes and errors related to GPU timings and corrupted `ExecuteIndirect` packets.
+- **PIX**: Fixed multiple issues in PIX, including crashes and errors related to GPU timings and corrupted `ExecuteIndirect` packets.\
 
-
- \
 
 More information can be found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/whats-new
 
