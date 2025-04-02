@@ -4,17 +4,17 @@
 For the latest updates of the GDK, you can refer to the documentation found here: https://learn.microsoft.com/en-us/gaming/gdk/_content/gc/intro/whatsnew/whats-new
 
 
-## October 2024 GDK Update
+# October 2024 GDK Update
 
-### ✨Features
+## ✨Features
 - **Graphics**: Auto-Vectorizer for 16-bit workloads: Optimization technique for Xbox 16-bit workloads, leveraging Xbox hardware instructions to improve runtime performance automatically. The feature is enabled by default for 16-bit workloads and can be turned off using `__XBOX_ENABLE_AUTOVEC=0`.
 - **System**: Console Developer Home Update: The streaming tab has removed the dropdown box to select the streaming protocol, simplifying the UX. The protocol is now automatically configured by client applications, and it is now possible to simultaneously listen for remote connect and direct connect requests. Active streams are disconnected when a new client connects.
 - **Developer Tools**: GDK Installer Updates: The installer now includes new links for additional tools upon installation. These tools are web-based or obtained via other channels and support various game creator tasks.
 - **Developer Tools**: Touch Adaptation Kit Command Line Tool (tak.exe): The TAK tool now listens for changes to the `takxconfig.json` file when using the serve command, allowing creators to swap out different asset directories, change configured languages, and see live updates to their bundle.
 - **Developer Tools**: TAK Feedback Improvements: The TAK tool now includes telemetry to help Microsoft improve the product. Use the `tak.exe --help` command to learn more.  
 
-\
-### 🛠️Bug Fixes
+
+## 🛠️Bug Fixes
 - **Graphics**: Fixed an issue where a rare assertion failure in `XDXROfflineBVH.dll` would occur when building an offline bottom-level acceleration structure (BLAS).
 - **Game Chat 2**: Fixed an issue that caused a crash in Game Chat 2 after the user changed their console language setting.
 - **Shader Compiler**: Fixed an issue where `NGG_VS` (compiler-based culling enablement) had a potential hardware hang with lots of fully culled groups.
