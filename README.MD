@@ -204,8 +204,8 @@ In this section, we cover some of the more practical, basic questions that are a
 
 ### ❔What is the public GDK release schedule?
 
--	Three major GDK release branches a year with a mix of new features and fixes (flexibly April, June, and October to align with game development cycles).
--	GDK updates can release in parallel as needed, on separate branches, focused on reliability, stability, and fixes.  Developers can take updates vs. another major version to reduce churn and risk of breaking changes affecting compatibility (e.g. April Update #1, April Update #2, April Update #3, June Update #1, etc).
+- With the release of the April 2025 GDK, the release cadence has changed from 3 major releases per year (March, June, and October) to 2 major releases per year (April and October). As part of this change, the servicing duration for each new major release will be extended from 12 months to 18 months. We’ll continue to support developers and partners when there’s a critical need to ship a GDK update, as we do today.
+-	GDK updates can release in parallel as needed, on separate branches, focused on reliability, stability, and fixes.  Developers can take updates vs. another major version to reduce churn and risk of breaking changes affecting compatibility (e.g. April Update #1, April Update #2, April Update #3, October Update #1, etc).
 
 </br>
 </br>
