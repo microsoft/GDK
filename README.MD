@@ -110,9 +110,6 @@ To install it, you can follow these instructions:
 [![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
 </br>
 
-> [!NOTE]
-> This section is deprecated and should only be used for installation of GDK versions up to the 2410 version (OCTOBER_2024_GDK_UPDATE_1)
-
 
 •	**Download:** Go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
 
@@ -204,8 +201,8 @@ In this section, we cover some of the more practical, basic questions that are a
 
 ### ❔What is the public GDK release schedule?
 
--	Three major GDK release branches a year with a mix of new features and fixes (flexibly April, June, and October to align with game development cycles).
--	GDK updates can release in parallel as needed, on separate branches, focused on reliability, stability, and fixes.  Developers can take updates vs. another major version to reduce churn and risk of breaking changes affecting compatibility (e.g. April Update #1, April Update #2, April Update #3, June Update #1, etc).
+- With the release of the April 2025 GDK, the release cadence changed from 3 major releases per year (March, June, and October) to 2 major releases per year (April and October). As part of this change, the servicing duration for each new major release has been extended from 12 months to 18 months. Continued support is provided to developers and partners when there’s a critical need to ship a GDK update, as has previously been the case.
+-	GDK updates can release in parallel as needed, on separate branches, focused on reliability, stability, and fixes.  Developers can take updates vs. another major version to reduce churn and risk of breaking changes affecting compatibility (e.g. April Update #1, April Update #2, April Update #3, October Update #1, etc).
 
 </br>
 </br>
