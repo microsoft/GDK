@@ -1,3 +1,0 @@
-*.cab filter=lfs diff=lfs merge=lfs -text
-*.exe filter=lfs diff=lfs merge=lfs -text
-*.appxbundle filter=lfs diff=lfs merge=lfs -text
