@@ -21,7 +21,8 @@ For the latest updates of the GDK, you can refer to the documentation found here
     - Version 17.14 Preview 2 or newer of Visual Studio 2022 is required to use the dynamic debugging feature.
     - Goto https://aka.ms/dynamicdebugging to learn more.
 
-> [!NOTE] Please note that as of the April 2025 GDK release, the aforementioned version of Visual Studio has not yet been released.
+> [!NOTE]
+> Please note that as of the April 2025 GDK release, the aforementioned version of Visual Studio has not yet been released.
 > This will be available when the updated version of Visual Studio is available.
 
 
