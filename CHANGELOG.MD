@@ -9,7 +9,7 @@ For the latest updates of the GDK, you can refer to the documentation found here
 ### ✨Features
 - **Developer Tools**:
   - **Submission Validator**
-    - Submission Validator now enforces approved GDK versions for PC titles. For more information go to https://aka.ms/EmbeddedGDKVersion.
+    - Submission Validator now enforces approved GDK versions for PC titles.
     - Submission Validator now checks your package size. We will issue a WARNING at 450GB and an ERROR at 500GB.
     - For more information go to https://aka.ms/EmbeddedGDKVersion.
   - **WdCapture(Screenshot) CLI support**
