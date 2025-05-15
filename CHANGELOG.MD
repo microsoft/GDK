@@ -19,7 +19,7 @@ For the latest updates of the GDK, you can refer to the documentation found here
   - **Visual Studio 2022 C++ Dynamic Debugging Support**
     - C++ Dynamic Debugging offers a full debugging experience for optimized code without compromising performance. Place deoptimized breakpoints and step in anywhere with on-demand function deoptimization. To activate C++ Dynamic Debugging: Right-click on your project, Properties > Configuration Properties > Advanced > Advanced Properties > Use C++ Dynamic Debugging (preview).
     - Version 17.14 Preview 2 or newer of Visual Studio 2022 is required to use the dynamic debugging feature.
-    - Goto https://aka.ms/dynamicdebugging to learn more.
+    - Go to https://aka.ms/dynamicdebugging to learn more.
 
 > [!NOTE]
 > Please note that as of the April 2025 GDK release, the aforementioned version of Visual Studio has not yet been released.
