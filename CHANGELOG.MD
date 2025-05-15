@@ -4,6 +4,33 @@
 For the latest updates of the GDK, you can refer to the documentation found here: https://aka.ms/GDKWhatsNew
 
 
+# April 2025 GDK Update
+
+### ✨Features
+- **Developer Tools**: Submission Validator
+  - Submission Validator now enforces approved GDK versions for PC titles. For more information go to https://aka.ms/EmbeddedGDKVersion.
+  - Submission Validator now checks your package size. We will issue a WARNING at 450GB and an ERROR at 500GB.
+  - For more information go to https://aka.ms/EmbeddedGDKVersion.
+- **Developer Tools**: WdCapture(Screenshot) CLI support
+  - This feature is a PC Command Line Interface( CLI ) tool designed to capture screenshots on PC using windows graphics APIs.
+  - It supports both SDR AND HDR format and saves file captures in PNG or JXR format.
+  - Users can specify file paths to save screenshots and specify the display for capture.
+- **Developer Tools**: Visual Studio 2022 C++ Dynamic Debugging Support
+  - C++ Dynamic Debugging offers a full debugging experience for optimized code without compromising performance. Place deoptimized breakpoints and step in anywhere with on-demand function deoptimization. To activate C++ Dynamic Debugging: Right-click on your project, Properties > Configuration Properties > Advanced > Advanced Properties > Use C++ Dynamic Debugging (preview).
+  - Version 17.14 Preview 2 or newer of Visual Studio 2022 is required to use the dynamic debugging feature.
+  - Goto https://aka.ms/dynamicdebugging to learn more.
+
+> [!NOTE]Please note that as of the April 2025 GDK release, the aforementioned version of Visual Studio has not yet been released.
+> This will be available when the updated version of Visual Studio is available.
+
+
+\
+More information can be found here: https://aka.ms/GDKWhatsNew
+
+
+
+----
+
 # October 2024 GDK Update
 
 ### ✨Features
@@ -23,7 +50,7 @@ For the latest updates of the GDK, you can refer to the documentation found here
 
 
 \
-More information can be found here: https://aka.ms/GDKWhatsNew
+More information can be found here: https://learn.microsoft.com/gaming/gdk/docs/gdk-dev/whatsnew/2410/whats-new-2410
 
 
 
@@ -48,7 +75,7 @@ More information can be found here: https://aka.ms/GDKWhatsNew
 
 
 \
-More information can be found here: https://learn.microsoft.com/gaming/gdk/_content/gc/intro/whatsnew/archive/whats-new-2406
+More information can be found here: https://learn.microsoft.com/gaming/gdk/docs/gdk-dev/whatsnew/2406/whats-new-2406
 
 
 
@@ -72,7 +99,7 @@ More information can be found here: https://learn.microsoft.com/gaming/gdk/_cont
 
 
 \
-More information can be found here: https://learn.microsoft.com/gaming/gdk/_content/gc/intro/whatsnew/archive/whats-new-2403
+More information can be found here: https://learn.microsoft.com/gaming/gdk/docs/gdk-dev/whatsnew/2403/whats-new-2403
 
 
 
@@ -96,4 +123,4 @@ More information can be found here: https://learn.microsoft.com/gaming/gdk/_cont
 
 
 \
-More information can be found here: https://learn.microsoft.com/gaming/gdk/_content/gc/intro/whatsnew/archive/whats-new-2310
+More information can be found here: https://learn.microsoft.com/gaming/gdk/docs/gdk-dev/whatsnew/2310/whats-new-2310
