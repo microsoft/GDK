@@ -33,7 +33,7 @@ If you are new to game development and want to learn more, we recommend reviewin
 ### Installation
 The GDK can be installed through the following methods:
 
-#### ![WinGet Icon](./SupportDocs/images/WinGet_24.png)  WinGet ***[Recommended]***
+#### ![WinGet Icon](./resources/images/WinGet_24.png)  WinGet ***[Recommended]***
 WinGet, the Windows Package Manager, is a command-line tool that simplifies the installation process, enabling users to discover, install, upgrade, remove, and configure applications on Windows client computers.
 
 It's particularly useful for automating installations and ensuring consistency across multiple machines.
@@ -75,7 +75,7 @@ The following commands can be used to install the GDK using the published winget
 
 
 
-#### ![NuGet Icon](./SupportDocs/images/NuGet_24.png) NuGet
+#### ![NuGet Icon](./resources/images/NuGet_24.png) NuGet
 [![NuGet stable version](https://badgen.net/nuget/v/Microsoft.GDK.PC)](https://www.nuget.org/packages/Microsoft.GDK.PC)
 </br>
 NuGet is a package manager for .NET that handles dependencies and versioning. It's beneficial for managing libraries and tools within Visual Studio projects. 
@@ -105,13 +105,13 @@ To install it, you can follow these instructions:
 </br>
 </br>
 
-#### ![GitHub Icon](./SupportDocs/images/GitHub_24.png) GitHub
+#### ![GitHub Icon](./resources/images/GitHub_24.png) GitHub
 [![Latest Release](https://badgen.net/github/release/microsoft/GDK)](https://github.com/microsoft/GDK/releases/latest)
 [![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
 </br>
 
 
-•	**Download:** Go to the Releases page and pick the latest and greatest. Alternatively, you can pick the branch that fits your needs and clone or download that branch.
+•	**Download:** Go to the Releases page and pick the latest and greatest. Alternatively, you can select the respective version required and download/extract the contents. 
 
 •	**Install:** Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
 
