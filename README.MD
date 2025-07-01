@@ -157,24 +157,31 @@ The [Visual Studio Extension for GDK Development](https://marketplace.visualstud
 Thanks to the availability of the GDK through [vcpkg](https://github.com/microsoft/vcpkg), an open-source C++ package manager, the templates automatically retrieve all necessary GDK components during project setup.
 
 
-🚀 Key Features
+#### 🚀 Key Features
 •	No GDK installation required – all dependencies are pulled via vcpkg
+
 •	Two project templates – supports both MSBuild and CMake-based build systems
+
 •	Quick start – create a new project and build immediately
 
 
-🧭 Getting Started
-•	Open Visual Studio.
-•	Navigate to Extensions > Manage Extensions.
-•	Search for GDK Development and install the extension.
+
+#### 🧭 Getting Started
+•	Open Visual Studio
+
+•	Navigate to Extensions > Manage Extensions
+
+•	Search for GDK Development and install the extension
 
 ![VS Extension Manager](./resources/images/VSExtensionManager.png)
 
-•	Create a new project using one of the provided templates.
+
+•	Create a new project using one of the provided templates
 
 ![VS Project Templates](./resources/images/VSProjectTemplates.png)
 
-•	Build and run—no additional configuration needed.
+
+•	Build and run—no additional configuration needed
 
 ----
 
