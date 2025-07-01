@@ -135,11 +135,12 @@ To install it, you can follow these instructions:
 ### 🆕Visual Studio Extension for GDK Development
 The [Visual Studio Extension for GDK Development](https://marketplace.visualstudio.com/items?itemName=XboxGDK.Microsoft-GDK-Direct3DGame-Standalone) is now publicly available on the Visual Studio Marketplace. This extension provides two project templates designed to streamline the process of getting started with GDK development — allowing you to build a GDK game without needing to install the GDK itself.
 
-Thanks to the availability of the GDK through [vxpkg](https://github.com/microsoft/vcpkg), an open-source C++ package manager, the templates automatically retrieve all necessary GDK components during project setup.
+Thanks to the availability of the GDK through [vcpkg](https://github.com/microsoft/vcpkg), an open-source C++ package manager, the templates automatically retrieve all necessary GDK components during project setup.
 
 You can find the new templates using the Extension Manager in the Visual Studio UI:
 
 ![VS Extension Manager](./resources/images/VSExtensionManager.png)
+
 
 Templates are available for both msbuild and cmake-based build systems. Once installed, simply create a new project and build!
 
