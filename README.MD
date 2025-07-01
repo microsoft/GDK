@@ -139,11 +139,11 @@ Thanks to the availability of the GDK through [vxpkg](https://github.com/microso
 
 You can find the new templates using the Extension Manager in the Visual Studio UI:
 
-(./resources/images/VSExtensionManager.png)
+![VS Extension Manager](./resources/images/VSExtensionManager.png)
 
 Templates are available for both msbuild and cmake-based build systems. Once installed, simply create a new project and build!
 
-(./resources/images/VSProjectTemplates.png)
+![VS Project Templates](./resources/images/VSProjectTemplates.png)
 
 ----
 
