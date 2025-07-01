@@ -149,7 +149,9 @@ Templates are available for both msbuild and cmake-based build systems. Once ins
 
 
 Visual Studio Extension for GDK Development
-https://img.shields.io/badge/Marketplace-Available-blue?logo=visualstudiocode](https://marketplace.visualstudio.com/) https://img.shields.io/github/license/your-org/your-repo](LICENSE) https://img.shields.io/github/actions/workflow/status/your-org/your-repo/build.yml?branch=main](https://github.com/your-org/your-repo/actions)
+[![MarketPlace Available](https://img.shields.io/badge/Marketplace-Available-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/) 
+[![License](https://img.shields.io/github/license/your-org/your-repo)](LICENSE)
+[![Status]https://img.shields.io/github/actions/workflow/status/your-org/your-repo/build.yml?branch=main](https://github.com/your-org/your-repo/actions)
 
 The Visual Studio Extension for GDK Development is now publicly available on the https://marketplace.visualstudio.com/. This extension includes two project templates that simplify the process of getting started with GDK development—enabling you to build a GDK game without installing the GDK itself.
 
