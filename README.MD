@@ -114,7 +114,7 @@ To install it, you can follow these instructions:
 [![All Releases Downloads](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)](https://github.com/microsoft/GDK/releases/latest)
 </br>
 
-•	**Download:** Go to the [Releases](https://github.com/microsoft/GDK/releases) page and pick the latest and greatest. Alternatively, you can select the respective version required and download/extract the contents. 
+•	**Download:** Go to the [Releases](https://github.com/microsoft/GDK/releases) page and pick the [latest and greatest]((https://github.com/microsoft/GDK/releases/latest). Alternatively, you can select the respective version required and download/extract the contents. 
 
 •	**Install:** Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
 
