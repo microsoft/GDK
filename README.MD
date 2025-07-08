@@ -79,7 +79,7 @@ The following commands can be used to install the GDK using the published winget
 
 
 #### ![NuGet Icon](./resources/images/NuGet_24.png) NuGet
-[![NuGet stable version](https://badgen.net/nuget/v/Microsoft.GDK.PC)](https://www.nuget.org/packages/Microsoft.GDK.PC)
+[![NuGet stable version](https://img.shields.io/nuget/v/Microsoft.GDK.PC)](https://www.nuget.org/packages/Microsoft.GDK.PC)
 </br>
 NuGet is a package manager for .NET that handles dependencies and versioning. It's beneficial for managing libraries and tools within Visual Studio projects. 
 
@@ -109,7 +109,7 @@ To install it, you can follow these instructions:
 </br>
 
 #### ![GitHub Icon](./resources/images/GitHub_24.png) GitHub
-[![Latest Release](https://badgen.net/github/release/microsoft/GDK)](https://github.com/microsoft/GDK/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/microsoft/GDK)](https://github.com/microsoft/GDK/releases/latest)
 [![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
 </br>
 
