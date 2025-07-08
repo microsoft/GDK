@@ -110,7 +110,8 @@ To install it, you can follow these instructions:
 
 #### ![GitHub Icon](./resources/images/GitHub_24.png) GitHub
 [![Latest Release](https://img.shields.io/github/v/release/microsoft/GDK)](https://github.com/microsoft/GDK/releases/latest)
-[![Github All Releases](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
+[![Latest Release Downloads](https://img.shields.io/github/downloads/Microsoft/GDK/latest/total.svg)]()
+[![All Releases Downloads](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
 </br>
 
 
