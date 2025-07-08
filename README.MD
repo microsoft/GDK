@@ -110,17 +110,11 @@ To install it, you can follow these instructions:
 
 #### ![GitHub Icon](./resources/images/GitHub_24.png) GitHub
 [![Latest Release](https://img.shields.io/github/v/release/microsoft/GDK)](https://github.com/microsoft/GDK/releases/latest)
-[![Latest Release Downloads](https://img.shields.io/github/downloads/Microsoft/GDK/latest/total.svg)]()
-[![All Releases Downloads](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
+[![Latest Release Downloads](https://img.shields.io/github/downloads/Microsoft/GDK/latest/total.svg)](https://github.com/microsoft/GDK/releases/latest)
+[![All Releases Downloads](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)](https://github.com/microsoft/GDK/releases/latest)
 </br>
 
-
-You can download the latest release from the [releases page](https://github.com/your-username/your-repo/releases/latestage
-
-
-•	**Download:** Go to the [https://github.com/microsoft/GDK/releases](Releases) page and pick the latest and greatest. 
-![GitHub release (latestby date)
-Alternatively, you can select the respective version required and download/extract the contents. 
+•	**Download:** Go to the [https://github.com/microsoft/GDK/releases](Releases) page and pick the latest and greatest. Alternatively, you can select the respective version required and download/extract the contents. 
 
 •	**Install:** Run PGDK.EXE to launch the install wizard. If you have a previous version of the GDK you may need to uninstall that first.
 
@@ -142,7 +136,7 @@ Alternatively, you can select the respective version required and download/extra
 
 [![MarketPlace Available](https://img.shields.io/badge/Marketplace-Available-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/) 
 
-The [Visual Studio Extension for GDK Development](https://marketplace.visualstudio.com/items?itemName=XboxGDK.Microsoft-GDK-Direct3DGame-Standalone) is now publicly available on the Visual Studio Marketplace. This extension includes two project templates that simplify the process of getting started with GDK development—enabling you to build a GDK game without installing the GDK itself.
+The [Visual Studio Extension for GDK Development](https://aka.ms/gdktemplates) is now publicly available on the Visual Studio Marketplace. This extension includes two project templates that simplify the process of getting started with GDK development—enabling you to build a GDK game without installing the GDK itself.
 
 Thanks to the availability of the GDK through [vcpkg](https://github.com/microsoft/vcpkg), an open-source C++ package manager, the templates automatically retrieve all necessary GDK components during project setup.
 
