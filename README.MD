@@ -114,7 +114,8 @@ To install it, you can follow these instructions:
 [![All Releases Downloads](https://img.shields.io/github/downloads/microsoft/GDK/total.svg)]()
 </br>
 
-![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/microsoft/GDK)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/microsoft/GDK)
+![GitHub Release (latest SemVer)](https://img.shields.io/github/v/tag/microsoft/GDK)
 
 
 You can download the latest release from the [releases page](https://github.com/your-username/your-repo/releases/latestage
