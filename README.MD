@@ -74,12 +74,8 @@ The following commands can be used to install the GDK using the published winget
 </br>
 </br>
 
-
-
-
-
 #### ![NuGet Icon](./resources/images/NuGet_24.png) NuGet
-[![NuGet stable version](https://img.shields.io/nuget/v/Microsoft.GDK.PC)](https://www.nuget.org/packages/Microsoft.GDK.PC)
+[![NuGet stable version](https://img.shields.io/nuget/v/Microsoft.GDK.Windows)](https://www.nuget.org/packages/Microsoft.GDK.Windows)
 </br>
 NuGet is a package manager for .NET that handles dependencies and versioning. It's beneficial for managing libraries and tools within Visual Studio projects. 
 
@@ -87,7 +83,10 @@ It also allows to ensure compatibility of the GDK with other packages in your pr
 
 To install NuGet packages, you can use various methods such as the NuGet Package Manager in Visual Studio, the Package Manager Console, or the .NET CLI.
 
-The NuGet package for the Microsoft GDK can be found here: https://www.nuget.org/packages/Microsoft.GDK.PC
+The NuGet package for the Microsoft GDK can be found here: https://www.nuget.org/packages/Microsoft.GDK.Windows
+
+> [!NOTE]
+> The *Microsoft.GDK.Windows* package contains the 'new layouts' content, which includes both x64 and arm64 native libraries. *Microsoft.GDK.PC* is end-of-life using the 'old layouts'.
 
 To install it, you can follow these instructions:
 
@@ -99,11 +98,21 @@ To install it, you can follow these instructions:
    - Right-click on your project in the Solution Explorer and select *Manage NuGet Packages....*
    - Go to *Tools > NuGet Package Manager > Manage NuGet Packages for Solution....*
 
-4. **Browse for Packages:** In the NuGet Package Manager, go to the Browse tab and search for *Microsoft.GDK.PC*
+4. **Browse for Packages:** In the NuGet Package Manager, go to the Browse tab and search for *Microsoft.GDK.Windows*
 
-5. **Install the Package:** Once you find the *Microsoft.GDK.PC* package, select it and click the *Install* button. Follow any prompts to complete the installation.
+5. **Install the Package:** Once you find the *Microsoft.GDK.Windows* package, select it and click the *Install* button. Follow any prompts to complete the installation.
 
 6. **Use the Package in Your Code:** After installing the package, you can use it in your code by adding the appropriate *using* statement at the top of your file and calling the package's API as needed.
+
+</br>
+</br>
+
+#### vc++ Package Manager (vcpkg)
+[![vcpkg stable version](https://img.shields.io/vcpkg/v/ms-gdk)](https://github.com/microsoft/vcpkg/tree/master/ports/ms-gdk)
+
+The vcpkg package manager is ideal for managing the GDK, open source libraries, and third-party libraries for your C++ projects.
+
+For an example of integrating the GDK using vcpkg using both MSBuild and CMake, see [Microsoft GDK Templates](https://aka.ms/gdktemplates) on VS Marketplace.
 
 </br>
 </br>
