@@ -6,6 +6,21 @@ The GDK contains the common tools, libraries, and documentation needed to build 
 
 </br>
 
+> [!IMPORTANT]
+> **The legacy GDK directory layout is being deprecated.**
+>
+> Beginning with the October 2026 GDK, the simplified directory layout will
+> become the default installation experience. The legacy layout will remain
+> available as an optional, deprecated compatibility path.
+>
+> Beginning with the April 2027 GDK, the legacy layout will no longer be
+> available and will be removed from the installer. Developers still using the legacy layout should migrate as soon
+> as practical. Projects already using the simplified layout do not need to
+> take additional action.
+>
+> For migration guidance, see
+> [Simplified GDK directory structure](https://learn.microsoft.com/gaming/gdk/docs/gdk-dev/pc-dev/overviews/gdk-new-layout?view=gdk-2604).
+
 ### ✨Key Features
 •	**Comprehensive Toolset:** The GDK includes a wide range of tools and APIs to support game development across multiple platforms.
 
