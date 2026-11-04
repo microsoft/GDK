@@ -120,7 +120,7 @@ This Agreement becomes effective when Licensee first obtains, downloads, accesse
 
 Address: One Microsoft Way<br>
 Redmond, WA 98052<br>
-Email: [GDK@Microsoft.com](mailto:PGDK@Microsoft.com)
+Email: GDK@Microsoft.com
 
 15.7 **Assignment.** Licensee may not assign this Agreement or any portion thereof, to any third party unless Microsoft expressly consents to such assignment in writing. Microsoft will have the right to assign this Agreement and/or any portion thereof as Microsoft may deem appropriate. For the purposes of this Agreement, a merger, consolidation, or other corporate reorganization, or a transfer or sale of a controlling interest in a party’s stock, or of all or substantially all of its assets shall be deemed to be an assignment. This Agreement will inure to the benefit of and be binding upon the parties, their successors, administrators, heirs, and permitted assigns.
 
