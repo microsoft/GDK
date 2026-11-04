@@ -1,330 +1,275 @@
-**MICROSOFT CORPORATION**
-
 # MICROSOFT GAME DEVELOPMENT KIT LICENSE AGREEMENT
 
-**Last Updated: September 26, 2024**
+**IMPORTANT – PLEASE READ**
 
-This Microsoft Game Development Kit License Agreement (the "Agreement") is between Microsoft Corporation, a Washington corporation, or one of its affiliates ("Microsoft") and the party accepting this Agreement by clicking the box indicating acceptance ("Licensee"). By clicking the box indicating acceptance, Licensee hereby agrees to the terms of this Agreement and the Microsoft Privacy Statement set forth at https://go.microsoft.com/fwlink/?LinkId=521839,, and Licensee represents that they have the authority to enter into this Agreement. The Agreement is effective on the date Licensee clicks the box indicating acceptance ("Effective Date").
+**Last Updated:  November 3, 2026**
 
-## SECTION 1 PURPOSE
-This Agreement sets forth the terms and conditions under which Microsoft will license rights to use the GDK, certain software and documentation to Licensee for the Purpose.
+This Game Development Kit License ("**Agreement**") is a legal agreement between Microsoft Corporation ("**Microsoft**") and the individual or entity that obtains, downloads, accesses, installs, uses, copies, modifies, or distributes the GDK ("**Licensee**"). By engaging in any of those activities, Licensee agrees to be bound by this Agreement. If an individual acts on behalf of an entity, that individual represents that they have authority to bind the entity, and "Licensee" means that entity. If Licensee complies with this Agreement, Licensee has the rights granted below.
 
-## SECTION 2 DEFINITIONS
-(a) **"Affiliate(s)"** means any legal entity that directly or indirectly owns, is owned by, or is commonly owned with a party. "Own" means having more than 50% ownership or the right to direct the management of the entity.
+## 1. DEFINITIONS
 
-(b) **"Data Protection Law"** means any law, rule, regulation, decree, statute, or other enactment, order, mandate or resolution, applicable to Microsoft or Licensee, relating to data security, protection, Processing, and/or privacy, and any implementing, derivative or related legislation, rule, regulation, and regulatory guidance, as amended, extended, repealed and replaced, or re-enacted.
+1.1 **"Affiliate(s)"** means any legal entity that directly or indirectly owns, is owned by, or is commonly owned with a party. "**Own**" means having more than 50% ownership or the right to direct the management of the entity.
 
-(c) **"Download Site"** means docs.microsoft.com or another web site, portal or other electronic transmission or communications forum hosted or authorized by Microsoft and/or its Affiliates that contains information and/or software related to the GDK and that Microsoft and/or its Affiliates may make available to Licensee from time to time.
+1.2 **"Data Protection Law"** means any law, rule, regulation, decree, statute, or other enactment, order, mandate or resolution, applicable to Microsoft or Licensee, relating to data security, protection, Processing, and/or privacy, and any implementing, derivative or related legislation, rule, regulation, and regulatory guidance, as amended, extended, repealed and replaced, or re-enacted.
 
-(d) **"Feedback"** means suggestions, comments, ideas, and all other types of information.
+1.3 **"Download Site"** means any Microsoft or third-party download site where Microsoft makes the GDK available, including websites, portals or other electronic transmission or communications forums hosted or authorized by Microsoft and/or its Affiliates that contain information and/or software related to the GDK.
 
-(e) **"Independent Contractor"** means an entity separately contracted by Licensee to assist in the development of a Microsoft Windows Title. An Independent Contractor will be required to enter into its own Microsoft Game Development Kit License Agreement to perform as an Independent Contractor to develop such Microsoft Windows Title for Licensee.
+1.4 **"Extensions" and/or "Middleware"** means plugins, wrappers, bindings, projections, integrations, services, adapters, connectors, engine integrations, language projections, software libraries, tools, frameworks, modifications, or derivative implementations developed or distributed by Licensee using the GDK that are designed to interoperate with, extend, integrate with, or enhance the capabilities of the GDK or XBOX.
 
-(f) **"Licensed Publisher"** means an entity that has entered into a Publisher License Agreement and/or other like agreement to publish a Microsoft Windows Title on the Microsoft Windows Platform.
+1.5 **"GDK"** means the software components of the XBOX Game Development Kit made available via the Download Site, primarily in object code form, together with any source code, sample code, documentation, tools, libraries, APIs, utilities, developer resources, updates, modifications, add-ons, extensions, and other materials that Microsoft expressly makes available under this Agreement. The GDK does not include development hardware, prototypes, or any software, technology, tools, documentation, or other materials that Microsoft identifies as confidential or makes available under a separate agreement.
 
-(g) **"Microsoft Corporation"** means a multinational corporation that develops, manufactures, licenses and supports a wide range of products and services.
+1.6 **"Microsoft Store"** means the proprietary online marketplace or store through which Microsoft makes XBOX Games available, regardless of how Microsoft brands, names, or offers it.
 
-(h) **"Microsoft Game Development Kit" ("GDK")** means the alpha, beta and final versions of operating system software, online services, development tools, extensions and documentation licensed and provided by Microsoft and/or its Affiliates to Licensee pursuant to this Agreement as part of the GDK as well as supplements and updates thereto and/or subsequent versions thereof, including without limitation all information available for review or download at the Download Site or other forum Microsoft and/or its Affiliates may make available to the Licensee in connection with this Agreement.
+1.7 **"Personal Data"** means any information relating to an identified or identifiable natural person ("**Data Subject**") and any other data or information that constitutes personal data or personal information under any applicable Data Protection Law.
 
-(i) **"Microsoft Windows Platform"** means personal computers or other devices running Windows OS where a Microsoft Windows Title can run and be distributed to customers by Microsoft, its Affiliates and/or a Licensed Publisher.
+1.8 **"Process" or "Processing"** means any operation or set of operations that a party performs on Personal Data, including collection, recording, organization, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, blocking, restriction, erasure or destruction. "**Processed**" will have a corresponding meaning.
 
-(j) **"Microsoft Windows Title"** means a software product intended to run on the Microsoft Windows Platform and be distributed to customers by Microsoft, its Affiliates and/or a Licensed Publisher.
+1.9 **"Third-Party Components"** means software, libraries, tools, services, code, or materials owned or licensed by parties other than Microsoft or its Affiliates and distributed with, referenced by, or made available through the GDK.
 
-(k) **"Personal Data"** means any information relating to an identified or identifiable natural person ("Data Subject") and any other data or information that constitutes personal data or personal information under any applicable Data Protection Law.
+1.10 **"XBOX"** means Microsoft's past and current gaming platforms and ecosystems, including the proprietary online gaming networking or multiplayer service offered by Microsoft, in each case regardless of how Microsoft brands, names, or offers it.
 
-(l) **“Process” or “Processing”** means any operation or set of operations that a party performs on Personal Data, including collection, recording, organization, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, blocking, restriction, erasure or destruction. “Processed” will have a corresponding meaning.
+1.11 **"XBOX Game(s)"** means a game developed for XBOX, XBOX for Windows, or Windows using the GDK that is or will be made available in the Microsoft Store.
 
-(m) **“Purpose”** means the reason that Licensee is licensing the GDK as set forth in Section 3(a).
+## 2. LICENSE GRANT
 
-(n) **“Redistributable Code”** means the software components included in the GDK that are identified as such by Microsoft and/or its Affiliates. Early pre-release versions of the GDK might not include any Redistributable Code. Redistributable Code may be provided to Licensee in machine-readable object code format (the “Object Code Version”) and/or human-readable source code format (the “Source Code Version”).
+2.1 **License Grant.** Subject to the terms of this Agreement, Microsoft grants Licensee a worldwide, personal, non-exclusive, non-sublicensable, non-transferrable, royalty-free license to download, install, access, use, copy, host, execute, display, modify, adapt, and internally use the GDK solely as permitted herein, including to:
 
-(o) **“Sample Code”** means the software components included in the GDK that are identified as such by Microsoft and/or its Affiliates.
+(a) develop, create, test, debug, and support XBOX Games, applications, services, tools, Extensions and/or Middleware for XBOX, and games for other platforms (e.g., Steam);
 
-(p) **“Subcontractor”** means designated individuals or companies working onsite or in a facility that is under the discretion and control of the Licensee to assist in the development of the Microsoft Windows Title.
+(b) copy, modify, and extend APIs, libraries, components, tools, code, samples, or other portions of the GDK solely for purposes of developing XBOX Games, games for other platforms as permitted under Section 2.1(a), and Extensions and/or Middleware, subject to Sections 3 and 4;
 
-(q) **“Third Party Software”** means any third-party software component included in the GDK that is provided under a separate license (instead of this Agreement) or that is subject to supplemental license terms (in addition to this Agreement). Solely with respect to such Third-Party Software, such separate or supplemental license terms supersede the license terms in this Agreement if the terms conflict. License terms, notices, and acknowledgements, if any, for the Third-Party Software may be accessible in an accompanying notices file.
+(c) create, distribute, and commercialize Extensions and/or Middleware, itself or through third parties, through repositories, package managers, distribution systems, build systems, commercial marketplaces, or other software distribution mechanisms, subject to Section 3; and
 
-(r) **“Tool(s)”** means all software components included in the GDK that are not Redistributable Code, Sample Code or Third-Party Software. Tools may be provided to Licensee in Object Code Version and/or Source Code Version.
+(d) reproduce and distribute any portion of the GDK, in the source code or object code form in which Microsoft makes it available, solely as incorporated into or distributed for use with an XBOX Game, a game for another platform permitted under Section 2.1(a), an Extension, or Middleware permitted under this Agreement, subject to Sections 3 and 4. Licensee must provide redistribution recipients with a copy of or link to this Agreement. Each recipient licenses the GDK directly from Microsoft under this Agreement, and not under a sublicense from Licensee.
 
-## SECTION 3 GRANT OF LICENSE
+When Licensee is an entity, Licensee may permit its employees and contractors acting on its behalf to exercise the rights granted in Section 2.1 without entering into separate GDK agreements with Microsoft, provided that Licensee is responsible for their compliance with this Agreement.
 
-(a) **Purpose.** Licensee is in the business of, among other things, developing and/or publishing Microsoft Windows Titles. Licensee is permitted to use the GDK solely to develop and test such Microsoft Windows Titles for the Microsoft Windows Platform. The Purpose does not include and shall not be deemed to include (i) development and testing of Microsoft Windows Titles or other software or products for platforms other than the Microsoft Windows Platform (including, but not limited to, Xbox Series consoles and their successor family of Microsoft Corporation’s game systems and Sony and Nintendo video game systems); or (ii) the publishing or commercialization of, or the distribution to end users of, Microsoft Windows Title(s) for the Microsoft Windows Platform or any other platform. For clarity, if and to the extent Licensee enters into a separate agreement with Microsoft and/or its Affiliates with respect to publishing, commercialization, or distribution of Microsoft Windows Title(s) on the Microsoft Windows Platform or other platform, Section 3(a(ii) shall not restrict any rights Licensee may have pursuant to such separate agreement.
+2.2 **License Only.** Licensee understands that the GDK is licensed not sold. All rights granted to Licensee pursuant to this Agreement are expressly granted by license only, and except as expressly set forth herein, Microsoft does not directly, by implication, estoppel or otherwise, grant to Licensee any other rights or licenses hereunder. No title shall pass to Licensee in the GDK or any of its components.
 
-(b) **License.** Subject to the terms and conditions contained in this Agreement, and conditioned on Licensee’s continuing compliance with this Agreement, Microsoft hereby grants to Licensee a nonexclusive, personal, nontransferable, and terminable license to:
+2.3 **Use Restrictions.** Except as expressly set forth herein, Licensee acknowledges and agrees that it will not: (a) directly or indirectly, reverse engineer, decompile, disassemble, or aid or assist any third party in the reverse engineering, decompiling or disassembling of, all or any part of the GDK; (b) remove, minimize, block, alter, or modify any copyright, trademark, patent, or other notice of Microsoft or its suppliers in any portion of the GDK; (c) use the GDK or any portion thereof to create any product (including, but not limited to, a modification of the GDK or a derivative work of the GDK) that infringes or misappropriates a third party's intellectual property rights; (d) rent, lease, or lend the GDK; (e) use Microsoft's trademarks in its XBOX Game, Extensions and/or Middleware, or other products and services in any way that suggests that they are created by and/or endorsed by Microsoft; (f) include any code in malicious, deceptive, or unlawful programs or to propagate malware; (g) use the GDK to engage in fraudulent or unlawful activities; or (h) use the GDK in any manner not expressly licensed under this Agreement.
 
-    (1) Use the GDK only as permitted herein and solely for the Purpose;
+## 3. DEVELOPMENT AND COMMERCIALIZATION OF EXTENSIONS AND/OR MIDDLEWARE.
 
-    (2) Reproduce, modify and make derivative works of the Sample Code, only for incorporation into one or more Microsoft Windows Titles;
+Licensee may use the GDK to develop and distribute Middleware and/or Extensions without entering into any additional agreement with Microsoft. Middleware and/or Extensions may be distributed: (a) independently from any XBOX Game; (b) through source code repositories; (c) through package managers or distribution systems; (d) through commercial marketplaces; or (e) under open-source or proprietary license models, subject to Section 5.2. Licensee is responsible for determining, administering, and enforcing all end user terms applicable to such Extensions and/or Middleware. Ownership of the GDK, Extensions, and Middleware is governed by Section 8. Microsoft approval, review, certification, or a separate agreement with Microsoft is not required to exercise the rights granted in this Section 3.
 
-    (3) Use the Source Code Version of Redistributable Code in source code form internally only, and only to create and maintain one or more Microsoft Windows Titles;
+## 4. NO COMMERCIALIZATION OF XBOX GAMES.
 
-    (4) Reproduce and incorporate the Object Code Version of Redistributable Code in object code form only in and as an inseparable part of the Microsoft Windows Titles; and
+Licensee is not permitted under this Agreement to use the GDK to publish, distribute, certify, commercialize, or release XBOX Games via the Microsoft Store, Microsoft services, or Microsoft publishing channels, or any other channels. Such rights require execution of a separate agreement with Microsoft. This Section 4 does not prohibit commercialization of games for other platforms outside Microsoft storefronts, services, or publishing channels merely because the same title is also an XBOX Game.
 
-    (5) Reproduce, modify, and make derivative works of the Source Code Version of Tools, but only for internal use, and only to create and maintain one or more Microsoft Windows Titles.
+## 5. THIRD-PARTY COMPONENTS, OSS, EXCLUDED LICENSE, ONLINE SERVICES
 
+5.1 **Third-Party Components and Terms.** Certain Third-Party Components included in or made available through the GDK may be subject to separate license agreements, terms of use, attribution obligations, notices, or other requirements imposed by their respective licensors. Any such terms will be posted on the Download Site in a file named "Third-Party Notice File" (or similar). Licensee is responsible for reviewing and complying with any applicable third-party terms associated with such Third-Party Components. Microsoft may identify component-specific use, device, platform, redistribution, or other restrictions in terms accompanying a Third-Party Component, and those terms control with respect to that component.
 
-(c) **Identification.** Microsoft and/or its Affiliates will identify the software components of the GDK as being Sample Code, Redistributable Code, Third Party Software, or Tools by identifying the software file as belonging to one of these groups. If any software file is not identified, then unless Microsoft and/or its Affiliates identify the file as otherwise, it shall be a Tool.
+5.2 **Use of Open Source Software.** Licensee is permitted to use the GDK with open source software (OSS) provided that such OSS has a permissive license (e.g., MIT, Apache 2.0). Any proposed use with the GDK of OSS that is not licensed under a permissive license requires the prior written approval of Microsoft, which must expressly approve any otherwise prohibited application of an Excluded License to the GDK or derivative works thereof.
 
-(d) **Installation.** Licensee may install and use the GDK on Licensee’s devices solely for the Purpose. Further, Licensee may install and use the GDK on Licensee’s internal corporate network, if applicable, for the Purpose. Licensee may make one backup copy of the GDK, which such backup may only be used to reinstall the GDK. Each such installation and permitted copy must be complete and include all copyright and trademark notices.
+5.3 **Excluded License.** Except to the extent Microsoft expressly approves otherwise in writing under Section 5.2, the license granted to Licensee hereunder does not include any license, right, power or authority to subject the GDK or derivative works thereof in whole or in part to any of the terms of an Excluded License. "**Excluded License**" means any software license requiring, as a condition of use, modification and/or distribution that the GDK or derivative works thereof be (i) disclosed or distributed in source code form; (ii) licensed for the purpose of making derivative works; or (iii) redistributable at no charge. These requirements apply to the GDK and derivative works thereof, not to other separately licensed software merely because it is combined or distributed with the GDK. Use with permissively licensed OSS remains permitted under Section 5.2.
 
-(e) **Updates.** Microsoft is not obligated to provide maintenance, technical support, or updates to Licensee for the GDK. However, Microsoft may, in its sole discretion, provide new versions, technical support, updates or supplements for the GDK (“Updates”). Any such Updates will be deemed to be part of the GDK and governed by this Agreement. Updates may be provided via the Download Site or another delivery mechanism chosen by Microsoft. The use of the Download Site and any other delivery mechanism may be subject to additional terms of use. Any passwords given to Licensee to access or activate the GDK or any Updates thereto are strictly confidential. They must not be shared with any third party without Microsoft’s prior written consent.
+5.4 **Online Services.** Licensee understands that some features of the GDK may provide access to, or rely on, online services ("**Online Services**"). The use of Online Services (but not the GDK) is governed by the separate terms and privacy policies in the Microsoft Services Agreement set forth at http://go.microsoft.com/fwlink/?linkid=398923. In some cases, Licensee will not receive a separate notice that features of the GDK access or rely on Online Services. By using Online Services, Licensee consents to the terms of the Microsoft Services Agreement. The Online Services may not be available in all regions. Licensee shall not use the Online Services in any way that could harm the Online Services or impair any other party's use of the Online Services. Licensee shall not use the Online Services to try to gain unauthorized access to any service, data, account, or network by any means.
 
-(f) **Feedback.** Either party may provide suggestions, comments or other Feedback to the other with respect to the other’s products and services. Feedback is voluntary and, even if designated as confidential, the recipient may use it for any purpose without obligation of any kind. Any and all Feedback shall be subject to the Feedback provider’s underlying rights in the subject matter of such Feedback. The party receiving Feedback will not disclose the source of Feedback without the consent of the party providing it. Unless the parties specifically agree in writing, Feedback will not create any confidentiality obligation.
+## 6. PERSONAL DATA.
 
-(g) Nothing in this Agreement restricts Microsoft’s right to directly or indirectly acquire, license, develop, produce, distribute, market, or promote products that compete with Licensee.
+Microsoft is an independent Controller of Personal Data that Microsoft collects through the GDK or receives from Licensee. Licensee is an independent Controller of Personal Data that Licensee collects directly through its use of the GDK or receives from Microsoft. Microsoft and Licensee are not joint Controllers of that Personal Data. "**Controller**" means the entity that determines the purposes and means of Processing Personal Data. The terms applicable to the Personal Data are on Schedule 1 and Appendix 1, thereto.
 
-## SECTION 4 LICENSE CONDITIONS
+## 7. CONFIDENTIALITY.
 
-(a) **Additional Microsoft Products; Online Services**
+Subject to Licensee's compliance with the terms of this Agreement, Licensee may publicly disclose the GDK without confidentiality restrictions and discuss any components included in the GDK solely in connection with its permitted use of the GDK under this Agreement. This Section 7 applies only to components Microsoft makes available as part of the public GDK and does not remove or modify any confidentiality obligation governing development hardware, prototypes, confidential components, or other materials provided under a separate agreement.
 
-    (1) Licensee acknowledges and agrees that certain components of the GDK may include other Microsoft products. The use of those other Microsoft Products (but not the GDK) is governed by the separate terms (other than this Agreement and the Microsoft Services Agreement (MSA)) and privacy policies applicable to such other Microsoft products. Licensee is responsible for reading and complying with the terms of the MSA.
+## 8. INTELLECTUAL PROPERTY RIGHTS.
 
-    (2) Licensee understands that some features of the GDK may provide access to, or rely on, online services (“Online Services”). The use of Online Services (but not the GDK) is governed by the separate terms and privacy policies in the Microsoft Services Agreement set forth at http://go.microsoft.com/fwlink/?linkid=398923. Please read them. In some cases, Licensee will not receive a separate notice that features of the GDK access or rely on Online Services. By using Online Services, Licensee consents to the terms of the Microsoft Services Agreement. The Online Services may not be available in all regions. Licensee shall not use the Online Services in any way that could harm the Online Services or impair any other party’s use of the Online Services. Licensee shall not use the Online Services to try to gain unauthorized access to any service, data, account, or network by any means.
+All title and intellectual property rights in and to the GDK, including any and all components thereof, are owned by Microsoft, its Affiliates, licensors or suppliers, including all tangible and intangible components thereof and any copies Licensee is permitted to make. Microsoft reserves all rights not expressly granted to Licensee. As between the parties, Licensee retains all right, title, and interest in and to the XBOX Games, Extensions, Middleware, and other materials developed by or for Licensee, excluding the GDK and any other Microsoft or third-party materials incorporated into them.
 
-(b) **Conditions of Use.** Licensee will:
+## 9. NO WARRANTY.
 
-    (1) Take all reasonable and proper care of the GDK; 
+TO THE MAXIMUM EXTENT ALLOWED BY APPLICABLE LAW, THE GDK, AND ANY SUPPORT SERVICES (IF ANY) RELATED TO THE GDK ARE PROVIDED AS IS AND WITH ALL FAULTS, AND MICROSOFT, ITS AFFILIATES, LICENSORS, AND SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, ANY (IF ANY) IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF LACK OF VIRUSES, OF LACK OF NEGLIGENCE, AND WORKMANLIKE EFFORT, AND THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT SERVICES. THERE IS ALSO NO WARRANTY OR CONDITION OF TITLE, QUIET ENJOYMENT, QUIET POSSESSION, CORRESPONDENCE TO DESCRIPTION OR NON-INFRINGEMENT. THE ENTIRE RISK AS TO THE QUALITY OF, OR ARISING OUT OF USE OR PERFORMANCE OF, THE GDK, INCLUDING ANY AND ALL COMPONENTS THEREOF, REMAINS WITH LICENSEE.
 
-    (2) Comply with all instructions relating to the use, security or operation of the GDK, at its expense, according to any written instructions given by Microsoft; 
-    
-    (3) Only use the GDK in a manner that will not result in legal liability for Microsoft; 
-    
-    (4) Comply with the obligations imposed on it under Data Protection Law; 
-    
-    (5) Ensure that any additional separate software licensed and provided to Licensee by Microsoft in addition to the GDK, if any, can only be used with the GDK to develop a Microsoft Windows Title; and 
-    
-    (6) Comply with the security requirements set forth in Section 20.
+## 10. LIMITATION OF LIABILITY.
 
-(c) **Reverse Engineering.** Licensee may use and study the design, performance and operation of the GDK solely for the Purpose. However, Licensee will not, directly or indirectly, reverse engineer, decompile, disassemble, or aid or assist any third party in the reverse engineering, decompiling or disassembling of, all or any part of the GDK. This limitation does not apply to the extent that such activity is expressly allowed by applicable law. If such reverse engineering is allowed by law, Licensee will give Microsoft written notice prior to starting such activity at the notice address set forth in Section 16 below. The notice must:
+Microsoft's entire liability under this Agreement is limited to Five U.S. Dollars (US$5.00). This is Licensee's exclusive remedy. This limit applies to the maximum extent allowed by law, even if any remedy fails its essential purpose. As used in this Section 10, "Microsoft" includes Microsoft, its Affiliates, licensors and suppliers.
 
-    (1) Include sufficient information about Licensee’s intended method of reverse engineering;
-    (2) Set forth the purpose of the reverse engineering and the legal authority for such activity; and
-    (3) Give Microsoft a reasonable period of time to evaluate and legally challenge the activity. Licensee will not start any reverse engineering activity until such time as any legal challenge is resolved in Licensee’s favor.
+## 11. EXCLUSION OF DAMAGES.
 
-For the purposes of this subsection (c), reverse engineering includes sniffing, decompiling, disassembly, peeling semiconductor components, or otherwise deriving or attempting to derive source code.
+To the maximum extent permitted by applicable law, in no event shall Microsoft, its Affiliates, licensors, or suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits or the loss of confidential or other information, for business interruption, for personal injury, for loss of privacy, for failure to meet any duty including of good faith or of reasonable care, for negligence, and for any other pecuniary or other loss whatsoever) arising out of or in any way related to the use of or inability to use the GDK, including any and all components thereof, the provision of or failure to provide support services, or otherwise under or in connection with any provision of this Agreement, even in the event of the fault, tort (including negligence), strict liability, breach of contract or breach of warranty of Microsoft, its Affiliates, licensors or any supplier, and even if Microsoft, its Affiliates, licensors, or any supplier has been advised of the possibility of such damages.  Because some states/jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to Licensee.
 
-(d) **Use Restrictions.** Except as expressly set forth herein, Licensee acknowledges and agrees that Licensee will not:
+## 12. COMPLIANCE WITH TRADE LAWS.
 
-    (1) reproduce, distribute, or modify the Tools, or make derivative works based on the Tools, without Microsoft’s prior written consent (which Microsoft may grant or withhold in its absolute discretion);
-    (2) modify, or make derivative works based on, the Redistributable Code;
-    (3) alter any copyright, trademark, or patent notice set forth in any portion of the GDK;
-    (4) make, or allow anyone else to make, a copy of the GDK, or any software, tools, documentation or other components included in the GDK, unless expressly licensed to do so in Section 3;
-    (5) use the GDK or any portion thereof to create any product (including, but not limited to, a modification of the GDK or a derivative work of the GDK) that infringes or misappropriates a third party’s intellectual property rights;
-    (6) publish the GDK for others to copy;
-    (7) rent, lease, or lend the GDK;
-    (8) use Microsoft’s trademarks in Licensee’s Microsoft Windows Titles or in any way that suggests Licensee’s Microsoft Windows Titles come from or are endorsed by Microsoft;
-    (9) use the GDK in connection with development and testing of software or products for any platform other than the Microsoft Windows Platform (including, without limitation, Xbox Series consoles and their successor family of Microsoft Corporation’s game systems and Sony and Nintendo video game consoles);
-    (10) include Redistributable Code in malicious, deceptive, or unlawful programs or to propagate malware;
-    (11) disclose to any third party the results of any evaluation of the GDK, or any portion thereof, without first obtaining Microsoft’s prior written consent;
-    (12) work around or otherwise attempt to circumvent any technical limitations in the GDK;
-    (13) use the GDK to engage in fraudulent or dishonest activities or use the GDK in any way that is against the law;
-    (14) remove, minimize, block or modify any notices of Microsoft or its suppliers in the GDK; or
-    (15) use the GDK in any manner not expressly licensed under this Agreement.
+Microsoft products, software, technology, and services ("**Items**") may be subject to U.S. and other countries' export jurisdictions.  Each party will comply with all laws and regulations applicable to the import or export of the Items, including, without limitation, trade laws of the U.S., EU, and UK, such as the U.S. Export Administration Regulations, sanctions regulations administered by the U.S. Office of Foreign Assets Control, the EU Dual Use Regulation 2021/821, the Federal Acquisition Regulation (including 48 C.F.R. 52.204-23, 48 C.F.R. 52.204-25, 48 C.F.R. 52.204-30) and the Defense Acquisition Regulation Supplement (including 48 C.F.R. 252.209-7012, 48 C.F.R. 252.225-7058, and 48 C.F.R. 252.225-7060) and/or other end-user, end use, and destination restrictions ("**Trade Laws**") as well as the global legal compliance standards detailed in the [Microsoft Standards of Business Conduct](https://www.microsoft.com/en-us/legal/compliance).  Licensee will not, and will ensure its Affiliates will not, take any action that causes Microsoft to violate applicable Trade Laws.  Microsoft may suspend or terminate this Agreement immediately without notice to the extent that Microsoft reasonably believes that performance would cause it to violate Trade Laws or put it at risk of becoming subject to sanctions and penalties under such laws.  Licensee remains responsible for its and for its Affiliates' compliance with this Section 12.
 
+## 13. REPRESENTATIONS AND WARRANTIES, INDEMNIFICATION.
 
-(e) Licensee understands that the software is licensed not sold. All rights granted to Licensee pursuant to this Agreement are expressly granted by license only, and except as expressly set forth herein, Microsoft does not directly, by implication, estoppel or otherwise, grant to Licensee any other rights or licenses hereunder. No title shall pass to Licensee in any of the components of the GDK. Microsoft shall own all modifications of, and derivative works based on, the Source Code Version of Tools (excluding derivative works based on elements of such source code that are either publicly available or lawfully obtained from third parties), including, without limitation, all patent, copyright, trade secret, trademarks and other intellectual property rights, and Licensee shall provide Microsoft a copy, in source code and object formats, of any and all such modifications or derivative works thereof.
+13.1 **Representations and Warranties.** Licensee represents and warrants to Microsoft that Licensee's use of the GDK is and will remain in compliance with this Agreement and applicable law, including Data Protection Law.
 
-(f) **No Commercialization.** Licensee acknowledges, understands, and agrees that no Microsoft Windows Title may be published, distributed to end users, or otherwise commercialized except by Microsoft, its Affiliates, and/or a Licensed Publisher.
+13.2 **Indemnification.** Licensee hereby agrees to indemnify, defend, and hold harmless Microsoft, its Affiliates, licensors and suppliers against and from any and all claims, demands, costs, liabilities, losses, expenses and damages (including reasonable attorneys' fees, costs, and expert witnesses' fees) arising out of or relating to (a) any personal injury and/or property or any other damage arising from any unauthorized use of the GDK, including any and all components thereof, provided to Licensee hereunder; and/or (b) any actual or alleged infringement or misappropriation of a third-party's intellectual property or other proprietary rights by any XBOX Game, Middleware, Extensions, or other software or product (including, but not limited to, any modification of the GDK or any derivative work of the GDK) created or developed by Licensee using or otherwise referencing the GDK or any portion thereof.
 
-(g) **No Transfer or Copying.** Licensee shall not transfer, share, publish, make available, copy to, lease the GDK to, or otherwise permit any other person or third party to access all or any portion of the GDK. If and to the extent an organization desires for its employees, Subcontractors, and/or Independent Contractors to access and use the GDK in connection with testing and development of Microsoft Windows Titles on behalf of such organization, each individual employee, Subcontractor, and/or Independent Contractor must enter into their own Microsoft Game Development Kit License Agreement or similar agreement with Microsoft to obtain access to the GDK.
+## 14. TERM/TERMINATION.
 
-(h) **Excluded Licenses.** The license granted to Licensee hereunder does not include any license, right, power or authority to subject the GDK or derivative works thereof in whole or in part to any of the terms of an Excluded License. “Excluded License” means any software license requiring, as a condition of use, modification and/or distribution that the GDK or other software combined and/or distributed with it be:
-1. Disclosed or distributed in source code form;
-2. Licensed for the purpose of making derivative works; or
-3. Redistributable at no charge.
+This Agreement becomes effective when Licensee first obtains, downloads, accesses, installs, uses, copies, modifies, or distributes the GDK and continues until terminated. This Agreement does not require separate click-through acceptance. Licensee may terminate this Agreement at any time by ceasing its use of the GDK for new development, without relinquishing the continuing rights set out below. Microsoft may terminate this Agreement for convenience upon at least sixty (60) days' notice to Licensee. Microsoft may terminate this Agreement immediately upon notice if Licensee breaches this Agreement. Subject to the continuing rights set out below, Licensee's rights under this Agreement terminate automatically if Licensee fails to comply with its terms. Upon termination, Licensee must cease using the GDK to develop or create new XBOX Games, Extensions, or Middleware and must cease modifying the GDK except as necessary to support and maintain pre-termination XBOX Games, Extensions, or Middleware as permitted below. Notwithstanding termination, Licensee may continue to reproduce, distribute, commercialize, sell, license, support, and maintain any Extension or Middleware developed before the effective date of termination, including any portions of the GDK lawfully incorporated into or distributed for use with that Extension or Middleware under this Agreement. Licensee may modify the GDK only as necessary to support and maintain those pre-termination Extensions or Middleware, including bug fixes, security fixes, and compatibility updates, and not for new development. Licensee's exercise of these continuing rights remains subject to compliance with the applicable terms and restrictions of this Agreement; termination for breach does not authorize continued noncompliant activity. Any trade-law prohibition, suspension, or termination under Section 12 prevails over these continuing rights to the extent necessary to comply with Section 12. Sections 1, 2.2, 2.3, 6–15, and any provisions that by their nature are intended to survive, survive termination.
 
-(i) **Third Party Software.** Certain software components included in the GDK (including Redistributable Code, Sample Code, Third Party Software and Tools) may be owned by certain third parties and/or may be based on industry recognized standards or software programs published by industry recognized standards bodies, and certain third parties may claim to own patents, copyrights, and other intellectual property rights over such software components and over implementation of those standards. Licensee acknowledges and agrees that this Agreement only grants a license to use the software components as described in the Agreement and it is Licensee’s responsibility to secure any additional license rights.
+## 15. GENERAL
 
-(j) The GDK (including the software and all other components thereof) is licensed “as is” and Licensee bears the risk of using it.
+15.1 **Entire Agreement.** This Agreement is the entire agreement between the parties regarding the GDK components included on the Download Site. It replaces all prior agreements, communications and representations between the parties solely regarding the GDK, including any separate written and signed license agreement executed by Licensee and Microsoft (or Affiliates of either party) that governed the GDK ("**Signed GDK Agreement**"). Any Signed GDK Agreement remains in effect with respect to software, hardware, confidential components, and other materials outside the GDK covered by this Agreement.
 
-## SECTION 5 COMPLIANCE
+15.2 **Changes.** Microsoft may revise this Agreement from time to time. Microsoft will post the current version on the Download Site with a conspicuous notice of the revision and its effective date. Unless Microsoft states otherwise in the notice, revised terms apply prospectively to GDK versions and updates first made available on or after that effective date. By obtaining, downloading, accessing, installing, using, copying, modifying, or distributing an affected version of the GDK after the notice is posted, Licensee agrees to the revised terms. If Licensee does not agree to the revised terms, Licensee must not obtain or use the affected version of the GDK.
 
-Licensee represents and warrants to Microsoft that Licensee’s use of the GDK is in compliance with this Agreement and applicable law, including, without limitation, Licensee’s adherence to and/or execution of privacy obligations under the terms of this Agreement and as required by applicable laws.
+15.3 **No Endorsement.** For purposes of this Section 15.3, "**Third-Party Offerings**" means any applications, products, tools, plug-ins, extensions, middleware, wrappers, integrations, or other software or materials developed, distributed, or otherwise made available by any person or entity other than Microsoft that are built using, reference, or interoperate with the GDK, whether or not they also constitute Extensions or Middleware. As between Microsoft and Licensee, Licensee is solely responsible for its XBOX Games, Extensions, and Middleware. Microsoft has no obligation to review, test, certify, curate, support, maintain, or provide any security, quality, or compatibility rating for any XBOX Games, Extensions, Middleware, or Third-Party Offerings, and, as further set forth in Sections 9 and 11, Microsoft makes no warranty and assumes no liability to Licensee with respect to them. Microsoft may modify, update, deprecate, or discontinue all or any portion of the GDK at any time, and Microsoft is not responsible for any impact such changes may have on any XBOX Games, Extensions, Middleware, or Third-Party Offerings.
 
-## SECTION 6 NATURE OF DATA AND SCOPE OF PROCESSING
+15.4 **Conflicts.** Except as provided in Section 15.1, in the event of a conflict between this Agreement and any separate written agreement between Licensee and Microsoft, including any other agreement relating to the development, testing, certification, or commercialization of XBOX Games, the terms of such separate agreement shall control as to its subject matter.
 
-(a) **Personal Data Processing and Handling.**
+15.5 **Severability**. If any provision of this Agreement is held unenforceable, the remaining provisions will remain in full force and effect.
 
-    (1) The GDK may collect information about Licensee’s and its employees’ and Subcontractors’ use of the software and send that information to Microsoft in accordance with the Microsoft Privacy Statement located at https://privacy.microsoft.com. Microsoft may also periodically provide such information back to Licensee for purposes of assisting Licensee with the development of the Microsoft Windows Titles.
+15.6 **Notices.** Any notices required or permitted to be sent to Microsoft under this Agreement must be sent via the address/email provided below and will be effective upon receipt. Notices under this Section 15.6 relate solely to this Agreement and not to technical support, product feedback, developer assistance, or other general inquiries. Notices to Licensee must be sent to the last email address Licensee provided to Microsoft, if available; otherwise, Microsoft must publish a conspicuous notice on the Download Site identifying the affected GDK versions and the effective date. The sixty (60)-day notice period for termination for convenience under Section 14 begins upon delivery of the email notice or publication of the Download Site notice, as applicable.
 
-    (2) With respect to the Personal Data transferred under this Agreement, Microsoft and Licensee agree that both are independent data Controllers, and not joint Controllers, as defined in the GDPR, of the Personal Data that each independently Processes. “Controller” means the entity that determines the purpose and means of Processing of Personal Data.
+Address: One Microsoft Way<br>
+Redmond, WA 98052<br>
+Email: GDK@Microsoft.com
 
-    (3) In the event Microsoft provides Personal Data to Licensee, subject to a Data Subject’s additional authorization or instructions to the contrary, (i) Licensee will only use such Personal Data in connection with its direct business relationship with Microsoft, which is limited to the provision of games and game-related services; (ii) Licensee will not transfer, Share, or Sell the Personal Data to any third party except to contractually bound Processors or sub-processors operating on behalf of Licensee (where “Share” and “Sell” are defined by the California Consumer Privacy Act or other applicable Data Protection Law); (iii) where Microsoft transfers to Licensee data that is considered deidentified data under applicable Data Protection Law, Licensee will not (and will ensure that its sub-processors will not) attempt to reidentify the data such that it would become Personal Data; and (iv) Licensee will notify Microsoft if it determines that it can no longer meet its obligations under applicable Data Protection Law. To the extent the California Consumer Privacy Act applies to any Personal Data, Licensee hereby certifies that it understands the above restrictions and will comply with them.
+15.7 **Assignment.** Licensee may not assign this Agreement or any portion thereof, to any third party unless Microsoft expressly consents to such assignment in writing. Microsoft will have the right to assign this Agreement and/or any portion thereof as Microsoft may deem appropriate. For the purposes of this Agreement, a merger, consolidation, or other corporate reorganization, or a transfer or sale of a controlling interest in a party's stock, or of all or substantially all of its assets shall be deemed to be an assignment. This Agreement will inure to the benefit of and be binding upon the parties, their successors, administrators, heirs, and permitted assigns.
 
-    (4) Upon (i) termination of the Agreement for cause, (ii) investigation of Licensee by Microsoft or a third party for mishandling of data, or (iii) commencement of an Inquiry (defined below), Licensee will, at Microsoft’s request, immediately delete or return to Microsoft all copies of Personal Data shared under this Agreement except to the extent Licensee has the right or obligation under applicable Data Protection Law to retain Personal Data after termination. If requested by Microsoft, Licensee shall confirm deletion in writing within 30 days. “Inquiry” means any type of request or inquiry from a governmental, legislative, judicial, law enforcement, or regulatory authority (e.g., the Federal Trade Commission, the Attorney General of a U.S. state, or a European data protection authority), or an actual or potential claim, inquiry, or complaint in connection with the parties’ Processing of Personal Data shared under this Agreement.
+15.8 **Injunctive Relief.**  Licensee's threatened or actual unauthorized use of the GDK, including any and all components thereof, may result in immediate and irreparable damage to Microsoft for which there is no adequate remedy at law. In such event, Microsoft will be entitled to appropriate injunctive relief, without the necessity of posting bond or other security.
 
-   (5) Licensee must ensure its network, operating system, software, databases, and other relevant computer systems are properly built, configured, and operated to store, manage and protect any Personal Data received or obtained from Microsoft in a secure manner and in compliance with Data Protection Law. Each party will take all measures required in accordance with good industry practice and by Data Protection Law relating to data security (including pursuant to Article 32 of the GDPR).
+15.9 **Binding Arbitration and Class Action Waiver.** This Section 15.9 applies if Licensee lives in (or, if a business, Licensee's principal place of business is in) the United States. If the parties have a dispute, Licensee and Microsoft agree to try for 60 days to resolve it informally. If Licensee and Microsoft can't, Licensee and Microsoft agree to binding individual arbitration before the American Arbitration Association under the Federal Arbitration Act ("**FAA**"), and not to sue in court in front of a judge or jury. Instead, a neutral arbitrator will decide. Class action lawsuits, class-wide arbitrations, private attorney-general actions, and any other proceeding where someone acts in a representative capacity are not allowed; nor is combining individual proceedings without the consent of all parties. The complete Arbitration Agreement contains more terms and is at https://aka.ms/arb-agreement-1. Licensee and Microsoft agree to these terms.
 
-(b) **International Personal Data Transfer Requirements.** Some jurisdictions require that an entity transferring Personal Data to a recipient in another jurisdiction take extra measures to ensure that the Personal Data has special protections if the law of the recipient’s jurisdiction does not protect Personal Data in a manner equivalent to the transferring entity’s jurisdiction (an “International Data Transfer Mechanism”). The parties will comply with any International Data Transfer Mechanism that may be required by applicable Data Protection Law, including the Standard Contractual Clauses. “Standard Contractual Clauses” means the European Union standard contractual clauses for international transfers from the European Economic Area to third countries, Commission Implementing Decision (EU) 2021/914 of 4 June 2021.
+15.10 **Choice of Law and Place to Resolve Disputes.** If Licensee acquired the GDK in the United States or Canada, the laws of the state or province where Licensee lives (or, if a business, where Licensee's principal place of business is located) govern the interpretation of this Agreement, claims for its breach, and all other claims (including consumer protection, unfair competition, and tort claims), regardless of conflict of laws principles. If Licensee acquired the GDK in any other country, its laws apply. If U.S. federal jurisdiction exists, the parties consent to exclusive jurisdiction and venue in the federal court in King County, Washington for all disputes heard in court. If not, the parties consent to exclusive jurisdiction and venue in the Superior Court of King County, Washington for all disputes heard in court.
 
-The parties further agree as follows:
+15.11 **Attorneys' Fees.** If either Microsoft or Licensee employs attorneys to enforce any rights arising out of or relating to this Agreement, the prevailing party will be entitled to recover its reasonable attorneys' fees, costs, and other expenses, including the costs and fees incurred on appeal or in a bankruptcy or similar action.
 
-    (1) If the International Data Transfer Mechanism on which the parties rely is invalidated or superseded, the parties will work together in good faith to find a suitable alternative.
-    
-    (2) With respect to Personal Data of Data Subjects located in a jurisdiction that requires an International Data Transfer Mechanism (e.g., the EEA, Switzerland, or the United Kingdom) that Microsoft transfers to Licensee or permits Licensee to access, the parties agree that by executing this Agreement they also execute the Standard Contractual Clauses, which will be incorporated by reference and form an integral part of this Agreement. The parties agree that, with respect to the elements of the Standard Contractual Clauses that require the parties’ input, Schedule 1 contains information relevant to the Standard Contractual Clauses’ Annexes. The parties agree that, for Personal Data of Data Subjects in the United Kingdom, Switzerland, or another country specified in Schedule 1, they adopt the modifications to the Standard Contractual Clauses listed in Schedule 1 to adapt the Standard Contractual Clauses to local law, as applicable.
+15.12 **Consumer Rights; Regional Variations.**  This Agreement describes certain legal rights. Licensee may have other rights, including consumer rights, under the laws of its state or country, and this Agreement does not change those other rights if the laws of Licensee's state or country do not permit it to do so. To the extent Microsoft provides any warranty, the GDK will perform substantially as described in any Microsoft materials that accompany it; however, Microsoft gives no contractual guarantee in relation to the GDK. Microsoft's liability for intentional conduct, gross negligence, or death or personal injury is governed by statutory law. Nothing in this Agreement limits or excludes any liability that may not be limited or excluded under applicable law.
 
-(c) **Schedule 1.** Schedule 1 describes the purposes of the parties’ Processing, the types or categories of Personal Data involved in the Processing, the categories of Data Subjects affected by the Processing, and the parties’ statuses under relevant Data Protection Law.
+<p align="center"><b>SCHEDULE 1</b></p>
+<p align="center"><b>PERSONAL DATA TERMS</b></p>
 
-(d) **Attestation of Compliance.** Upon Microsoft’s request, which shall be no more than once per calendar year, Licensee will provide a written attestation to Microsoft that confirms and attests to Licensee’s compliance with the terms of this Section 6 and Data Protection Law.
-Please continue converting this to markdown:
+1. **Personal Data Processing and Handling.**
 
+   (a) The GDK will collect and send to Microsoft Personal Data relating to Licensee's and its employees' and contractors' use of the GDK. The categories of Personal Data are described in Appendix 1 and include XBOX user and account identifiers; IP address and approximate location; device identifiers, preferences, and configuration; metadata and telemetry; diagnostic, log, crash dump, usage, and performance data; and information users choose to include in their XBOX user accounts. Microsoft will Process this Personal Data to operate, secure, support, troubleshoot, and improve the GDK and Microsoft products and services; detect and prevent fraud, abuse, and security threats; comply with applicable law; and assist Licensee with the development of XBOX Games, game-related services, Extensions, or Middleware. Microsoft's Processing is governed by the Microsoft Privacy Statement available at https://go.microsoft.com/fwlink/?LinkId=521839. Microsoft may provide relevant Personal Data to Licensee for the development and support purposes described in this Schedule 1 and Appendix 1 thereto.
 
-## SECTION 7	TERM, TERMINATION AND EFFECT OF TERMINATION  
+   (b) If Microsoft provides Personal Data to Licensee, (i) Licensee will use that Personal Data only in connection with its direct business relationship with Microsoft, which is limited to the provision and development of XBOX Games, games for other platforms (e.g., Steam), game-related services, Extensions, or Middleware; (ii) Licensee will not transfer, Share, or Sell the Personal Data to any third party except contractually bound Processors or sub-processors operating on Licensee's behalf (where "**Share**" and "**Sell**" have the meanings given under the California Consumer Privacy Act or other applicable Data Protection Law); (iii) if Microsoft provides data considered deidentified under applicable Data Protection Law, Licensee will not, and will ensure its sub-processors do not, attempt to reidentify it; and (iv) Licensee will notify Microsoft if Licensee determines that it can no longer meet its obligations under applicable Data Protection Law. Licensee certifies that it understands and will comply with these restrictions and other obligations under applicable Data Protection Laws.
 
-(a)	The term of the license shall commence on the Effective Date and shall continue until the termination of this Agreement as set forth herein.  
+   (c) Upon expiration or termination of this Agreement for any reason, Licensee will, at Microsoft's request, promptly delete or return to Microsoft all copies of Personal Data that Microsoft provided under this Agreement, except to the extent Licensee is required or permitted by applicable Data Protection Law, a legal hold, or another applicable preservation obligation to retain it. If Licensee is required or permitted by applicable Data Protection Law to retain Personal Data beyond the end of this Agreement, Licensee will inform Microsoft what Personal Data it is required or permitted to retain, the grounds for its retention, and the applicable period that the Personal Data will be retained. In such cases, Licensee will continue to protect retained Personal Data under this Agreement and will confirm deletion in writing within 30 days after deletion is completed.
 
-(b)	Microsoft may terminate this Agreement with or without cause at any time by posting notice of such termination on the Download Site, which such notice shall take effect ten (10) business days thereafter.  
+   (d) Licensee must ensure that its networks, operating systems, software, databases, and other relevant systems are properly built, configured, and operated to securely store, manage, and protect Personal Data that Licensee collects through its use of the GDK or receives from Microsoft, in each case in compliance with Data Protection Law. Each party will implement measures required by applicable Data Protection Law and consistent with good industry practice, including, where applicable, Article 32 of the GDPR.
 
-(c)	Upon the termination of this Agreement, Licensee’s limited right to access and use the GDK for the Purpose shall be revoked immediately, and Licensee shall delete and destroy any and all copies of the GDK, including any and all components and materials included therein, in Licensee’s custody or control. 
+2. **International Personal Data Transfer Requirements.** Some jurisdictions require additional safeguards when Personal Data is transferred to a recipient in another jurisdiction that does not provide equivalent legal protection (an "**International Data Transfer Mechanism**"). The parties will comply with each International Data Transfer Mechanism required by applicable Data Protection Law. "**Standard Contractual Clauses**" means the European Union standard contractual clauses for international transfers from the European Economic Area to third countries, Commission Implementing Decision (EU) 2021/914 of 4 June 2021, available at https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en, or other applicable country-specific standard contractual clauses or equivalent. If an International Data Transfer Mechanism relied upon by the parties is invalidated or superseded, the parties will work together in good faith to implement a suitable alternative. For Personal Data that Microsoft transfers to Licensee or permits Licensee to access and that requires an International Data Transfer Mechanism, the parties, by agreeing to this Agreement as provided in its opening paragraph, also enter into the applicable Standard Contractual Clauses, which are incorporated by reference and form an integral part of this Agreement. Appendix 1 supplies the information required for the applicable annexes and identifies relevant country-specific modifications.
 
-(d)	Sections 2, 6, and 7-21 shall survive any termination of this Agreement.
+3. **Cooperation Regarding Inquiries.** If Licensee receives a request or inquiry from a governmental, legislative, judicial, law-enforcement, or regulatory authority, or faces an actual or potential claim, inquiry, or complaint, relating to Personal Data provided by or on behalf of Microsoft or collected or obtained by Licensee for the purposes described in Appendix 1 (an "**Inquiry**"), Licensee will notify Microsoft without undue delay and no later than 10 business days after receiving the Inquiry, unless notification is prohibited by applicable law. Licensee will promptly provide Microsoft with information relevant to the Inquiry, including information relevant to the defense of a claim, and reasonably cooperate to enable Microsoft to respond. Nothing in this Section 3 requires Licensee to delete information subject to an Inquiry, legal hold, or other preservation obligation.
 
-## SECTION 8	DISCLOSURE OF GDK 
-Subject to Licensee’s compliance with the terms of this Agreement, Licensee may publicly disclose and discuss any components included in the GDK solely in connection with the Purpose. If and to the extent that Microsoft makes any non-public software, hardware, or other components available to Licensee, Licensee agrees to comply with any terms applicable to such non-public software, hardware, or components, including, but not limited to, any confidentiality obligations as may be set forth in a Non-Disclosure Agreement and/or in another agreement between Microsoft and Licensee governing Microsoft’s provision of and Licensee’s use of such non-public software, hardware, or components. 
+4. **Appendix 1.** Appendix 1 describes the purposes of Microsoft's and Licensee's Processing, their respective Processing activities and Controller roles, the types or categories of Personal Data involved, the categories of Data Subjects affected, and information relevant to applicable International Data Transfer Mechanisms.
 
-## SECTION 9	INTELLECTUAL PROPERTY RIGHTS  
-All title and intellectual property rights in and to the GDK, including any and all components thereof, are owned by Microsoft, its Affiliates, licensors or suppliers, including all tangible and intangible components thereof and any copies Licensee is permitted to make. Microsoft reserves all rights not expressly granted to Licensee.
+5. **Licensee Obligations regarding Personal Data Incident**
 
-## SECTION 10	DISCLAIMER OF WARRANTIES  
-TO THE MAXIMUM EXTENT ALLOWED BY APPLICABLE LAW, THE GDK, AND ANY SUPPORT SERVICES (IF ANY) RELATED TO THE GDK ARE PROVIDED AS IS AND WITH ALL FAULTS, AND MICROSOFT, ITS AFFILIATES, LICENSORS, AND SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, ANY (IF ANY) IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF LACK OF VIRUSES, OF LACK OF NEGLIGENCE, AND WORKMANLIKE EFFORT, AND THE PROVISION OF OR FAILURE TO PROVIDE SUPPORT SERVICES.  THERE IS ALSO NO WARRANTY OR CONDITION OF TITLE, QUIET ENJOYMENT, QUIET POSSESSION, CORRESPONDENCE TO DESCRIPTION OR NON-INFRINGEMENT.  THE ENTIRE RISK AS TO THE QUALITY OF, OR ARISING OUT OF USE OR PERFORMANCE OF, THE GDK, INCLUDING ANY AND ALL COMPONENTS THEREOF, REMAINS WITH LICENSEE.
+   (a) **"Personal Data Incident"** means any:
 
-## SECTION 11	LIMITATION OF LIABILITY AND EXCLUSION OF DAMAGES
+   (1) destruction, alteration, use, loss, disclosure of, or access to Personal Data transmitted, stored, or otherwise processed by Licensee or its Subcontractors that is not authorized by law or this Agreement or any other breach of the protection of Personal Data; or
 
-    (a)	Limitation of Liability. Microsoft’s entire liability under this Agreement is limited to Five U.S. Dollars (US$5.00). This is Licensee’s exclusive remedy. This limit applies to the maximum extent allowed by law, even if any remedy fails its essential purpose. As used in this Section 11(a), “Microsoft” includes Microsoft, its Affiliates, licensors and suppliers.
-    
-    (b)	Exclusion of Damages. To the maximum extent permitted by applicable law, in no event shall Microsoft, its Affiliates, licensors, or suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever (including, but not limited to, damages for loss of profits or the loss of confidential or other information, for business interruption, for personal injury, for loss of privacy, for failure to meet any duty including of good faith or of reasonable care, for negligence, and for any other pecuniary or other loss whatsoever) arising out of or in any way related to the use of or inability to use the GDK, including any and all components thereof, the provision of or failure to provide support services, or otherwise under or in connection with any provision of this Agreement, even in the event of the fault, tort (including negligence), strict liability, breach of contract or breach of warranty of Microsoft, its Affiliates, licensors or any supplier, and even if Microsoft, its Affiliates, licensors, or any supplier has been advised of the possibility of such damages.  Because some states/jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitation may not apply to Licensee.
+   (2) Security Vulnerability related to Licensee's handling of Personal Data. "**Security Vulnerability**" means a weakness, flaw, or error found within a security system of Licensee or its Subcontractors that has a reasonable likelihood to be leveraged by a threat agent in an impactful way.
 
-## SECTION 12	INDEMNIFICATION
-Licensee hereby agrees to indemnify, defend, and hold harmless Microsoft, its Affiliates, licensors and suppliers against and from any and all claims, demands, costs, liabilities, losses, expenses and damages (including reasonable attorneys' fees, costs, and expert witnesses' fees) arising out of or relating to (a) any personal injury and/or property or any other damage arising from any unauthorized use of the GDK, including any and all components thereof, provided to Licensee hereunder; and/or (b) any actual or alleged infringement or misappropriation of a third-party’s intellectual property or other proprietary rights by any Microsoft Windows Title or other software or product (including, but not limited to, any modification of the GDK or any derivative work of the GDK) created or developed by Licensee using or otherwise referencing the GDK or any portion thereof.  
+   (b) **On becoming aware of any Personal Data Incident, Licensee will:**
 
-## SECTION 13	GOVERNING LAW; ATTORNEYS FEES  
-(a)	The laws of the State of Washington govern this Agreement. If federal jurisdiction exists, the parties consent to exclusive jurisdiction and venue in the federal courts in King County, Washington. If not, the parties consent to exclusive jurisdiction and venue in the Superior Court of King County, Washington. 
+   (1) keep a register of all Personal Data Incidents;
 
-(b)	If either Microsoft or Licensee employs attorneys to enforce any rights arising out of or relating to this Agreement, the prevailing party will be entitled to recover its reasonable attorneys’ fees, costs, and other expenses, including the costs and fees incurred on appeal or in a bankruptcy or similar action. 
+   (2) notify Microsoft without undue delay of the Personal Data Incident (in any case no later than it notifies any similarly situated customers of Licensee and in all cases before Licensee makes any general public disclosure (e.g., a press release));
 
-## SECTION 14	COMPLIANCE WITH EXPORT LAWS  
-The GDK is subject to U.S. export laws and regulations. Licensee agrees to comply with all applicable international and national laws, including the U.S. Export Administration Regulations and Office of Foreign Assets Control Regulations, as well as end-user, end-use and destination restrictions issued by U.S. and other governments.  For additional information on Microsoft export restrictions, see www.microsoft.com/exporting. Licensee represents and warrants that Licensee is not a resident of or located in, nor will Licensee access or use the GDK from, any U.S. embargoed country (currently Cuba, Iran, North Korea, Sudan, Syria, or Crimea). 
+   (3) promptly investigate or perform required assistance in the investigation of the Personal Data Incident and provide Microsoft with detailed information about the Personal Data Incident, including a description of the nature of the Data Incident, the approximate number of Data Subjects affected, the Personal Data Incident's current and foreseeable impact, and the measures Licensee is taking to address the Personal Data Incident and mitigate its effects;
 
-## SECTION 15	INTEGRATION AND MODIFICATION	
-(a)	**Entire Agreement.**  This Agreement is the entire agreement between the parties regarding the GDK, including any and all components thereof. It replaces all prior agreements, communications and representations between the parties regarding its subject matter.  This Agreement is effective immediately upon Licensee clicking the box to accept the terms and conditions herein. 
+   (4) promptly take all commercially reasonable steps to mitigate the effects of the Personal Data Incident, or assist Microsoft in doing so; and
 
-(b)	**Changes.**  Microsoft may revise the terms of this Agreement from time to time. The most current version of this Agreement, which will be posted on the Download Site, will govern Licensee’s access to and use of the GDK. It is Licensee’s responsibility to check the Download Site regularly for the most current version of this Agreement. By continuing to use the GDK after revisions become effective, Licensee agrees to be bound by the modified Agreement. 
+   (c) Licensee will comply with this at Licensee's cost unless the Personal Data Incident arose from Microsoft's negligent or willful acts or Licensee's compliance with Microsoft's express written instructions.
 
-(c)	**Conflicts.** In the event of a conflict between the terms of this Agreement and the terms of any other agreement between Licensee and Microsoft relating to development, testing, or commercialization of Microsoft Windows Titles, the terms of such other agreement shall control.
+   (d) Licensee must obtain Microsoft's written approval before notifying any governmental entity, individual, the press, or other third party of a Personal Data Incident that affected or reasonably could affect Microsoft. As part of its notification to Microsoft under this Section 5, Licensee will disclose the identity of the third party and provide a draft of the notification to Microsoft. Licensee will permit Microsoft to offer edits or updates to the notification.
 
-## SECTION 16 NOTICES
+6. **Attestation of Compliance.** Upon Microsoft's request, which shall be no more than once per calendar year, Licensee will provide a written attestation to Microsoft that confirms and attests to Licensee's compliance with the terms of this Schedule 1 and Data Protection Law.
 
-Notices to Microsoft may be provided either by electronic or physical mail at the address set forth below. Microsoft may change the persons to whom notices will be sent by posting notice of such updated persons on the Download Site.
+<p align="center"><b>APPENDIX 1</b></p>
+<p align="center"><b>DESCRIPTION OF THE PROCESSING</b></p>
 
-    Address: One Microsoft Way
-    Redmond, WA 98052
-    Email: PGDK@Microsoft.com
+**Microsoft Processing Activity.** Microsoft collects and Processes Personal Data through the GDK as an independent Controller. The Data Subjects are Licensee personnel, contractors, and other users of the GDK. Categories may include XBOX user, account, PUID, XUID, GUID, and other user identifiers; IP address and approximate location; device identifiers, preferences, and configuration; metadata and telemetry; diagnostic, log, crash dump, usage, and performance data; and information users choose to include in their XBOX user accounts or as otherwise indicated in the table below. Microsoft Processes that Personal Data for the purposes stated the Agreement (including Schedule 1 and Appendix 1).
 
-## SECTION 17 ASSIGNMENT
+**Licensee Processing Activity.** Licensee may collect Personal Data directly through its use of the GDK and may receive Personal Data from Microsoft as an independent Controller. The Data Subjects and categories of Personal Data depend on Licensee's implementation and may include the categories listed in the table below. Licensee may Process that Personal Data only for the provision and development of XBOX Games, game-related services, Extensions, or Middleware and as otherwise permitted by the Agreement (including Schedule 1 and Appendix 1).
 
-Licensee may not assign this Agreement or any portion thereof, to any third party unless Microsoft expressly consents to such assignment in writing. Microsoft will have the right to assign this Agreement and/or any portion thereof as Microsoft may deem appropriate. For the purposes of this Agreement, a merger, consolidation, or other corporate reorganization, or a transfer or sale of a controlling interest in a party’s stock, or of all or substantially all of its assets shall be deemed to be an assignment. This Agreement will inure to the benefit of and be binding upon the parties, their successors, administrators, heirs, and permitted assigns.
+<p align="center"><b>[See table on next page for more detailed information]</b></p>
 
-## SECTION 18 INJUNCTIVE RELIEF
-
-Licensee’s threatened or actual unauthorized use of the GDK, including any and all components thereof, may result in immediate and irreparable damage to Microsoft for which there is no adequate remedy at law. In such event, Microsoft will be entitled to appropriate injunctive relief, without the necessity of posting bond or other security.
-
-## SECTION 19 THIRD PARTY BENEFICIARY
-
-Unless Microsoft Corporation is a party to this Agreement, the parties agree that Microsoft Corporation is a third-party beneficiary to this Agreement and shall have the right to enforce the terms of the Agreement.
-
-## SECTION 20 GDK SECURITY REQUIREMENTS
-
-The following security obligations apply to Licensee and its employees and Subcontractors: The GDK, including all other components thereof is available to the public but solely to the extent an individual enters into a Microsoft Game Development Kit License Agreement with Microsoft. Accordingly, Licensee must, and ensure that its employees and Subcontractors, protect the GDK in accordance with the terms of this Agreement.
-
-(a) **NO COPYING.** Licensee must not (a) copy the GDK or any other components thereof or (b) make such copies available to (i) members of Licensee’s organization; (ii) members of Licensee’s household, including family members and friends; (iii) third parties; or (iv) public Internet websites, such as blogs, newsgroups, or forums. If Licensee copies the GDK or any components thereof, Microsoft will take appropriate action, which may include revocation of access to the GDK including all components thereof; termination of the Agreement and/or Licensee’s relationship with Microsoft; and criminal prosecution.
-
-(b) **MEDIA INQUIRIES.** All media inquiries concerning the GDK including all components thereof should be directed to Microsoft.
-
-## SECTION 21 CONSUMER RIGHTS; REGIONAL VARIATIONS
-
-This Agreement describes certain legal rights. Licensee may have other rights, including consumer rights, under the laws of Licensee’s state or country. This Agreement does not change those other rights if the laws of your state or country do not permit it to do so. For example, if you acquired the GDK in one of the below regions, or mandatory country law applies, then the following provisions apply to you:
-
-(a) **Australia.** Licensee has statutory guarantees under the Australian Consumer Law and nothing in this Agreement is intended to affect those rights.
-
-(b) **Germany and Austria.**
-
-    i. **Warranty.** The properly licensed GDK will perform substantially as described in any Microsoft materials that accompany the GDK. However, Microsoft gives no contractual guarantee in relation to the GDK.
-
-    ii. **Limitation of Liability.** In the case of intentional conduct, gross negligence, claims based on the Products Liability Act, as well as in cases of death or personal or physical injury, Microsoft is liable according to statutory law.
-
-Subject to the foregoing clause ii., Microsoft will only be liable for slight negligence if Microsoft is in breach of such material contractual obligations, the fulfillment of which facilitate the due performance of this Agreement, the breach of which would endanger the purpose of this Agreement and the compliance with which a party may constantly trust in (so-called “cardinal obligations”). In other cases of slight negligence, Microsoft will not be liable for slight negligence.
-
-<p>
-
-<p style="text-align: center;"><b>MICROSOFT CORPORATION</b></p>
-<p style="text-align: center;"><b>MICROSOFT GAME DEVELOPMENT KIT LICENSE AGREEMENT</b></p>
-
-<p style="text-align: center;"><b>SCHEDULE 1 – DESCRIPTION OF THE PROCESSING</b></p>
-
-| Processing Activity | Status of the Parties | Categories of Personal Data that May Be Processed | Categories of Sensitive Data that May Be Processed | Applicable SCCs Module |
+| Processing Activity | Status of the Parties | Categories of Personal Data that May Be Processed <br> *The categories listed are  descriptive (not exhaustive) and do not necessarily mean that the  parties are Processing each category of data listed.* | Categories of Sensitive   Data that May Be Processed <br> *The categories listed are   descriptive and do not necessarily mean that the parties are Processing each category of data listed* | Applicable SCCs Module |
 | :--- | :--- | :--- | :--- | :--- |
-| Licensee collects or receives Personal Data as a Controller. | Microsoft is a Controller. <br> Licensee is a Controller. | - Location data <br> - IP address <br> - Device preferences and personalization <br> - Service usage for websites, webpage click tracking <br> - Social media data and social graph relationships <br> - Activity data from connected devices such as fitness monitors <br> - Contact data such as name, address, phone number, email address, date of birth, dependent and emergency contacts <br> - Fraud and risk assessment, background check <br> - Metadata and telemetry <br> - Customer originated support ticket <br> - Billing data <br> - e-commerce data <br> - Event registration <br> - Training <br> - Globally Unique Identified (GUID) <br> - Passport User ID or Unique Identifier (PUID) <br> - Hashed End-User Identifiable Information (EUII)-Session IDs <br> - Device IDs <br> - Diagnostic Data <br> - Log Data <br> - Crash Dump Data | - Data related to the age of the user <br> - Data related to children | Module 1 |
-
-</p>
+| Licensee collects or receives Personal Data as a Controller. <br><br> Microsoft is a Processing Controller of Personal Data. | Microsoft is a Controller. <br> Licensee is a Controller. | - XBOX User Identification (XUID) <br> - Location data <br> - IP address <br> - Device preferences and  personalization <br> - Service usage for websites, webpage click tracking <br> - Social media data and social graph relationships <br> - Activity data from connected devices such  as fitness monitors <br> - Contact data such as name, address, phone number, email address,   date of birth, dependent and emergency contacts <br> - Fraud and risk  assessment, background check <br> - Metadata and telemetry <br> - XBOX Network, OneDrive Consumer <br> - Customer originated  support ticket <br> - Billing data <br> - e-commerce data <br> - Event registration <br> - Training <br> - Globally Unique Identified (GUID) <br> - Passport User ID or Unique Identifier (PUID) <br> - Hashed End-User Identifiable Information (EUII)-Session IDs <br> - Device IDs <br> - Diagnostic Data <br> - Log Data <br> - Crash Dump Data <br> - Usage and Performance Data <br> - Game Save Data | - Data related to the age of the XBOX user <br> - Data related to children | Module 1 |
 
 1. **Information for International Transfers.**
 
-        1.1 **Frequency of Transfer**: Continuous for all Personal Data.
+   1.1 **Frequency of Transfer:** Continuous for all Personal Data.
 
-        1.2 **Retention Periods**: As Controllers, the parties retain Personal Data for as long as they have a business purpose for it or for the longest time allowable by applicable law.
+   1.2 **Retention Periods:** As Controllers, the parties retain Personal Data for as long as they have a business purpose for it or for the longest time allowable by Law.
 
 2. **For the purpose of the Standard Contractual Clauses:**
-Definitions:
 
-     - **“Data Exporter"** means the party that (1) has a corporate presence or other stable arrangement in a jurisdiction that requires an International Data Transfer Mechanism; and (2) transfers Personal Data, or makes Personal Data available to, the Data Importer.
-    
-     - **“Data Importer”** means the party that is (1) located in a jurisdiction that is not the same as the Data Exporter’s jurisdiction; and (2) receives Personal Data from the Data Exporter or is able to access Personal Data made available by the Data Exporter.
+   **Definitions:**
 
-<br></br>
+   "**Data Exporter**" means the party that: (1) has a corporate presence or other stable arrangement in a jurisdiction that requires an International Data Transfer Mechanism; and (2) transfers Personal Data, or makes Personal Data available to, the Data Importer.
 
-       2.1 Clause 7: The parties do not adopt the optional docking clause.
+   "**Data Importer**" means the party that is: (1) located in a jurisdiction that is not the same as the Data Exporter's jurisdiction; and (2) receives Personal Data from the Data Exporter or is able to access Personal Data made available by the Data Exporter.
 
-       2.2 Clause 11(a): The parties do not select the independent dispute resolution option.
+   2.1 Clause 7: The parties do not adopt the optional docking clause.
 
-       2.3 Clause 17: The parties select Option 1. The parties agree that the governing jurisdiction is Ireland.
+   2.2 Clause 9, Module 2(a), if applicable: The parties select Option 1. The time period is 30 days.
 
-       2.4 Clause 18: The parties agree that the forum is Ireland.
+   2.3 Clause 9, Module 3(a), if applicable: The parties select Option 1. The time period is 30 days.
 
-       2.5 Annex I(A): The data exporter is the Data Exporter (defined above) and the data importer is the Data Importer (defined above).
+   2.4 Clause 11(a): The parties do not select the independent dispute resolution option.
 
-       2.6 Annex I(B): The parties agree that Schedule 1 describes the transfer.
+   2.5 Clause 17: The parties select Option 1. The parties agree that the governing jurisdiction is Ireland.
 
-       2.7 Annex I(C): The competent supervisory authority is the Irish Data Protection Commission.
+   2.6 Clause 18: The parties agree that the forum is the High Court in Dublin, Ireland.
 
-       2.8 Annex II: The parties agree that Schedule 1, Section 4, describes the technical and organizational measures applicable to the transfer.
+   2.7 Annex I(A): The data exporter is the Data Exporter (defined above) and the data importer is the Data Importer (defined above).
+
+   2.8 Annex I(B): The parties agree that Appendix 1 to Schedule 1 describes the transfer.
+
+   2.9 Annex I(C): The competent supervisory authority is the Irish Data Protection Commission.
+
+   2.10 Annex II: The parties agree that Section 1(d) of Schedule 1 describes the technical and organizational measures applicable to the transfer.
 
 3. **For the purpose of localizing the Standard Contractual Clauses:**
 
    ##### 3.1 **Switzerland**
-   
-       3.1.1 The parties adopt the GDPR standard for all data transfers.
-      
-       3.1.2 Clause 13 and Annex I(C): The competent authorities under Clause 13, and in Annex I(C), are the Federal Data Protection and Information Commissioner and, concurrently, the EEA member state authority identified above.
-      
-       3.1.3 Clause 17: The parties agree that the governing jurisdiction is Ireland.
-      
-       3.1.4 Clause 18: The parties agree that the forum is Ireland. The parties agree to interpret the Standard Contractual Clauses so that Data Subjects in Switzerland are able to sue for their rights in Switzerland in accordance with Clause 18(c).
-      
-       3.1.5 The parties agree to interpret the Standard Contractual Clauses so that “Data Subjects” includes information about Swiss legal entities until the revised Federal Act on Data Protection becomes operative.
+
+   3.1.1 The parties adopt the GDPR standard for all data transfers.
+
+   3.1.2 Clause 13 and Annex I(C): The competent authorities under Clause 13, and in Annex I(C), are the Federal Data Protection and Information Commissioner and, concurrently, the EEA member state authority identified above.
+
+   3.1.3 Clause 17: The parties agree that the governing jurisdiction is Republic of Ireland.
+
+   3.1.4 Clause 18: The parties agree that the forum is the High Court in Dublin, Ireland. The parties agree to interpret the Standard Contractual Clauses so that Data Subjects in Switzerland are able to sue for their rights in Switzerland in accordance with Clause 18(c).
+
+   3.1.5 The parties agree to interpret the Standard Contractual Clauses so that "**Data Subjects**" includes information about Swiss legal entities until the revised Federal Act on Data Protection becomes operative.
 
    ##### 3.2 **United Kingdom**
-   
-       3.2.1 The parties agree that the Standard Contractual Clauses are deemed amended to the extent necessary that they operate for transfers from the United Kingdom to a Third Country and provide appropriate safeguards for transfers according to Article 46 of the United Kingdom General Data Protection Regulation (“UK GDPR”). Such amendments include changing references to the GDPR to the UK GDPR and changing references to EU Member States to the United Kingdom.
 
-       3.2.2 Clause 17: The parties agree that the governing jurisdiction is the United Kingdom.
-       
-       3.2.3 Clause 18: The parties agree that the forum is the courts of England and Wales. The parties agree that Data Subjects may bring legal proceedings against either party in the courts of any country in the United Kingdom.
-       
-       3.2.4 In addition, transfers from the United Kingdom shall be governed by the IDTA implemented by Microsoft. For purposes of the Agreement, the “IDTA” means the international data transfer addendum to the European Commission’s standard contractual clauses for international data transfers issued by the UK Information Commissioner’s Office under S119A(1) of the UK Data Protection Act 2018.
+   3.2.1 "**UK SCC Addendum**" means the International Data Transfer Addendum to the EU Commission Standard Contractual Clauses issued by the UK's Information Commissioner's Office under S119A(1) Data Protection Act 2018, as modified by the Information Commissioner's office from time to time, available at https://ico.org.uk/media2/migrated/4019539/international-data-transfer-addendum.pdf.
 
-4.  **Technical and Organizational Security Measures.** Licensee will comply with the technical and organizational measures as set out in Section 6(a)(5) of the Agreement.
+   3.2.2 For transfers from the United Kingdom that are not subject to an adequacy decision or exception, the parties hereby incorporate the UK SCC Addendum by reference and, by agreeing to Agreement, also enter into and agree to be bound by the Mandatory Clauses of the UK SCC Addendum.
 
+   3.2.3 The parties agree that the following information is relevant to Tables 1 – 4 of the UK SCC Addendum and that by changing the format and content of the Tables neither party intends to reduce the Appropriate Safeguards (as defined in the UK SCC Addendum).
 
-<br></br>
+   3.2.3.1 Table 1: Microsoft is Microsoft Corporation, identified in the opening paragraph of this Agreement, and its address and notice contact are set out in Section 15.6. Licensee is the individual or entity bound by this Agreement under its opening paragraph. The parties will exchange any additional party details, key contacts, and data subject contact details in writing before the applicable transfer. Agreement is established as provided in the opening paragraph, without a separate signature block.
 
-**V2024.09.23 [FINAL]**
+   3.2.3.2 Table 2: The selected SCCs, Modules and Selected Clauses are described in Appendix 1 to Schedule 1.
+
+   3.2.3.3 Table 3: The list of parties, description of transfer, and list of Subprocessors are described in Appendix 1 to Schedule 1. The Technical and Organizational measures to ensure the security of the data are described in Section 1(d) of Schedule 1.
+
+   3.2.3.4 Table 4: Neither party may end the UK SCC Addendum when the Approved Addendum changes.
+
+   3.2.4 Clause 17: The parties agree that the governing jurisdiction is the United Kingdom.
+
+   3.2.5 Clause 18: The parties agree that the forum is the courts of England and Wales. The parties agree that Data Subjects may bring legal proceedings against either party in the courts of any country in the United Kingdom.
+
+   3.3 *For the purpose of the Brazilian Standard Contractual Clauses:*
+
+   3.4 "**Brazilian Standard Contractual Clauses**" means the Standard Contractual Clauses contained in Annex II of Resolution CD/ANPD No. 19/2024, of August 23, 2024.
+
+   3.5 For transfers from Brazil to countries that are not subject to an adequacy decision issued by the Brazilian national data protection authority or are not otherwise permitted in accordance with the General Data Protection Law 13.709/2018 of Brazil ("**LGPD**"), the parties hereby incorporate the Brazilian Standard Contractual Clauses by reference and, by agreeing to this Agreement as provided in its opening paragraph, also enter into and agree to be bound by the Mandatory Clauses of the Brazilian Standard Contractual Clauses.
+
+   3.6 Clause 2: The parties agree that Appendix 1 describes the transfer.
+
+   3.7 Clause 3.1: Licensee may use the Subprocessors listed in a statement of work or written agreement signed by the parties' authorized representatives when it acts as a Processor in accordance with this Appendix. Where the parties have not agreed to a transfer of personal data by Licensee to a Subprocessor per this Appendix 1, the parties agree that OPTION A of Clause 3.1 governs. OPTION B of Clause 3.1 governs where the parties agree Licensee may use the Subprocessors listed in a statement of work or the Agreement.
+
+   3.8 Clause 4: The Status of Parties are detailed in Appendix 1 to Schedule 1. Where Microsoft is a Controller under this , it shall be the Designated Party for the purposes of Clause 14 (Transparency), Clause 15 (Data Subject Rights), and Clause 16 (Incident Reporting). Licensee remains responsible for compliance with Clauses 14 to 16 for any data to which it may otherwise be the data controller.
+
+   3.9 Clause 24:  In accordance with SECTION IV, the parties agree that the governing forum is São Paulo. The parties agree that transfer and processing of Brazilian data subjects' personal data is in accordance with and governed under the LGPD.
+
+4. **Technical and Organizational Security Measures.** Licensee will comply with the technical and organizational measures as set out in Section 1(d) of Schedule 1.
